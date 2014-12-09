@@ -40,7 +40,7 @@ $ib_cycle = {
 $item_name['man_rugs'] = 'Worn clothes'
 item_price['man_rugs'] = 0
 item_size['man_rugs'] = 0
-$item_description['man_rugs'] = '   These clothes are worn out and out of fashion. They do not meet any of your goals. It would be better to get some new clothes.'
+$item_description['man_rugs'] = '   These clothes are worn and out of fashion. They do not meet any of your goals. It would be better to get some new clothes.'
 style_modifer['man_rugs'] = -1
 comfort_modifer['man_rugs'] = -1
 $item_property['man_rugs'] = {
@@ -83,7 +83,7 @@ $item_property['fancy_suit'] = {
 $item_name['formal_suit'] = 'Formal suit'
 item_price['formal_suit'] = 10
 item_size['formal_suit'] = 0
-$item_description['formal_suit'] = '   Very formal clothing. Looks old-fashioned and does not look very charming, but at least you will be taken seriously. It is perfect for the impresario or for an entertainer.'
+$item_description['formal_suit'] = '   Very formal clothing. Looks old-fashioned and does not look very charming, but at least you will be taken seriously. It is perfect for the impresario or for the entertainer.'
 style_modifer['formal_suit'] = 0
 comfort_modifer['formal_suit'] = 0
 $item_property['formal_suit'] = {
@@ -129,7 +129,7 @@ boost_up['master_medic'] = 1
 $item_name['wizard_robes'] = 'Wizard robes'
 item_price['wizard_robes'] = 10
 item_size['wizard_robes'] = 0
-$item_description['wizard_robes'] = '   This ritual costume is rovered with magical runes - Increases your magical power!'
+$item_description['wizard_robes'] = '   This ritual costume is covered with magical runes. Increases your magical power!'
 style_modifer['wizard_robes'] = 0
 comfort_modifer['wizard_robes'] = 0
 $item_property['wizard_robes'] = {
@@ -137,7 +137,7 @@ boost_up['master_mage'] = 1
 }
 
 !item description in the inventory, probably temporarily, needs rework
-$man_rugs_help = '   These clothes are worn out and out of fashion. They do not meet any of your goals. It would be better to get some new clothes.'
+$man_rugs_help = '   These clothes are worn and out of fashion. They do not meet any of your goals. It would be better to get some new clothes.'
 
 $comfy_robes_help = '   Comfortable and soft housecoat. Does not look very nice, but very convenient and comfortable to wear. Just what you need to relax!'
 
@@ -145,15 +145,15 @@ $fancy_suit_help = '   This heavy clothing is richly decorated with precious ins
 
 $regal_suit_help = '   Keeping track of Eternal Rome fashion is almost impossible, but many are trying. In any case, this outfit is a perfect compromise between luxury and convenience.'
 
-$formal_suit_help = '   Very comfortable and practical clothing for the healthcare worker. Immediately makes you a qualified doctor - even if only due to self-hypnosis.'
+$formal_suit_help = '   Very formal clothing. Looks old-fashioned and does not look very charming, but at least you will be taken seriously. It is perfect for the impresario or for the entertainer.'
 
 $aketon_help = '   Quilted armor jacket, light enough to be used as everyday wear. Great outfit for a warrior.'
 
 $livery_help = '   Ornate livery of a senior butler. In this dress you immediately feel like the sole ruler over this household.'
 
-$medic_robes_help = '   Very comfortable and practical clothing for the healthcare worker. Immediately makes you more qualified doctor - even due to of self-hypnosis.'
+$medic_robes_help = '   Very comfortable and practical clothing for the healthcare worker. Immediately makes you a qualified doctor - even if only due to self-hypnosis.'
 
-$wizard_robes_help = '   This ritual costume is rovered with magical runes - Increases your magical power!'
+$wizard_robes_help = '   This ritual costume is rovered with magical runes. Increases your magical power!'
 
 $naked_help = '   Your slave is completely naked. She blushes and feels uncomfortable.'
 
@@ -173,7 +173,7 @@ $item_property_off["raven_crown"] = {
 }
 
 !Chimaera`s gem ["chimera_earring"]
-dynamic $ib_cycle, 'chimera_earring', 'Chimaera''s gem', 0, '   Тут ничего нет.', 'scene\'
+dynamic $ib_cycle, 'chimera_earring', 'Chimaera’s gem', 0, '   Тут ничего нет.', 'scene\'
 
 $item_property["chimera_earring"] = {
     chimera_gem_on = 1
@@ -252,7 +252,7 @@ $item_property["nurse_dress"] = {
 }
 
 !["sailor_foku"]
-dynamic $ib_cycle, 'sailor_foku', 'School uniform', 10, '   Price: 10 sparks  <br>   Uniform of the Academy of St. Peter. If your slave will ever attend classes there, this dress will make her feel at home. In any case, what can be more charming and naive than young schoolgirl?', 'scene\item\item_sailor'
+dynamic $ib_cycle, 'sailor_foku', 'School uniform', 10, '   Price: 10 sparks  <br>   Uniform of the Academy of St. Peter. If your slave ever attends classes there, this dress will make her feel at home. In any case, what can be more charming and naive than a young schoolgirl?', 'scene\item\item_sailor'
 
 $item_property["sailor_foku"] = {
     slave_rate["style"] += 1
@@ -278,7 +278,7 @@ $item_property["leotard"] = {
 }
 
 !["chainmail_bikini"]
-dynamic $ib_cycle, 'chainmail_bikini', 'Chainmail bikini', 5, '   Price: 5 sparks  <br>   Classic gladiatrix clothing. I repeat - clothing. It''s not an armor, it''s a stage props, made ​​of light and gleaming anodized aluminum. The cut is so minimal that it almost hides nothing.', 'scene\item\item_chainmail_bikini'
+dynamic $ib_cycle, 'chainmail_bikini', 'Chainmail bikini', 5, '   Price: 5 sparks  <br>   Classic gladiatrix clothing. I repeat - clothing. It’s not armor, it’s a stage prop, made ​​of light and gleaming anodized aluminum. The cut is so minimal that it hides almost nothing.', 'scene\item\item_chainmail_bikini'
 
 $item_property["chainmail_bikini"] = {
     slave_rate["style"] += 1
@@ -297,7 +297,7 @@ $item_property["sun_dress"] = {
 }
 
 !["laced_underwear"]
-dynamic $ib_cycle, 'laced_underwear', 'Lace underwear', 5, '   Price: 5 sparks  <br>   In this set of sexy lace underwear that includes bra, panties, lightweight corset and stockings with garters, any girl would look desirable. Treat yourself to a beautiful sight and tune your slave for a rough night!', 'scene\item\item_laced_underwear'
+dynamic $ib_cycle, 'laced_underwear', 'Lace underwear', 5, '   Price: 5 sparks  <br>   In this set of sexy lace underwear that includes a bra, panties, lightweight corset, and stockings with garters, any girl would look desirable. Treat yourself to a beautiful sight and tune your slave for a rough night!', 'scene\item\item_laced_underwear'
 
 $item_property["laced_underwear"] = {
     slave_rate["style"] += 1
@@ -323,7 +323,7 @@ $item_property["rubber_dress"] = {
 }
 
 !["bellydance"]
-dynamic $ib_cycle, 'bellydance', 'Exotic outfit', 25, '   Price: 25 sparks  <br>   In our city, it is difficult to surprise someone with exotic clothes. This dress with transparent sleeves, baggy trousers, shiny gold and ringing monists is definitely suited for such a task. And belly dancing too!', 'scene\item\item_bellydance'
+dynamic $ib_cycle, 'bellydance', 'Exotic outfit', 25, '   Price: 25 sparks  <br>   In our city, it is difficult to surprise someone with exotic clothes. This dress with transparent sleeves, baggy trousers, shiny gold, and ringing monists is definitely suited for such a task. And belly dancing too!', 'scene\item\item_bellydance'
 
 $item_property["bellydance"] = {
     slave_rate["style"] += 2 
@@ -343,7 +343,7 @@ $item_property["ukata"] = {
 }
 
 !["leather_corset"]
-dynamic $ib_cycle, 'leather_corset', 'Leather corset', 50, '   Price: 50 sparks  <br>   Brace dress - the best choice for any sex slave! The hard corset with metal edges remind the slave to have disciplined while the open front reveal her breasts and pussy. Beautiful, exciting and practical!', 'scene\item\item_corset'
+dynamic $ib_cycle, 'leather_corset', 'Leather corset', 50, '   Price: 50 sparks  <br>   A binding dress - the best choice for any sex slave! The hard corset with metal edges reminds the slave to have discipline, while the open front reveals her breasts and pussy. Beautiful, exciting and practical!', 'scene\item\item_corset'
 
 $item_property["leather_corset"] = {
     slave_rate["style"] += 2
@@ -360,7 +360,7 @@ $item_property["rich_dress"] = {
 }
 
 !["wedding_dress"]
-dynamic $ib_cycle, 'wedding_dress', 'Wedding dress', 100, '   Price: 100 sparks  <br>   There is nothing better than a wedding dress. This is not just a luxury outfit, it''s a symbol of purity and happiness. Every girl dreams of wearing a wedding dress and it will make every girl irresistible! For special ceremonies there is a sexy open front option.', 'scene\item\item_wedding_dress'
+dynamic $ib_cycle, 'wedding_dress', 'Wedding dress', 100, '   Price: 100 sparks  <br>   There is nothing better than a wedding dress. This is not just a luxury outfit, it’s a symbol of purity and happiness. Every girl dreams of wearing a wedding dress and it will make every girl irresistible! For special ceremonies there is a sexy open front option.', 'scene\item\item_wedding_dress'
 
 $item_property["wedding_dress"] = {
     slave_rate["style"] += 3
@@ -381,7 +381,7 @@ $item_property["rubber_gloves"] = {
 
 !["laced_gloves"]
 
-dynamic $ib_cycle, 'laced_gloves', 'Lace gloves', 5, '   Price: 5 sparks  <br>   Elbow length laced gloves will accentuate the style and charm of your slaves outfit. There exists a wide variety of options for colors, solid and mesh, with the fingers and without.', 'scene\item\item_laced_gloves'
+dynamic $ib_cycle, 'laced_gloves', 'Lace gloves', 5, '   Price: 5 sparks  <br>   Elbow-length laced gloves will accentuate the style and charm of your slave’s outfit. There exists a wide variety of options for colors and styles: solid or mesh and full or fingerless.', 'scene\item\item_laced_gloves'
 
 $item_property["laced_gloves"] = {
     slave_rate["style"] += 1
@@ -389,7 +389,7 @@ $item_property["laced_gloves"] = {
 }
 
 !["plastic_bracers"]
-dynamic $ib_cycle, 'plastic_bracers', 'Carbon fiber gloves', 10, '   Price: 10 sparks  <br>   Lightweight and durable bracers from black carbon fiber hardly will add elegance to your slave. It will however protect her hands during combat training. And health is sometimes more important than beauty.', 'scene\item\item_bracers'
+dynamic $ib_cycle, 'plastic_bracers', 'Carbon fiber gloves', 10, '   Price: 10 sparks  <br>   Lightweight and durable bracers from black carbon fiber will hardly add elegance to your slave. It will, however, protect her hands during combat training. And health is sometimes more important than beauty.', 'scene\item\item_bracers'
 
 $item_property["plastic_bracers"] = {
     slave_rate["style"] -= 1
@@ -407,7 +407,7 @@ $item_property["fluffy_gloves"] = {
 }
 
 !["leather_gloves"]
-dynamic $ib_cycle, 'leather_gloves', 'Leather gloves', 10, '   Price: 10 sparks  <br>   Elegant and durable leather gloves not only serve a stylish addition to most outfits, but also protect the hands of your slave during weapon training.', 'scene\item\item_leather_gloves'
+dynamic $ib_cycle, 'leather_gloves', 'Leather gloves', 10, '   Price: 10 sparks  <br>   Elegant and durable leather gloves not only serve as a stylish addition to most outfits, but also protect the hands of your slave during weapon training.', 'scene\item\item_leather_gloves'
 
 $item_property["leather_gloves"] = {
     slave_rate["style"] += 1
@@ -416,14 +416,14 @@ $item_property["leather_gloves"] = {
 }
 
 !["tabi"]
-dynamic $ib_cycle, 'tabi', 'Tabi socks', 5, '   Price: 10 sparks  <br>   This type of thick socks is cut with a separate thumb. Classic footwear for martial arts and silent movement. These socks will last through any sort of training.', 'scene\item\item_tabi'
+dynamic $ib_cycle, 'tabi', 'Tabi socks', 5, '   Price: 10 sparks  <br>   These thick socks are cut with a separate toe, and are useful as classic footwear for martial arts and for silent movement. They will last through any sort of training.', 'scene\item\item_tabi'
 
 $item_property["tabi"] = {
     learn_bonus["gladiatrix"] += 1
 }
 
 !["fluffy_stepins"]
-dynamic $ib_cycle, 'fluffy_stepins', 'Soft slippers', 5, '   Price: 5 sparks  <br>   We offer a variety of options for soft and fluffy slippers, which will create an incredible feeling of warmth and comfort. We even have options in the form of muzzles of different cute animals!', 'scene\item\item_fluffy_stepins'
+dynamic $ib_cycle, 'fluffy_stepins', 'Soft slippers', 5, '   Price: 5 sparks  <br>   We offer a variety of options for soft and fluffy slippers, all of which will create an incredible feeling of warmth and comfort. We even have the option of different cute animal faces!', 'scene\item\item_fluffy_stepins'
 
 $item_property["fluffy_stepins"] = {
     daily_bonus["mood"] += 1
@@ -431,7 +431,7 @@ $item_property["fluffy_stepins"] = {
 }
 
 !["pointes"]
-dynamic $ib_cycle, 'pointes', 'Pointes', 5, '   Price: 5 sparks  <br>   Indispensable attribute of every ballerina - pointes. The most comfortable shoes for ballroom dancing.', 'scene\item\item_pointes'
+dynamic $ib_cycle, 'pointes', 'Pointes', 5, '   Price: 5 sparks  <br>   An indispensable asset for every ballerina - pointes. The most comfortable shoes for ballroom dancing.', 'scene\item\item_pointes'
 
 $item_property["pointes"] = {
     learn_bonus["callisthenics"] += 1
@@ -453,7 +453,7 @@ $item_property["high_heels"] = {
 }
 
 !["high_boots"]
-dynamic $ib_cycle, 'high_boots', 'Boots', 20, '   Price: 20 sparks  <br>    High leather boots with shiny buckles and elegant heel. These are not only as elegant as high heels, but also emphasize the sexuality and unbridled temper of your slave.', 'scene\item\item_high_boots'
+dynamic $ib_cycle, 'high_boots', 'Boots', 20, '   Price: 20 sparks  <br>    High leather boots with shiny buckles and elegant heels. These are not only as stylish as high heels, but also emphasize the sexuality and unbridled temper of your slave.', 'scene\item\item_high_boots'
 
 $item_property["high_boots"] = {
     slave_rate["style"] += 1
@@ -464,7 +464,7 @@ $item_property["high_boots"] = {
 
 !JEWELRY AND ACCESSORIES
 !["plain_ring"]
-dynamic $ib_cycle, 'plain_ring', 'Elegant ring', 3, '   Price: 3 sparks  <br>   A well crafted and beautiful ring made out of precious metals.', 'scene\item\item_plain_ring'
+dynamic $ib_cycle, 'plain_ring', 'Elegant ring', 3, '   Price: 3 sparks  <br>   A well-crafted and beautiful ring made out of precious metals.', 'scene\item\item_plain_ring'
 
 $item_property["plain_ring"] = {
     slave_rate["style"] += 1
@@ -472,7 +472,7 @@ $item_property["plain_ring"] = {
 }
 
 !["incrusted_ring"]
-dynamic $ib_cycle, 'incrusted_ring', 'Gemstone ring', 5, '   Price: 5 sparks  <br>   This ring is made out of higher quality metal and the inlaid stone makes enhances the beauty of anyone wearing this ring.', 'scene\item\item_incrusted_ring'
+dynamic $ib_cycle, 'incrusted_ring', 'Gemstone ring', 5, '   Price: 5 sparks  <br>   This ring is made out of higher quality metal and the inlaid stone enhances the beauty of anyone wearing this ring.', 'scene\item\item_incrusted_ring'
 
 $item_property["incrusted_ring"] = {
     slave_rate["style"] += 1
@@ -498,7 +498,7 @@ $item_property["incrusted_earrings"] = {
 }
 
 !["plain_pendant"]
-dynamic $ib_cycle, 'plain_pendant', 'Chain with pendant', 5, '   Price: 5 sparks  <br>   A chain from precious metal with a shaped pendant perfectly accentuates the style and elegance of your slave.', 'scene\item\item_plain_pendant'
+dynamic $ib_cycle, 'plain_pendant', 'Chain with pendant', 5, '   Price: 5 sparks  <br>   A chain of precious metal with a shaped pendant perfectly accentuates the style and elegance of your slave.', 'scene\item\item_plain_pendant'
 
 $item_property["plain_pendant"] = {
     slave_rate["style"] += 1
@@ -514,7 +514,7 @@ $item_property["incrusted_necklace"] = {
 }
 
 !["plain_tiara"]
-dynamic $ib_cycle, 'plain_tiara', 'Ornamented diadem', 10, '   Price: 10 sparks  <br>   A stylish diadem from precious metal. It perfectly complements the hairstyle of your slave and surrounds her with an aura of luxury.', 'scene\item\item_plain_tiara'
+dynamic $ib_cycle, 'plain_tiara', 'Ornamented diadem', 10, '   Price: 10 sparks  <br>   A stylish diadem of precious metal. It perfectly complements the hairstyle of your slave and surrounds her with an aura of luxury.', 'scene\item\item_plain_tiara'
 
 $item_property["plain_tiara"] = {
     slave_rate["style"] += 1
@@ -530,7 +530,7 @@ $item_property["incrusted_tiara"] = {
 }
 
 !["plain_headband"]
-dynamic $ib_cycle, 'plain_headband', 'Headband', 3, '   Price: 3 sparks  <br>   This accessory is designed not only as an accessory, but for everyday use. The lightweight and flexible headband allows to neatly tuck away hair so that it does not conceal the face.', 'scene\item\item_headband'
+dynamic $ib_cycle, 'plain_headband', 'Headband', 3, '   Price: 3 sparks  <br>   This accessory is designed not only as an accessory, but for everyday use. The lightweight and flexible headband allows one to neatly tuck away hair so that it does not conceal the face.', 'scene\item\item_headband'
 
 $item_property["plain_headband"] = {
     if slave["pos_clothes"] < 1: slave["pos_clothes"] = 1
@@ -538,7 +538,7 @@ $item_property["plain_headband"] = {
 }
 
 !["glasses"]
-dynamic $ib_cycle, 'glasses', 'Stylish glasses', 10, '   Price: 10 sparks  <br>   Beautiful and practical accessory. Our experts pick the lens that is optimal for slave''s vision correction, allowing her to read documents more efficiently. And a stylish frame from precious metal will accentuate the unique style of the girl.', 'scene\item\item_glasses'
+dynamic $ib_cycle, 'glasses', 'Stylish glasses', 10, '   Price: 10 sparks  <br>   Beautiful and practical accessory. Our experts pick the lens that is optimal for a slave’s vision correction, allowing her to read documents more efficiently. And a stylish frame of precious metal will accentuate the unique style of the girl.', 'scene\item\item_glasses'
 
 $item_property["glasses"] = {
     slave_rate["style"] += 1
@@ -547,7 +547,7 @@ $item_property["glasses"] = {
 }
 
 !["nekomimi"]
-dynamic $ib_cycle, 'nekomimi', 'Cat ears', 10, '   Price: 10 sparks  <br>   Large fur cat ears with a flexible rim certainly attract the attention of others and will help to your slave feel like a real pet.', 'scene\item\item_nekomimi'
+dynamic $ib_cycle, 'nekomimi', 'Cat ears', 10, '   Price: 10 sparks  <br>   Large furry cat ears with a flexible rim certainly attracts the attention of others and will help your slave feel like a real pet.', 'scene\item\item_nekomimi'
 
 $item_property["nekomimi"] = {
     slave_rate["exotic_bonus"] += 5
@@ -556,7 +556,7 @@ $item_property["nekomimi"] = {
 }
 
 !["golden_collar"]
-dynamic $ib_cycle, 'golden_collar', 'Ornamented collar', 20, '   Price: 20 sparks  <br>   A luxurious wide and golden collar. It is adorned with exotic jewels and equipped with your name token. Multiple rings allow for attaching leash and shackles. This stylish accessory will make sure that the slave will not forget that you are her master and she has to obey.', 'scene\item\item_golden_collar'
+dynamic $ib_cycle, 'golden_collar', 'Ornamented collar', 20, '   Price: 20 sparks  <br>   A luxurious wide and golden collar. It is adorned with exotic jewels and equipped with your name token. Multiple rings allow for attaching a leash and shackles. This stylish accessory will ensure that the slave will not forget that you are her master and she must obey.', 'scene\item\item_golden_collar'
 
 $item_property["golden_collar"] = {
     slave_rate["exotic_bonus"] += 5
@@ -568,7 +568,7 @@ $item_property["golden_collar"] = {
 }
 
 !["hairnet"]
-dynamic $ib_cycle, 'hairnet', 'Hairnet', 10, '   Price: 10 sparks  <br>   Elegant hair mesh decorated with pearls and preciously woven, it will not only accentuate the style of your slave, but also permanently retain her hairstyle. In addition to the product itself, a set of silver pins and a pearl comb are included.', 'scene\item\item_hairnet'
+dynamic $ib_cycle, 'hairnet', 'Hairnet', 10, '   Price: 10 sparks  <br>   An elegant hair mesh preciously woven and decorated with pearls, it will not only accentuate the style of your slave, but also permanently retain her hairstyle. In addition to the product itself, a set of silver pins and a pearl comb are included.', 'scene\item\item_hairnet'
 
 $item_property["hairnet"] = {
     slave_rate["style"] += 1
@@ -577,7 +577,7 @@ $item_property["hairnet"] = {
 }
 
 !["exotic_wig"]
-dynamic $ib_cycle, 'exotic_wig', 'Exotic wig', 20, '   Price: 20 sparks  <br>   Want to raise the exotic nature of your slave? Use a gorgeous exotic wig. Incredible colors, feathers, dreadlocks as well as shiny jewelry woven into the hair literally attract glances.', 'scene\item\item_exotic_wig'
+dynamic $ib_cycle, 'exotic_wig', 'Exotic wig', 20, '   Price: 20 sparks  <br>   Want to raise the exotic nature of your slave? Use a gorgeous exotic wig. Incredible colors, feathers, dreadlocks or shiny jewelry woven into the hair literally attract glances.', 'scene\item\item_exotic_wig'
 
 $item_property["exotic_wig"] = {
     slave_rate["style"] += 1
@@ -588,7 +588,7 @@ $item_property["exotic_wig"] = {
 }
 
 !["hijab"]
-dynamic $ib_cycle, 'hijab', 'Hijab', 3, '   Price: 3 sparks  <br>   A hijab completely covers the hair. Perhaps not the best kind of jewelry for the head, but it is very practical in everyday affairs. The hair will not fall into the soup or interfere during cleaning!', 'scene\item\item_hijab'
+dynamic $ib_cycle, 'hijab', 'Hijab', 3, '   Price: 3 sparks  <br>   A hijab completely covers the hair. Perhaps not the best kind of accessory for the head, but it is very practical in everyday affairs. The hair will not fall into the soup or interfere during cleaning!', 'scene\item\item_hijab'
 
 $item_property["hijab"] = {
     learn_bonus["service"] += 1
@@ -596,7 +596,7 @@ $item_property["hijab"] = {
 }
 
 !["leather_collar"]
-dynamic $ib_cycle, 'leather_collar', 'Leather collar', 3, '   Price: 3 sparks  <br>   Wide leather collar with studs and rings for attaching a leash and shackles. Wearing one of these, your slave will never forget about her fate. Not to mention the fact that it''s just very practical for many games.', 'scene\item\item_leather_collar'
+dynamic $ib_cycle, 'leather_collar', 'Leather collar', 3, '   Price: 3 sparks  <br>   A wide leather collar with studs and rings for attaching a leash and shackles. Wearing one of these, your slave will never forget about her fate. Not to mention the fact that it’s just very practical for many games.', 'scene\item\item_leather_collar'
 
 $item_property["leather_collar"] = {
     daily_bonus["ego"] -= 1
@@ -607,7 +607,7 @@ $item_property["leather_collar"] = {
 }
 
 !["steel_collar"]
-dynamic $ib_cycle, 'steel_collar', 'Steel collar', 10, '   Durable steel collar - heavy reminder of the fate of the slave from which it is impossible to get rid of. Wearing a steel collar is not a pleasent experience - it rubs the neck and grazes the skin. Not to mention the impact on the pride and conceit. It is engraved with your name and address to get her back in case of loss. (10 sparks)', 'scene\item\item_steel_collar'
+dynamic $ib_cycle, 'steel_collar', 'Steel collar', 10, '   A durable steel collar - also a heavy reminder of the fate of a slave who cannot be rid of it. Wearing a steel collar is not a pleasent experience - it rubs the neck and grazes the skin. Not to mention the impact on pride and conceit. It is engraved with your name and address to get her back in case of loss. (10 sparks)', 'scene\item\item_steel_collar'
 
 $item_property["steel_collar"] = {
     daily_bonus["ego"] -= 1
@@ -619,7 +619,7 @@ $item_property["steel_collar"] = {
 }
 
 !["spiked_collar"]
-dynamic $ib_cycle, 'spiked_collar', 'Spiked collar', 10, '   Price: 10 sparks  <br>   Brutal form of a collar decorated with long and sharp steel spikes. It not only reminds the slave of her status, but also makes her to feel more aggressive. Good accessory for a gladiatrix, and indeed for any temperamental bitch.', 'scene\item\item_spiked_collar'
+dynamic $ib_cycle, 'spiked_collar', 'Spiked collar', 10, '   Price: 10 sparks  <br>   A brutal form of a collar, decorated with long and sharp steel spikes. It not only reminds the slave of her status, but also makes her feel more aggressive. Good accessory for a gladiatrix, and indeed for any temperamental bitch.', 'scene\item\item_spiked_collar'
 
 $item_property["spiked_collar"] = {
     daily_bonus["instinct"] += 1
@@ -629,7 +629,7 @@ $item_property["spiked_collar"] = {
 }
 
 !["dog_collar"]
-dynamic $ib_cycle, 'dog_collar', 'Collar and leash', 5, '   Price: 5 sparks  <br>   Provided with a leash, it is immediately obvious that this is not made for humans, but for a pet. Help set up a slave in the right mood, but it''s easy to remove. This collar is not meant to remind your slave of her fate, as it is obviously a pet collar, not a slave collar.', 'scene\item\item_dog_collar'
+dynamic $ib_cycle, 'dog_collar', 'Collar and leash', 5, '   Price: 5 sparks  <br>   Provided with this leash, it is immediately obvious that it is not made for humans, but for pets. Helps set slaves in the right mood, but easy to remove. This collar is not meant to remind your slave of her fate, as it is obviously a pet collar, not a slave collar.', 'scene\item\item_dog_collar'
 
 $item_property["dog_collar"] = {
     daily_bonus["ego"] -= 1
@@ -647,7 +647,7 @@ $item_property["leather_straps"] = {
 }
 
 !["nipple_chain"]
-dynamic $ib_cycle, 'nipple_chain', 'Nipple chain', 10, '   Price: 10 sparks  <br>   A chain which is meant to connect the nipples of a slave. It will provide constant stimulation and will increase slaves arousal. And knowing that you can always pull the chain, she will behave more respectfully - as pulling it hurts.', 'scene\item\item_nipple_chain'
+dynamic $ib_cycle, 'nipple_chain', 'Nipple chain', 10, '   Price: 10 sparks  <br>   A chain which is meant to connect the nipples of a slave. It will provide constant stimulation and will increase the slave’s arousal. And knowing that you can always pull the chain, she will behave more respectfully - as pulling it hurts.', 'scene\item\item_nipple_chain'
 
 $item_property["nipple_chain"] = {
     slave_rate["style"] += 1
@@ -657,7 +657,7 @@ $item_property["nipple_chain"] = {
 }
 
 !["crown_of_thorns"]
-dynamic $ib_cycle, 'crown_of_thorns', 'Crown of thorns', 5, ' Price: 5 sparks <br>   Of course this is only the name, it has no thorns. These rims are made out of barbed wire. The trick is the attachment mechanism - it is arranged such as to cause pain, but not to injure and not be removed so easily. Constant, though mild pain reminds slave of humility.', 'scene\item\item_thorns'
+dynamic $ib_cycle, 'crown_of_thorns', 'Crown of thorns', 5, ' Price: 5 sparks <br>   Of course this is only the name, it has no thorns. The rims are made out of barbed wire. The trick is the attachment mechanism - it is arranged to cause pain, but not to injure and not be easily removed. Constant, though mild pain reminds a slave of humility.', 'scene\item\item_thorns'
 
 $item_property["crown_of_thorns"] = {
     daily_bonus["instinct"] += 3
@@ -666,7 +666,7 @@ $item_property["crown_of_thorns"] = {
 }
 
 !["anal_tail"]
-dynamic $ib_cycle, 'anal_tail', 'Anal tail', 10, '   This device consists of two parts - a large plastic phallus with an extension that provides a secure fit in the ass, and a set of removable tails. Well suited for petplay and increases the arousal of your slave. But it''s true that the tail prevents wearing ordinary clothes. (10 sparks)', 'scene\item\item_anal_tail'
+dynamic $ib_cycle, 'anal_tail', 'Anal tail', 10, '   This device consists of two parts - a large plastic phallus with an extension that provides a secure fit in the ass, and a set of removable tails. Well suited for petplay and it increases the arousal of your slave. But it’s true that the tail prevents wearing ordinary clothes. (10 sparks)', 'scene\item\item_anal_tail'
 
 $item_property["anal_tail"] = {
     daily_bonus["arousal"] += 2
@@ -679,7 +679,7 @@ $item_property["anal_tail"] = {
 }
 
 !["pony_plume"]
-dynamic $ib_cycle, 'pony_plume', 'Plumed bridle', 10, '   It''s just a necessary accessory for any ponygirl. The leather bridle is securely locked in the mouth gag and a bit and reins are already connected. Thick leather blinkers allow for the slave only to look straight ahead and a bright and high plume makes the whole construction look pleasing to the eye. (10 sparks)', 'scene\item\item_pony_plume'
+dynamic $ib_cycle, 'pony_plume', 'Plumed bridle', 10, '   It’s a necessary accessory for any ponygirl. The leather bridle securely locks in the mouth gag and a bit and reins are already connected. Thick leather blinders allow the slave to only look straight ahead, and a bright and high plume makes the whole construction look pleasing to the eye. (10 sparks)', 'scene\item\item_pony_plume'
 
 $item_property["pony_plume"] = {
     slave_rate["style"] += 1
@@ -692,7 +692,7 @@ $item_property["pony_plume"] = {
 }
 
 !["hoofed_boots"]
-dynamic $ib_cycle, 'hoofed_boots', 'Hooved boots', 25, '   Price: 25 sparks  <br>   This is a special kind of boots with heels, imitating horse hooves. Walking with them is even more uncomfortable than with usual heels, but they look stylish and they can be used to stomp loudly, showing your temper.', 'scene\item\item_hoofs'
+dynamic $ib_cycle, 'hoofed_boots', 'Hooved boots', 25, '   Price: 25 sparks  <br>   This is a special kind of boot, with heels imitating horse hooves. Walking with them is even more uncomfortable than with usual heels, but they look stylish and they can be used to stomp loudly, showing your temper.', 'scene\item\item_hoofs'
 
 $item_property["hoofed_boots"] = {
     slave_rate["style"] += 1
@@ -703,7 +703,7 @@ $item_property["hoofed_boots"] = {
 }
 
 !["ponygirl_harness"]
-dynamic $ib_cycle, 'ponygirl_harness', 'Pony harness', 10, '   Price: 10 sparks  <br>   The main objective of this leather corset is to fix a ponygirl''s hands behind her back so that she can no longer use them. A big ring in the area of the fixed hands provides the convenience of rides and additional straps in the front provide a fixation and emphasize the breasts.', 'scene\item\item_harness'
+dynamic $ib_cycle, 'ponygirl_harness', 'Pony harness', 10, '   Price: 10 sparks  <br>   The main objective of this leather corset is to fix a ponygirl’s hands behind her back so that she can no longer use them. A big ring in the area of the fixed hands provides the convenience of rides, and additional straps in the front provide a fixation and emphasis on the breasts.', 'scene\item\item_harness'
 
 $item_property["ponygirl_harness"] = {
 daily_bonus["pride"] -= 2
@@ -714,42 +714,42 @@ learn_bonus["dressage"] += 1
 }
 
 !["petsuit"]
-dynamic $ib_cycle, 'petsuit', 'Petsuit', 25, '   This version of a deprivation suit is not impeding vision or hearing. It is made ​​so that the carrier acts like a cat or a dog. Allows you to move only on all fours, leaning on elbows and knees. (25 sparks)', 'scene\item\item_petsuit'
+dynamic $ib_cycle, 'petsuit', 'Petsuit', 25, '   This version of a deprivation suit is not impeding of vision or hearing. It is made ​​so that the carrier acts like a cat or a dog. Allows for moving only on all fours, leaning on elbows and knees. (25 sparks)', 'scene\item\item_petsuit'
 
 $item_property["petsuit"] = {
 }
 
 !["vaginal_balls"]
-dynamic $ib_cycle, 'vaginal_balls', 'Vaginal beads', 5, '   Price: 5 sparks<br>   A pair of beads on a string with a ring designed for extended wear in the vagina. They are excellent to help build arousal and develop muscles.<br>   ', 'scene\item\item_vaginal_balls'
+dynamic $ib_cycle, 'vaginal_balls', 'Vaginal beads', 5, '   Price: 5 sparks<br>   A pair of beads on a string with a ring, designed for extended wear in the vagina. They are excellent to help build arousal and develop muscles.<br>   ', 'scene\item\item_vaginal_balls'
 
 $item_property["vaginal_balls"] = {
 }
 
 !["anal_plug"]
-dynamic $ib_cycle, 'anal_plug', 'Anal pear', 20, '   Price: 20 sparks<br>   Unlike the normal anal plug, this pear has a screw that allows you to extend it after inserting in the ass. The screw is fixed with a small padlock, so there is no way to remove the pear without the key.', 'scene\item\item_toys'
+dynamic $ib_cycle, 'anal_plug', 'Anal pear', 20, '   Price: 20 sparks<br>   Unlike the normal anal plug, this pear has a screw that allows you to extend it after insertion in the ass. The screw is fixed with a small padlock, so there is no way to remove the pear without the key.', 'scene\item\item_toys'
 
 $item_property["anal_plug"] = {}
 
 !["secure_gag"]
-dynamic $ib_cycle, 'secure_gag', 'Reliable gag', 20, '   This impressive steel structure inherits the best traits of the horse bridle and dental reamer. You cannot remove it without the key and the mouth is fixed in the maximum open state. (20 sparks)', 'scene\item\item_secure_gag'
+dynamic $ib_cycle, 'secure_gag', 'Reliable gag', 20, '   This impressive steel structure inherits the best traits of the horse bridle and dental reamer. The mouth is fixed in the maximum open state, and you cannot remove it without the key. (20 sparks)', 'scene\item\item_secure_gag'
 
 $item_property["secure_gag"] = {
 }
 
 !["deprivation_suit"]
-dynamic $ib_cycle, 'deprivation_suit', 'Deprivational suit', 50, '   Although it is called a suit, it is not intended to be worn as such, it''s for radical bondage. Thick rubber shell and durable leather belts prevent any movement and apply a constant uniform pressure. The eyes, ears and mouth are tightly shut to completely cut off wearer from the outside world. (50 sparks)', 'scene\item\item_dsuit'
+dynamic $ib_cycle, 'deprivation_suit', 'Deprivational suit', 50, '   Although it is called a suit, it is not intended to be worn as such, it’s for radical bondage. A thick rubber shell and durable leather belts prevent any movement and apply a constant uniform pressure. The eyes, ears, and mouth are tightly shut to completely cut off the wearer from the outside world. (50 sparks)', 'scene\item\item_dsuit'
 
 $item_property["deprivation_suit"] = {
 }
 
 !["pissuar_stable"]
-dynamic $ib_cycle, 'pissuar_stable', 'Urinal rack', 100, '   This piece of furniture does not take up too much space, as its main component is a slave. The rack is equipped with robust clamps for hands, feet and the head. It comes with a ring expander for the mouth as well as a nose clip. You can also set a transparent headband bowl of a «drink or choke» type. (100 sparks)', 'scene\item\item_pissuar'
+dynamic $ib_cycle, 'pissuar_stable', 'Urinal rack', 100, '   This piece of furniture does not take up too much space, as its main component is a slave. The rack is equipped with robust clamps for hands, feet, and head. It comes with a ring expander for the mouth as well as a nose clip. You can also set a transparent headband bowl of a «drink or choke» type. (100 sparks)', 'scene\item\item_pissuar'
 
 $item_property["pissuar_stable"] = {
 }
 
 !["toilet_stable"]
-dynamic $ib_cycle, 'toilet_stable', 'Toilet seat', 250, '   A pretty massive piece of furniture, but it is well worth it. The construct completely immobilizes the slave and only her head sticks out. A special device makes sure that her mouth is open at all times so it can be used to take a dump. The massive construction prevents any attempts to escape. (250 sparks)', 'scene\item\item_toilet'
+dynamic $ib_cycle, 'toilet_stable', 'Toilet seat', 250, '   A pretty massive piece of furniture, but it is well worth it. The construct completely immobilizes the slave and only her head sticks out. A special device makes sure that her mouth is open at all times so it can be used for defecation. The massive construction prevents any attempts to escape. (250 sparks)', 'scene\item\item_toilet'
 
 $item_property["toilet_stable"] = {
 }
@@ -767,27 +767,27 @@ learn_bonus["skill"] += 1
 
 !PRESENTS
 !Букет ["bouqet"]
-dynamic $ib_cycle, 'bouqet', 'Bouquet of flowers', 2, '   Small but very beautiful bouquet of flowers. This is a special ripening variety, grown hydroponically in the technosphere - only bloom for one day, but quite affordable.', 'scene\item\item_bouqet'
+dynamic $ib_cycle, 'bouqet', 'Bouquet of flowers', 2, '   A small but very beautiful bouquet of flowers. This is a special ripening variety, grown hydroponically in the technosphere - only blooms for a day, but quite affordable.', 'scene\item\item_bouqet'
 
 $item_property["bouqet"] = {}
 
 !Духи ["parfume"]
-dynamic $ib_cycle, 'parfume', 'Perfume', 5, '   Beautiful bottle of perfume with a magnificent composition, brought through the fog. Of course, such a gift will please any woman, but you are pursuing a two purposes - your slave will also be more stylish and more desirable for customers.', 'scene\item\item_parfume'
+dynamic $ib_cycle, 'parfume', 'Perfume', 5, '   A beautiful bottle of perfume with a magnificent composition, brought through the Fog. Of course, such a gift will please any woman, but you are pursuing two purposes - your slave will also be more stylish and more desirable to customers.', 'scene\item\item_parfume'
 
 $item_property["parfume"] = {}
 
 !Плед ["plaid"]
-dynamic $ib_cycle, 'plaid', 'Warm plaid', 9, '   Great soft tissue with a scot-pattern. Wrapped in this plaid, girl will feel comfortable, and it will be easier to go through difficult times in life.', 'scene\item\item_plaid'
+dynamic $ib_cycle, 'plaid', 'Warm plaid', 9, '   Great soft tissue with a scot-pattern. Wrapped in this plaid, a girl will feel comfortable, and it will be easier to get through difficult times in life.', 'scene\item\item_plaid'
 
 $item_property["plaid"] = {}
 
 !Мягкая игрушка ["stuffed_toy"]
-dynamic $ib_cycle, 'stuffed_toy', 'Plush toy', 15, '   A rather large and expensive toy will be a good gift. Will also keep the slave warm, lying on a thin bedroll near the door.', 'scene\item\item_stuffed_toy'
+dynamic $ib_cycle, 'stuffed_toy', 'Plush toy', 15, '   A rather large and expensive toy will make a good gift. It will also keep the slave warm when lying on a thin bedroll near the door.', 'scene\item\item_stuffed_toy'
 
 $item_property["stuffed_toy"] = {}
 
 !Мини-пони ["pony"]
-dynamic $ib_cycle, 'pony', 'Mini-pony', 50, '   These incredibly cute creatures the size of a cat are grown from eggs in the technosphere. Their life expectancy is not very long and they are inedible, but they are faithful and lovely. You will have to pay for food regularly. (1 spark/day)', 'scene\item\item_pony'
+dynamic $ib_cycle, 'pony', 'Mini-pony', 50, '   These incredibly cute cat-sized creatures are grown from eggs in the technosphere. Their life expectancy is not very long and they are inedible, but they are faithful and lovely. You will have to pay for food regularly. (1 spark/day)', 'scene\item\item_pony'
 
 $item_property["pony"] = {
 if slave['pos_pony'] < 1: slave['pos_pony'] = 1
