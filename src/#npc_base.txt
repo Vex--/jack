@@ -1,13 +1,13 @@
 # #npc_base
-$npc_attitude[10] = 'Keeps cold'
-$npc_attitude[11] = 'Keeps haughtily'
-$npc_attitude[12] = 'Keeps politely'
-$npc_attitude[20] = 'Keeps unkindly'
-$npc_attitude[21] = 'Keeps fastidiously'
-$npc_attitude[22] = 'Keeps cautiously'
-$npc_attitude[30] = 'Keeps friendly'
-$npc_attitude[31] = 'Keeps protectively'
-$npc_attitude[32] = 'Keeps obsequiously'
+$npc_attitude[10] = 'Acts coldly'
+$npc_attitude[11] = 'Acts haughtily'
+$npc_attitude[12] = 'Acts politely'
+$npc_attitude[20] = 'Acts unkindly'
+$npc_attitude[21] = 'Acts fastidiously'
+$npc_attitude[22] = 'Acts cautiously'
+$npc_attitude[30] = 'Acts friendly'
+$npc_attitude[31] = 'Acts protectively'
+$npc_attitude[32] = 'Acts obsequiously'
 
 $npc_flirt[0] = ''
 
@@ -154,7 +154,7 @@ $npc_image['ester'] = 'ester'
 $npc_name['ester'] = 'Reverend Esther Blanchett'
 $npc_status['ester'] = 'Official of congregation
 Vatican'
-$npc_info['ester'] = 'The right hand of Cardinal Skartsone, executive secretary of the "Congregation for the obstetrics and orphans charity". She looks very lively and is always smiling. For some reason though, when you look at her, shivers run down your spine.'
+$npc_info['ester'] = 'The right hand of Cardinal Skartsone, and executive secretary of the "Congregation for Mothers and Orphans Charity". She looks very lively and is always smiling. For some reason though, when you look at her, shivers run down your spine.'
 npc_attitude['ester'] = 31
 npc_participation_chance['ester'] = 0
 demand_rating['ester'] = 3
@@ -173,49 +173,49 @@ $npc_image['bararaika'] = 'bararaika'
 $npc_name['bararaika'] = 'Balalaika'
 $npc_status['bararaika'] = 'Leader of smugglers
 Neutrals'
-$npc_info['bararaika'] = 'In her homeland, this woman was a paratroop officer. When her entire unit wandered into the Fog, new opportunities opened up for strong and experienced warriors. It is unknown why Balalaika decided to organize an independent business instead of joining the army of any house. Maybe she was just tired from being ordered around.'
+$npc_info['bararaika'] = 'In her homeland, this woman was a paratroop officer. When her entire unit wandered into the Fog, new opportunities opened up for these strong and experienced warriors. It is unknown why Balalaika decided to organize an independent business instead of joining the army of a house. Maybe she was just tired of being ordered around.'
 npc_attitude['bararaika'] = 31
 
 $npc_image['фарид_аукционщик'] = 'slaver_fharid'
 $npc_name['фарид_аукционщик'] = 'Farid the Auctioneer'
 $npc_status['фарид_аукционщик'] = 'Slavers Guild Master
 Neutrals'
-$npc_info['фарид_аукционщик'] = 'Old and experienced slaver that firmly monopolized his niche - trade with unbranded slaves from the auction market. From time to time, he is told to sell trained slaves too, but because this old scoundrel tries to cheat most of his customers, this rarely happens. But in assessing the cost of living goods, Farid is considered the best expert.'
+$npc_info['фарид_аукционщик'] = 'Old and experienced slaver that firmly monopolized his niche - trade with unbranded slaves from the auction market. From time to time, he is told to sell trained slaves too, but because this old scoundrel tries to cheat most of his customers, this rarely happens. But in assessing the cost of living goods, Farid is considered the best.'
 npc_attitude['фарид_аукционщик'] = 31
 
 $npc_image['scoops'] = 'master_scoops'
 $npc_name['scoops'] = 'Master Skups'
 $npc_status['scoops'] = 'Slavers Guild Master
 Neutrals'
-$npc_info['scoops'] = 'He is the representative of the expert department. They do not train the slaves themselves, but they know the market very well and know how to choose the best slave for any customer. Experts usually do not sell slaves and just get paid for consulting services. However, they may get their hands on special slaves before others and resell them to other slavers.'
+$npc_info['scoops'] = 'He is the representative of the expert department. They do not train slaves themselves, but they know the market very well and know how to choose the best slave for any customer. Experts do not usually sell slaves, and just get paid for their consulting services. However, they may get their hands on special slaves before others and resell them to other slavers.'
 npc_attitude['scoops'] = 11
 
 $npc_image['master_vong'] = 'master_vong'
 $npc_name['master_vong'] = 'Master Wong'
 $npc_status['master_vong'] = 'Slavers Guild Master
 Neutrals'
-$npc_info['master_vong'] = 'He is the representative of dealer department. Members of this department are not engaged in training slaves. They prefer to speculate on the price difference or turn to wholesale transactions. In addition, this department in charge of conducting the auction and they will buy cheap branded slaves which no one is interested in.'
+$npc_info['master_vong'] = 'He is the representative of the dealer department. Members of this department are not engaged in training slaves. They prefer to speculate on the price difference or turn to wholesale transactions. In addition, this department is in charge of conducting the auction and they will buy cheap branded slaves whom no one is interested in.'
 npc_attitude['master_vong'] = 11
 
 $npc_image['ваша_ассистентка'] = ''
 $npc_name['ваша_ассистентка'] = 'Your assistant'
 $npc_status['ваша_ассистентка'] = 'Slave
 Neutrals'
-$npc_info['ваша_ассистентка'] = 'Your personal assistant. Just a slave, but rather loyal and reliable. You can give her almost any order. Because you have trained her yourself, you already know all about her strengths and weaknesses. For others, a personal assistant is a kind of master''s face, so she has to make the best impression possible.'
+$npc_info['ваша_ассистентка'] = 'Your personal assistant. Just a slave, but rather loyal and reliable. You can give her almost any order. Because you have trained her yourself, you already know all about her strengths and weaknesses. For others, a personal assistant is like a master’s public face, so she has to make the best impression possible.'
 npc_attitude['ваша_ассистентка'] = 32
 
 $npc_image['butcher'] = ''
 $npc_name['butcher'] = 'Butcher'
 $npc_status['butcher'] = 'Slave from the grocery shop
 Neutrals'
-$npc_info['butcher'] = 'The only task of this big and dark servant - carve female carcasses at the chopping deck and sell the meat to customers.'
+$npc_info['butcher'] = 'The only task of this big and dark servant - to carve female carcasses at the chopping deck and sell the meat to customers.'
 npc_attitude['butcher'] = 10
 
 $npc_image['ester'] = 'ester'
 $npc_name['ester'] = 'Reverend Esther Blanchett'
 $npc_status['ester'] = 'Official of congregation
 Vatican'
-$npc_info['ester'] = 'The right hand of Cardinal Skartsone, executive secretary of the "Congregation for the obstetrics and orphans charity". She looks very lively and is always smiling. For some reason though, when you look at her, shivers run down your spine.'
+$npc_info['ester'] = 'The right hand of Cardinal Skartsone, and executive secretary of the "Congregation for Mothers and Orphans Charity". She looks very lively and is always smiling. For some reason though, when you look at her, shivers run down your spine.'
 npc_attitude['ester'] = 31
 
 $npc_image['kerulis_veil'] = 'kerulis_veil'
@@ -224,7 +224,7 @@ demand_rating['kerulis_veil'] = 3
 $interesting_specialisation['kerulis_veil'] = 'nurse'
 $npc_status['kerulis_veil'] = 'Cryodream keeper
 Serpis House'
-$npc_info['kerulis_veil'] = 'Half-mad old scientist and the leading expert on the cryostatic sleep technology of House Serpis. He only has a handful of customers so he personally monitors every single one of them - as if to make sure no one damages his precious tech sarcophagus.'
+$npc_info['kerulis_veil'] = 'Half-mad old scientist and the leading expert on the cryostatic sleep technology of House Serpis. He only has a handful of customers so he personally monitors every single one of them - as if to make sure no one damages his precious sarcophagus tech.'
 npc_attitude['kerulis_veil'] = 10
 
 $npc_image['garsid'] = 'garsid'
@@ -238,21 +238,21 @@ $npc_image['magister_vailos'] = 'magister_vailos'
 $npc_name['magister_vailos'] = 'Master Valios'
 $npc_status['magister_vailos'] = 'Necromancer
 Corvus House'
-$npc_info['magister_vailos'] = 'One of the most powerful necromancers of House Corvus, busy, as far as you know, on works in the field of research of Fog fiend physiology. Given that the fiends somehow manage to ignore the law of conservation of matter, generating unlimited amount of seed from the void, many scholars of Rome are interested in researching fiends.'
+$npc_info['magister_vailos'] = 'One of the most powerful necromancers of House Corvus, busy, as far as you know, on works in the field of research on Fog fiend physiology. Given that the fiends somehow manage to ignore the law of conservation of matter, generating unlimited amount of seed from the void, many scholars of Rome are interested in researching fiends.'
 npc_attitude['magister_vailos'] = 11
 
 $npc_image['sir_aramus'] = 'sir_aramus'
 $npc_name['sir_aramus'] = 'Sir Aramus'
 $npc_status['sir_aramus'] = 'Quartermaster
 Taurus House'
-$npc_info['sir_aramus'] = 'Knight of the Taurus House who is responsible for ammunition inventory control. Seemingly a simple and unsophisticated person, but you know that none of the worlds has such an entity as the mysterious "honest quartermaster".'
+$npc_info['sir_aramus'] = 'A knight of the Taurus House who is responsible for ammunition inventory control. Seemingly a simple and unsophisticated person, but you know that none of the worlds has such an entity as the mysterious "honest quartermaster".'
 npc_attitude['sir_aramus'] = 30
 
 $npc_image['wujen'] = 'wujen'
 $npc_name['wujen'] = 'Vujin'
 $npc_status['wujen'] = 'Wizard
 Serpis House'
-$npc_info['wujen'] = 'This suspicious eared old man, as you know, is one of the best specialists in the Serpis House on magical artifacts. With the help of sparks, he produces charms that work well not only in Eternal Rome, but also in any of the worlds behind the Fog.'
+$npc_info['wujen'] = 'This suspicious-eared old man, as you know, is one of the best specialists in the Serpis House on magical artifacts. With the help of sparks, he produces charms that work well not only in Eternal Rome, but also in any of the worlds behind the Fog.'
 npc_attitude['wujen'] = 30
 
 !constant NPC
@@ -271,21 +271,21 @@ demand_rating['madame_jofre'] = 1
 $jofre_pref[1] = '  [MADAME JOFRE]
    - We know exactly where we want to use our girls so I can give you very detailed information on what we are looking for, mon cher ami. At first, every new girl will prepare the customers for the regular girls. To do that, she will need to know how to give blowjobs and have regular sex.'
 $jofre_pref[2] = '  [MADAME JOFRE]
-   - Of course, giving handjobs and being able to service a man in a group is also helpful. Some customers love "special" treatment. However, all of that is not necessary - I can educate my workers myself.'
+   - Of course, giving handjobs and being able to service a man in a group is also helpful. Some customers love "special" treatment. However, all of that is not necessary - I can educate the workers myself.'
 $jofre_pref[3] = '  [MADAME JOFRE]
-   - Our customers expect to see pretty girls, so I will not take some scarecrow, even if she is a sex goddess. And of course, women should be temperamental. I do not own a sawmill, so I don''t need any logs. I hope your understand, mon cher.'
+   - Our customers expect to see pretty girls, so I will not take some scarecrow, even if she is a sex goddess. And of course, women should be temperamental. I do not own a sawmill, so I don’t need any logs. I hope you understand, mon cher.'
 $jofre_pref[4] = '  [MADAME JOFRE]
-   - Our girls clean rooms and work in the kitchen themselves, so at least some housekeeping skill is required. She needs to be able to talk to our customers in a empathetic way. I personally appreciate creative talent, although it is not necessary.'
+   - Our girls clean rooms and work in the kitchen themselves, so at least some housekeeping skill is required. She needs to be able to talk to our customers in an empathetic way. I personally appreciate creative talent, although it is not necessary.'
 $jofre_pref[5] = '  [MADAME JOFRE]
    - If we sum up the requirements, I need women of <<$rating[1]>> rank or higher, trained as concubines. I am ready to pay 500 sparks per girl and buy as many as you want to sell.'
 $buy_quote['madame_jofre'] = '   [MADAME JOFRE]
-   - Ok, I''ll take her. There''s your sparks and thank you. I hope she will please me!'
+   - Ok, I’ll take her. There’s your sparks, and thank you. I hope she will please me!'
 $refuse_skill_quote['madame_jofre'] = '   [MADAME JOFRE]
-   - And why would I need her? She does not meet the requirements! I''m not interested in her.'
+   - And why would I need her? She does not meet the requirements! I’m not interested in her.'
 $refuse_level_quote['madame_jofre'] = '   [MADAME JOFRE]
    - Can you find a better girl? She is not worth the money.'
 $refuse_charm_quote['madame_jofre'] = '   [MADAME JOFRE]
-   - Uhhmm.... I don''t know. Formally, she fits, but she looks unpresentable. I don''t like it.'
+   - Uhhmm.... I don’t know. Formally, she fits, but she looks unpresentable. I don’t like it.'
 $refuse_again_quote['madame_jofre'] = '   [MADAME JOFRE]
    - Why do you bring her to me again? She does not fit! Bring someone else.'     
 
@@ -295,27 +295,27 @@ $npc_name['brina'] = 'Bryn the Redhead'
 $npc_status['brina'] = 'Lanista
 White Town (Neutrals)'
 $npc_alignment['brina'] = 'нейтралы'
-$npc_info['brina'] = 'Once upon a time Bryn was a simple gladiatrix. However, her success in the arena were so impressive that she is not only admired by the plebs, but she was also rewarded with freedom. However, Bryn has not left the Coliseum - now she teaches young girls in the art of battle in the arena. This woman is stronger than most men.'
+$npc_info['brina'] = 'Once upon a time Bryn was a simple gladiatrix. However, her successes in the arena were so impressive that she was not only admired by the plebs, but was rewarded with freedom. However, Bryn has not left the Coliseum - now she teaches young girls in the art of battle in the arena. This woman is stronger than most men.'
 demand_rating['brina'] = 1
 $interesting_specialisation['brina'] = 'gladiatrix'
 $brina_pref[1] = '  [RED HAIR BRYN]
    - The requirement is simple - the girl must be suitable for the arena. What is there to explain? She must be <font color="#0000CD"><b>healthful</b></font>, right? She must be able to take a beating and survive. Then she must be brisk, <font color="#4B0082"><b>with a twinkle</b></font>. The audience loves them fierce and bold.'
 $brina_pref[2] = '  [RED HAIR BRYN]
-   - Theres no time to think in the arena, so I don''t give a shit about her academic degrees. Crybabies won''t do in the arena. It would be nice if she had <font color="#4B0082"><b>catchy</b></font> appearance. Exotic girls are always cheered on, people love everything unusual.'
+   - Theres no time to think in the arena, so I don’t give a shit about her academic degrees. Crybabies won’t do in the arena. It would be nice if she had a <font color="#4B0082"><b>catchy</b></font> appearance. Exotic girls are always cheered on, people love everything unusual.'
 $brina_pref[3] = '  [RED HAIR BRYN]
    - And of course she must know how to fight, but I can teach her myself if necessary. She should also know how to <font color="#0000CD"><b>move gracefully</b></font>, so teach them how to dance. And she needs a loud and beautiful voice so she can shout her cheers and cries of victory through the whole arena.'
 $brina_pref[4] = '  [RED HAIR BRYN]
-   - It is often necessary to take care of the wounded. The girls clean the barracks themselves too so make sure she knows how to use a broom. Everything else is generally not important. <font color="#4B0082"><b>Sex</b></font>? Oh yes, please make sure she knows the basics.'
+   - It is often necessary to take care of the wounded. The girls clean the barracks themselves too, so make sure she knows how to use a broom. Everything else is generally not important. <font color="#4B0082"><b>Sex</b></font>? Oh yes, please make sure she knows the basics.'
 $brina_pref[5] = '  [RED HAIR BRYN]
-   - After a battle, all gladiators are invited to an orgy. Patricians often purchase a night with one of the girls from the arena. And the pay is better, the better she fought. But it is also necessary for her not to be too sex-crazed. A well-rounded training without any perversions. That''s all...'
+   - After a battle, all gladiators are invited to an orgy. Patricians often purchase a night with one of the girls from the arena. And the pay is better, the better she fought. But it is also necessary for her not to be too sex-crazed. A well-rounded training without any perversions. That’s all...'
 $buy_quote['brina'] = '   [RED HAIR BRYN]
-   - Ok, I''ll take her. There''s your sparks and thank you. I hope she will please me!'
+   - Ok, I’ll take her. There’s your sparks, and thank you. I hope she will please me!'
 $refuse_skill_quote['brina'] = '   [RED HAIR BRYN]
-   - And why do I need her if she does not meet the requirements? I''m not interested in her.'
+   - And why do I need her if she does not meet the requirements? I’m not interested in her.'
 $refuse_level_quote['brina'] = '   [RED HAIR BRYN]
    - Can you find a better girl? She is not worth the money.'
 $refuse_charm_quote['brina'] = '   [RED HAIR BRYN]
-   - Uhhmm.... I don''t know. Formally, she fits, but she looks unpresentable. I don''t like it.'
+   - Uhhmm.... I don’t know. Formally, she fits, but she looks unpresentable. I don’t like it.'
 $refuse_again_quote['brina'] = '   [RED HAIR BRYN]
    - I said that I would not take her! Are you deaf?'
    
@@ -323,29 +323,29 @@ $npc_image['sir_shelly'] = 'sir_shelly'
 $npc_name['sir_shelly'] = 'Sir Shelly'
 $npc_status['sir_shelly'] = 'Club owner
 Taurus House'
-$npc_info['sir_shelly'] = 'This man was able to achieve an incredible influence with his gentleman''s club promotion. Visitors of Sir Shelly''s club include the most influential representatives of the Taurus Great House, and meeting them outside of the club will be quite difficult.'
+$npc_info['sir_shelly'] = 'This man was able to achieve an incredible influence with his gentleman’s club promotion. Visitors of Sir Shelly’s club include the most influential representatives of the Taurus Great House, and meeting them outside of the club will be quite difficult.'
 npc_attitude['sir_shelly'] = 11
 demand_rating['sir_shelly'] = 3
 $interesting_specialisation['sir_shelly'] = 'concubine'
 $sir_shelly_pref[1] = '  [Sir Shelly]
-   - My club is known for it''s female workers, <<$master_name>>. I personally select the best slaves and only let them serve customers when I am convinced of their perfection.'
+   - My club is known for its female workers, <<$master_name>>. I personally select the best slaves and only let them serve customers when I am convinced of their perfection.'
 $sir_shelly_pref[2] = '  [Sir Shelly]
-   - If you don''t want to waste my and your time, only deliver exceptionally well-trained and well-rounded girls. Of course, they should be able to please gentlemen, but other skills are also required.'
+   - If you don’t want to waste my and your time, only deliver exceptionally well-trained and well-rounded girls. Of course, they should be able to please gentlemen, but other skills are also required.'
 $sir_shelly_pref[3] = '  [Sir Shelly]
-   - I do not like to haggle, so let''s just set a price. If I take a girl - then I''ll pay two and a half thousand sparks. I do not need cheap ones, but any more expensive and she won''t pay off.'
+   - I do not like to haggle, so let’s just set a price. If I take a girl - then I’ll pay two and a half thousand sparks. I do not need cheap ones, but any more expensive and she won’t pay off.'
 $sir_shelly_pref[4] = '  [Sir Shelly]
-   - In order to support variety, I need a lot of workers. I''ll take as many girls as you can offer, provided I like them, of course.'
+   - In order to support variety, I need a lot of workers. I’ll take as many girls as you can offer, provided I like them, of course.'
 $sir_shelly_pref[5] = '  [Sir Shelly]
-   - If I may summarize my requirements: in accordance to the established standards in your guild, I''m ready to take concubine slaves with <font color="#0000CD"><b>B</b></font> rating and higher. 2500 sparks for any of those girls - quite a reasonable price. In addition, your brand will seen by very influential persons.'
+   - If I may summarize my requirements: in accordance to the established standards in your guild, I’m ready to take concubine slaves with <font color="#0000CD"><b>B</b></font> rating and higher. 2500 sparks for any of those girls - quite a reasonable price. In addition, your brand will seen by very influential persons.'
 
 $buy_quote['sir_shelly'] = '   [Sir Shelly]
-   - Ok, I''ll take her. There''s your sparks and thank you. I hope she will please me!'
+   - Ok, I’ll take her. There’s your sparks, and thank you. I hope she will please me!'
 $refuse_skill_quote['sir_shelly'] = '   [Sir Shelly]
-   - And why do I need her if she does not meet the requirements? I''m not interested in her.'
+   - And why do I need her if she does not meet the requirements? I’m not interested in her.'
 $refuse_level_quote['sir_shelly'] = '   [Sir Shelly]
    - Can you find a better girl? She is not worth the money.'
 $refuse_charm_quote['sir_shelly'] = '   [Sir Shelly]
-   - Uhhmm.... I don''t know. Formally, she fits, but she looks unpresentable. I don''t like it.'
+   - Uhhmm.... I don’t know. Formally, she fits, but she looks unpresentable. I don’t like it.'
 $refuse_again_quote['sir_shelly'] = '   [Sir Shelly]
    - No, I do not take her, I already said that.'
 	
@@ -355,11 +355,11 @@ demand_rating['doctor'] = 1
 $interesting_specialisation['doctor'] = 'nurse'
 $npc_status['doctor'] = 'Medical Center employee
 Serpis House'
-$npc_info['doctor'] = 'This woman looks tired and detached. Apparently, she has too much work and too few opportunities to relax. That is probably because their level of service is only delivered inside the technosphere.'
+$npc_info['doctor'] = 'This woman looks tired and detached. Apparently, she has too much work and too few opportunities to relax. That is probably because this level of service is only delivered inside the technosphere.'
 npc_attitude['doctor'] = 12
 $interesting_specialisation['doctor'] = 'nurse'
 $doctor_pref[1] = '  [Doctor]
- - Yes, we do prefer to use slaves as nurses. It''s easier and cheaper.'
+ - Yes, we do prefer to use slaves as nurses. It’s easier and cheaper.'
 $doctor_pref[2] = '  [Doctor]
  - A complete list of requirements can be acquired at the reception, but the rules are quite simple. We acquire slaves trained as nurses of rank <<$rating[1]>> and higher, at a fixed price of 500 sparks.'
 $doctor_pref[3] = '  [Doctor]
@@ -367,15 +367,15 @@ $doctor_pref[3] = '  [Doctor]
 $doctor_pref[4] = '  [Doctor]
  - Staff is always short so that the demand will be almost endless.'
 $doctor_pref[5] = '  [Doctor]
- - If you still got any questions, please contact us. But try not to distract me for nothing, we''ve got enough work already. We are the only decent hospital in the city.'
+ - If you still have any questions, please contact us. But try not to distract me for nothing, we’ve got enough work already. We are the only decent hospital in the city.'
 $buy_quote['doctor'] = '   [Doctor]
-   - Ok, I''ll take her. There''s your sparks and thank you. I hope she will please me!'
+   - Ok, I’ll take her. There’s your sparks, and thank you. I hope she will please me!'
 $refuse_skill_quote['doctor'] = '   [Doctor]
-   - And why do I need her if she was not able to do what is required? I''m not interested in such a product.'
+   - And why do I need her if she was not able to do what is required? I’m not interested in such a product.'
 $refuse_level_quote['doctor'] = '   [Doctor]
    - Can you find a better product? This is not good enough for such money.'
 $refuse_charm_quote['doctor'] = '   [Doctor]
-   - Uhhmm.... I don''t know. Formally, she fits, but she looks unpresentable. I don''t like it.'
+   - Uhhmm.... I don’t know. Formally, she fits, but she looks unpresentable. I don’t like it.'
 $refuse_again_quote['doctor'] = '   [Doctor]
    - I did not like her. Bring another slave to me, and... do with her what you want, but I will not take it.'
    
