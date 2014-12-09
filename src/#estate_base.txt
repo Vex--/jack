@@ -156,7 +156,7 @@ interior_prestige['slum_house'] = -1
 
 $interior_bg['slum_house'] = 'interiors\slum_large'
 $interior_study['slum_house'] = 'interiors\slum_study'
-$interior_study_info['slum_house'] = '   You had to live in the remains of a house that was half-eaten by the Fog. For a shack in the slums this place was built very thoroughly, but staying here is not comfortable at all, and most importantly - very, very dangerous.'
+$interior_study_info['slum_house'] = '   You had to live in the remains of a house that was half-eaten by the Fog. For a slum dwelling this place was built very thoroughly, but staying here is not comfortable at all, and most importantly - very, very dangerous.'
 
 $interior_bed['slum_house'] = 'interiors\slum_bed'
 $interior_bed_info['slum_house'] = '   You tried to equip your bed for maximum comfort. As far as possible in an old shack on the border of the Fog.'
