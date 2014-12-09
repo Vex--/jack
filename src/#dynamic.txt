@@ -158,7 +158,7 @@ IF prisoner_state ! 0:
  END
  IF prisoner["stamina"] = 0 and prisoner_rate["stamina"] < 0 and prisoner['starvation'] > 50:
   prisoner_state = 0
-  msg 'Your prisoner died from starvation, forgotten in dungeon cage. You sold her body to the butcher for 5 sparks.'
+  msg 'Your prisoner died from starvation, forgotten in a dungeon cage. You sold her body to the butcher for 5 sparks.'
   sparks += 5
  END
 END
@@ -166,7 +166,7 @@ END
 
 $master_pass_out = {
 IF master_str <= 0:
- dynamic $death, 'The work so depleted your health that you become seriously ill and had to withdraw from your goal. You will never become a real slave master...'
+ dynamic $death, 'The work so depleted your health that you became seriously ill and had to withdraw from your goal. You will never become a real slave master...'
 END
 IF master_energy <= -5: gt 'next_day'
 }
@@ -989,7 +989,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_3_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_3_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_3_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_3_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_3_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_3_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
@@ -1013,7 +1013,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_4_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_4_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_4_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_4_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_4_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_4_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
@@ -1026,7 +1026,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_5_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_5_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_5_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_5_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_5_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_5_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
@@ -1039,7 +1039,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_6_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_6_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_6_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_6_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_6_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_6_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
@@ -1069,7 +1069,7 @@ gt curloc
 $master_ears_list = {
 $equip_choice = ''
 $equip_choice += '<a href = "EXEC: $new_item = ''none'' & $info_text = '''' & dynamic $slot_9_change">Remove earring</a>'
-if chimera_earring > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''chimera_earring'' & $info_text = $chimera_help & dynamic $slot_9_change">Chimaera''s Gem</a>'
+if chimera_earring > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''chimera_earring'' & $info_text = $chimera_help & dynamic $slot_9_change">Chimaera’s Gem</a>'
 gt curloc
 }
 
@@ -1142,7 +1142,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_22_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_22_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_22_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_22_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_22_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_22_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
@@ -1166,7 +1166,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_23_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_23_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_23_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_23_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_23_change">Butcher’s cleaver [<<тесак>>]</a>'
 gt curloc
 }
 
@@ -1347,7 +1347,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_42_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_42_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_42_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_42_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_42_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_42_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
@@ -1371,7 +1371,7 @@ if стилет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''сти
 if кастет > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''кастет'' & dynamic $slot_43_change">Brass Knuckles [<<кастет>>]</a>'
 if нагайка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''нагайка'' & dynamic $slot_43_change">Lash [<<нагайка>>]</a>'
 if глушилка > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''глушилка'' & dynamic $slot_43_change">Stunner [<<глушилка>>]</a>'
-if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_43_change">Butcher''s cleaver [<<тесак>>]</a>'
+if тесак > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''тесак'' & dynamic $slot_43_change">Butcher’s cleaver [<<тесак>>]</a>'
 if щит > 0: $equip_choice += '<br><a href = "EXEC: $new_item = ''щит'' & dynamic $slot_43_change">Sturdy Shield [<<щит>>]</a>'
 gt curloc
 }
