@@ -18,7 +18,7 @@ $quest_description[0] = 'sample description
 $quest_description[2] = 'NB! First I need to make sure that she is branded. And I can’t forget about a stylish appearance for my slave - a fine dress helps to impress.
    Selling options:
 I. The auction of brands in the Guild. The auction is held every decade, but the price there may be most unexpected.
-II. Hand her over to one of the regular customers. Easily and reliably, but not optimal.
+II. Hand her over to one of the regular customers. Easy and reliable, but not optimal.
 III. Find the end user and make a deal personally. A fixed price, plus the growing popularity of the brand, plus reputation in one of the Great Houses. To find the optimal end buyer I need to collect information at the Central Forum. I should look for those who desire her specialty and rank to maximize profits! I should remember that the customer information will be relevant to the current development of slave and will gradually lose relevance. I better start looking for buyers when she is ready for sale.
 
 <a href = "EXEC: quest_description_mode = 0 & gt curloc">Back</a>'
