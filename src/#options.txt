@@ -89,7 +89,7 @@ $text_display += {<br><br><div id="under">Leave them alone<br><div id = "clear">
 
 !guild expert
 $expert_options[1] = {
-$sp_text[1] = '   You find one of the representatives of the experts department. These slavers specialize in the slaves evaluation and in finding exclusive options on the market.'
+$sp_text[1] = '   You find one of the representatives of the experts department. These slavers specialize in slave evaluations and in finding exclusive options on the market.'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Ask about services<br><div id = "clear"><a href = 'EXEC: interaction_city = 951 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 IF search['active'] = 0: $text_display += {<br><div id="under">Order slave selection<br><div id = "clear"><a href = 'EXEC: sp_txt = 11 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -113,7 +113,7 @@ $text_display += {<br><div id="under">Doesn`t matter<br><div id = "clear"><a hre
 
 $expert_options[2] = {
 $sp_text[2] = '      [MASTER SKUPS]
-   - Beauty - is a key parameter, which in most cases determines the maximum potential of a slave in market. But beauties are rare. How attractive product do you need?'
+   - Beauty - is a key parameter, which in most cases determines the maximum potential of a slave in the market. But beauties are rare. How attractive a product do you need?'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Exquisite<br><div id = "clear"><a href = 'EXEC: search["beauty"] = 5 & search["cost"] += 4 & sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Beautiful<br><div id = "clear"><a href = 'EXEC: search["beauty"] = 4 & search["cost"] += 2 & sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -123,7 +123,7 @@ $text_display += {<br><div id="under">Doesn`t matter<br><div id = "clear"><a hre
 
 $expert_options[3] = {
 $sp_text[3] = '      [MASTER SKUPS]
-   - Raising sick slaves - is a tough job, so that I can pick up healthier and hardy.'
+   - Raising sick slaves - is a tough job, so I can pick up healthier and hardier products.'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Enduring<br><div id = "clear"><a href = 'EXEC: search["stamina"] = 5 & search["cost"] += 4 & sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Tough<br><div id = "clear"><a href = 'EXEC: search["stamina"] = 4 & search["cost"] += 2 & sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -133,7 +133,7 @@ $text_display += {<br><div id="under">Doesn`t matter<br><div id = "clear"><a hre
 
 $expert_options[4] = {
 $sp_text[4] = '      [MASTER SKUPS]
-   - I have my own ways to estimate woman''s sensitivity. I guarantee reliability of this method, but mind you. It''s not only difficult to find a sissy, there also will be a lot of problems during training.'
+   - I have my own ways to estimate a woman’s sensitivity. I guarantee the reliability of this method, but mind you, it’s not only difficult to find a sissy, there also will be a lot of problems during training.'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Nurturing<br><div id = "clear"><a href = 'EXEC: search["sensitivity"] = 5 & search["cost"] += 4 & sp_txt = 5 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Caring<br><div id = "clear"><a href = 'EXEC: search["sensitivity"] = 4 & search["cost"] += 2 & sp_txt = 5 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -143,7 +143,7 @@ $text_display += {<br><div id="under">Doesn`t matter<br><div id = "clear"><a hre
 
 $expert_options[5] = {
 $sp_text[5] = '      [MASTER SKUPS]
-   - I can spend a separate time before the auction to check in advance the total intelligence of the product. Do not expect much, but if you need a girl capable of put two and two, I''ll make it.'
+   - I can spend some time before the auction to check the total intelligence of the product in advance. Do not expect much, but if you need a girl capable of putting two and two together, I’ll find her.'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Intelligent<br><div id = "clear"><a href = 'EXEC: search["intellect"] = 5 & search["cost"] += 4 & sp_txt = 6 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Clever<br><div id = "clear"><a href = 'EXEC: search["intellect"] = 4 & search["cost"] += 2 & sp_txt = 6 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -153,7 +153,7 @@ $text_display += {<br><div id="under">Doesn`t matter<br><div id = "clear"><a hre
 
 $expert_options[6] = {
 $sp_text[6] = '      [MASTER SKUPS]
-   - Temperamental ones are often the source of problems, but they are popular among the buyers. So I can find hotter product for you, if it is necessary.'
+   - Temperamental ones are often the source of problems, but they are popular among the buyers. So I can find a hotter product for you, if it is necessary.'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Passionate<br><div id = "clear"><a href = 'EXEC: search["temper"] = 5 & search["cost"] += 4 & sp_txt = 7 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Lively<br><div id = "clear"><a href = 'EXEC: search["temper"] = 4 & search["cost"] += 2 & sp_txt = 7 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -163,7 +163,7 @@ $text_display += {<br><div id="under">Doesn`t matter<br><div id = "clear"><a hre
 
 $expert_options[7] = {
 $sp_text[7] = '      [MASTER SKUPS]
-   - Character is much harder to recognize at once than other parameters of the product, but I have my own secrets. No wonder that I''m an expert. Just say what you want, and I''ll find a way to provide it.'
+   - Character is much harder to recognize at once than other parameters of the product, but I have my secrets. No wonder that I’m an expert. Just say what you want, and I’ll find a way to provide it.'
 interaction_city = 9511
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Willful<br><div id = "clear"><a href = 'EXEC: search["ego"] = 5 & search["cost"] += 4 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -600,7 +600,7 @@ $text_display += {<br><div id="under">Back<br><div id = "clear"><a href = 'EXEC:
 
 !Central forum
 $forum_options[1] = {
-$sp_text[1] = "   Central forum provides huge opportunities to a person of your profession. There you can advertise yourself a little and put sticks in the wheels of rivals, or to collect information about the best potential buyers for your slave. And of course you can just communicate with the others." 
+$sp_text[1] = "   The central forum provides huge opportunities to a person of your profession. There you can advertise yourself a little and put sticks in the wheels of rivals, or collect information about the best potential buyers for your slave. And, of course, you can just communicate with others." 
 $text_display = '<br><br>'
 IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0:
  $text_display += {<br><div id="under">Find potential customers<br><div id = "clear"><a href = 'EXEC: interaction_city = 151 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -637,7 +637,7 @@ $text_display += {<br><div id="under">Leave the animal farm<br><div id = "clear"
 
 !Base camp
 $warcamp_options[1] = {
-$sp_text[1] = '   Places there are unsafe, but you can feel relatively safe behind a hastily built fence of base camp.'
+$sp_text[1] = '   Places there are unsafe, but you can feel relatively safe behind the hastily built fence of the base camp.'
 $text_display = '<br>'
 IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0 and slave['brand'] ! 4:
  $text_display += {<br><div id="under">Offer an employee<br><div id = "clear"><a href = 'EXEC: interaction_city = 642 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -651,7 +651,7 @@ $text_display += {<br><div id="under">Leave the base camp<br><div id = "clear"><
 !anatomical theater
 $morgue_options[1] = {
 npc = 1
-$sp_text[1] = '   Considering the level of artists mortality, Malifistsent should always need a new girls. It is a good business opportunity!'
+$sp_text[1] = '   Considering the level of artist mortality, Malifistsent should always need a new girls. It is a good business opportunity!'
 $text_display = '<br><br><br>'
 IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0 and slave['brand'] ! 4:
  $text_display += {<br><div id="under">Offer an artist<br><div id = "clear"><a href = 'EXEC: interaction_city = 532 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -664,7 +664,7 @@ $text_display += {<br><div id="under">Leave the theatre<br><div id = "clear"><a 
 
 !smugglers den
 $smugler_options[1] = {
-$sp_text[1] = '   On this dark street, few people can feel comfortable. But this is where you can set up a meeting to the right people who do not want to attract too much attention.'
+$sp_text[1] = '   On this dark street, few people can feel comfortable. But this is where you can set up a meeting with the right people. People who do not want to attract too much attention.'
 $text_display = '<br><br>'
 IF slave_state = CONST_INT['no_slave'] and sparks => 2000:
  $text_display += {<br><div id="under">Order "parcel" (2000 sparks)<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -676,7 +676,7 @@ $text_display += {<br><div id="under">Leave the lair<br><div id = "clear"><a hre
 }
 
 $smugler_options[2] = {
-$sp_text[2] = '   Training scheme for all our slaves are standard, appearance too. Clones, you know. But you can select the desired age category.'
+$sp_text[2] = '   The training scheme for all our slaves is standard, appearance too. Clones, you know. But you can select the desired age category.'
 $text_display = '<br><br>'
 $text_display += {<br><div id="under">Choose mature<br><div id = "clear"><a href = 'EXEC: interaction_city = 6521 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Choose young<br><div id = "clear"><a href = 'EXEC: interaction_city = 6522 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -691,24 +691,24 @@ npc = 0
 $place = 'palace'
 $text_display = '<br><br><br>'
 IF faction_fame['taurus'] => 3:
- $sp_text[1] = '   I was allowed to enter the White Palace. It remains only to choose whom offer my services.'
+ $sp_text[1] = '   I was allowed to enter the White Palace. It remains only to choose whom to offer my services.'
  if npc_progress['bishop_molaru'] < 2: $text_display += {<br><div id="under">Audience with archbishop<br><div id = "clear"><a href = 'EXEC: interaction_city = 241 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  if npc_progress['general_barabas'] < 2: $text_display += {<br><div id="under">Audience with general<br><div id = "clear"><a href = 'EXEC: interaction_city = 242 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  if npc_progress['pretor_siegfrid'] < 2: $text_display += {<br><div id="under">Audience with praetor<br><div id = "clear"><a href = 'EXEC: interaction_city = 243 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  else
  $place = 'palace_gate'
  $text_display += '<br><br><br><br>' 
- $sp_text[1] = '   At the entrance of the White Palace watchful guards on duty. They will not allow strangers here.'
+ $sp_text[1] = '   At the entrance of the White Palace watchful guards are on duty. They will not allow strangers here.'
 END
 IF faction_fame['taurus'] => 4:
  $sp_text[1] = '   I was allowed to see the King. I will need to meet with him and try to fulfill his assignment.'
  if npc_progress['taurus_king'] < 2: $text_display += {<br><div id="under">Audience with King<br><div id = "clear"><a href = 'EXEC: interaction_city = 244 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 IF npc_progress['taurus_king'] = 2 and faction_fame['taurus'] = 4:
- $sp_text[1] = '   King pleased with his order. Nevertheless, I can not become a patrician of Taurus House, because I''m already a patrician.'
+ $sp_text[1] = '   The King is pleased with his order. Nevertheless, I cannot become a patrician of Taurus House because I’m already a patrician.'
 END
 IF faction_fame['taurus'] = 5 and npc_progress['taurus_king'] = 2 and noble_status = 1:
- $sp_text[1] = '   Now I''m noble and patrician of Taurus House. If I need help, I can always rely on the King.'
+ $sp_text[1] = '   Now I’m a noble, and a patrician of Taurus House. If I need help, I can always rely on the King.'
 END
 $text_display += {<br><div id="under">Leave<br><div id = "clear"><a href = 'EXEC: city_form = 2 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
@@ -718,7 +718,7 @@ $spire_options[1] = {
 $place = 'spire'
 $text_display = '<br><br><br>'
 IF faction_fame['serpis'] => 3:
- $sp_text[1] = '   So, I''m inside. It remains only to choose whom to offer my services.'
+ $sp_text[1] = '   So, I’m inside. It remains only to choose whom to offer my services.'
  if npc_progress['bishop_porter'] < 2: $text_display += {<br><div id="under">Audience with archbishop<br><div id = "clear"><a href = 'EXEC: interaction_city = 341 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  if npc_progress['general_drago'] < 2: $text_display += {<br><div id="under">Audience with general<br><div id = "clear"><a href = 'EXEC: interaction_city = 342 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  if npc_progress['pretor_diabaz'] < 2: $text_display += {<br><div id="under">Audience with praetor<br><div id = "clear"><a href = 'EXEC: interaction_city = 343 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -726,17 +726,17 @@ IF faction_fame['serpis'] => 3:
  $place = 'spire_gate'
  if nsfw = 1: not_safe = 1
  $text_display += '<br><br><br><br>' 
- $sp_text[1] = '   At the entrance of the Administrative Spires watchful guards on duty. They will not allow strangers here.'
+ $sp_text[1] = '   At the entrance of the Administrative Spires watchful guards are on duty. They will not allow strangers here.'
 END
 IF faction_fame['serpis'] => 4:
  $sp_text[1] = '   I was allowed to see the President. I will need to meet with him and try to fulfill his assignment.'
  if npc_progress['serpis_prince_first'] < 2: $text_display += {<br><div id="under">Audience with President<br><div id = "clear"><a href = 'EXEC: interaction_city = 344 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 IF npc_progress['serpis_prince_first'] = 2 and faction_fame['taurus'] = 4:
- $sp_text[1] = '   President pleased with his order. Nevertheless, I can not become a patrician of Serpis House, because I''m already a patrician.'
+ $sp_text[1] = '   The President is pleased with his order. Nevertheless, I cannot become a patrician of Serpis House because I’m already a patrician.'
 END
 IF faction_fame['serpis'] = 5 and npc_progress['serpis_prince_first'] = 2 and noble_status = 1:
- $sp_text[1] = '   Now I''m noble and patrician of Serpis House. If I need help, Mr. President will help me.'
+ $sp_text[1] = '   Now I’m a noble, and a patrician of Serpis House. If I need help, Mr. President will help me.'
 END
 $text_display += {<br><div id="under">Leave<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
@@ -753,17 +753,17 @@ IF faction_fame['kamira'] => 3:
  else
  $place = 'citadel_gate'
  $text_display += '<br><br><br><br>' 
- $sp_text[1] = '   At the entrance to the Tierra del Citadel watchful guards on duty. They will not allow strangers here.'
+ $sp_text[1] = '   At the entrance to the Tierra del Citadel watchful guards are on duty. They will not allow strangers here.'
 END
 IF faction_fame['kamira'] => 4:
- $sp_text[1] = '   I was allowed to see Mistress. I will need to meet with her and try to fulfill her assignment.'
+ $sp_text[1] = '   I was allowed to see the Mistress. I will need to meet with her and try to fulfill her assignment.'
  if npc_progress['tiamath'] < 2: $text_display += {<br><div id="under">Audience with Mistress<br><div id = "clear"><a href = 'EXEC: interaction_city = 454 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 IF npc_progress['tiamath'] = 2 and faction_fame['kamira'] = 4:
- $sp_text[1] = '   Tiamat pleased with her order. Nevertheless, I can not become a patrician of Camira House, because I''m already a patrician.'
+ $sp_text[1] = '   Tiamat is pleased with her order. Nevertheless, I cannot become a patrician of Camira House because I’m already a patrician.'
 END
 IF faction_fame['kamira'] = 5 and npc_progress['tiamath'] = 2 and noble_status = 1:
- $sp_text[1] = '   Now I''m noble and patrician of Camira House. If I need help, Tiamat will not fail me.'
+ $sp_text[1] = '   Now I’m a noble, and a patrician of Camira House. If I need help, Tiamat will not fail me.'
 END
 $text_display += {<br><div id="under">Leave<br><div id = "clear"><a href = 'EXEC: city_form = 4 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
@@ -779,7 +779,7 @@ IF faction_fame['korvus'] => 3:
  if npc_progress['pretor_kamael'] < 2: $text_display += {<br><div id="under">Audience with praetor<br><div id = "clear"><a href = 'EXEC: interaction_city = 543 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  else
  $place = 'tower_gate'
- $sp_text[1] = '   Undead Knight stands unchallenged on Raven Tower guard. Try to pass him without invitation is tantamount to suicide.'
+ $sp_text[1] = '   The Undead Knight stands unchallenged as Raven Tower guard. Trying to pass him without invitation is tantamount to suicide.'
  $text_display += '<br><br><br><br>' 
 END
 IF faction_fame['korvus'] => 4:
@@ -787,10 +787,10 @@ IF faction_fame['korvus'] => 4:
  if npc_progress['korvus_knyaz'] < 2: $text_display += {<br><div id="under">Audience with Prince<br><div id = "clear"><a href = 'EXEC: interaction_city = 544 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 IF npc_progress['korvus_knyaz'] = 2 and faction_fame['korvus'] = 4:
- $sp_text[1] = '   Prince pleased with his order. Nevertheless, I can not become a patrician of Corvus House, because I''m already a patrician.'
+ $sp_text[1] = '   The Prince is pleased with his order. Nevertheless, I cannot become a patrician of Corvus House because I’m already a patrician.'
 END
 IF faction_fame['korvus'] = 5 and npc_progress['korvus_knyaz'] = 2 and noble_status = 1:
- $sp_text[1] = '   Now I''m noble and patrician of Corvus House. If I need help, Prince will support me.'
+ $sp_text[1] = '   Now I’m a noble, and a patrician of Corvus House. If I need help, the Prince will support me.'
 END
 $text_display += {<br><div id="under">Leave<br><div id = "clear"><a href = 'EXEC: city_form = 5 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
@@ -801,7 +801,7 @@ $place = 'vatican'
 $text_display = '<br><br><br>'
 IF brand_reputation => 5:
  IF npc_progress['cardinal_de_mujlon'] < 2: 
-  $sp_text[1] = '   To get to the Pope, I need to perform a service for Cardinal.'
+  $sp_text[1] = '   To get to the Pope, I need to perform a service for the Cardinal.'
   $text_display += {<br><div id="under">Audience with Cardinal<br><div id = "clear"><a href = 'EXEC: interaction_city = 161 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
   else
   $text_display += '<br><br>' 
@@ -813,11 +813,11 @@ IF brand_reputation => 5:
   $text_display += '<br><br>' 
  END
  IF npc_progress['pope'] = 2 and noble_status = 1:
-  $sp_text[1] = '   Now I''m noble and patrician of White Town. If I need help, Pope will help me.'
+  $sp_text[1] = '   Now I’m a noble, and a patrician of White Town. If I need help, the Pope will help me.'
  END
  else
  $place = 'vatican_gate'
- $sp_text[1] = '   Vatican gates are guarded very vigilant. To go there I need a special invitation.'
+ $sp_text[1] = '   The Vatican gates are guarded very vigilantly. To go there I need a special invitation.'
  $text_display += '<br><br><br><br>'
 END
 $text_display += {<br><div id="under">Leave<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -825,7 +825,7 @@ $text_display += {<br><div id="under">Leave<br><div id = "clear"><a href = 'EXEC
 
 !Gentleman`s club
 $club_options[1] = {
-$sp_text[1] = '   Sir Shelley''s Gentleman''s club provides great opportunities not only for leisure but also for business. Here you can find a lot of potential customers, or at least to sell slaves to owner himself.'
+$sp_text[1] = '   Sir Shelley’s Gentlemans club provides great opportunities not only for leisure but also for business. Here you can find a lot of potential customers, or at least sell slaves to the owner himself.'
 $text_display = '<br><br>'
 if club_member = 0: $text_display += {<br><div id="under">Join the club<br><div id = "clear"><a href = 'EXEC: interaction_city = 231 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 if club_member = 1: $text_display += {<br><div id="under">Visit the club<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -839,7 +839,7 @@ $text_display += {<br><div id="under">Leave the club<br><div id = "clear"><a hre
 }
 
 $club_options[2] = {
-$sp_text[2] = '   You walk inside and surrenders to entertainment befitting a respectable gentleman. Alcohol, cigars, cards, conversations about politics and of course the lovely maids and actresses... But you must not forget about the business.'
+$sp_text[2] = '   You walk inside and surrender to entertainment befitting a respectable gentleman. Alcohol, cigars, cards, conversations about politics, and of course the lovely maids and actresses... But you must not forget about business.'
 $text_display = '<br><br>'
 $text_display += {<div id="under">Don Karbolio<br><div id = "clear"><a href = 'EXEC: interaction_city = 2311 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<div id="under">Don Sigismund<br><div id = "clear"><a href = 'EXEC: interaction_city = 2312 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -857,7 +857,7 @@ $isabella_options[1] = {
 $sp_text[1] = '     [Isabella]
   - So, <<$master_name>>, we have an agreement, or what?'
 $text_display = '<br><br><br><br><br>'
-$text_display += {<div id="under">Lead Isabella to the Rome<br><div id = "clear"><a href = 'EXEC: interaction_city = 6011 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+$text_display += {<div id="under">Lead Isabella to the Eternal Rome<br><div id = "clear"><a href = 'EXEC: interaction_city = 6011 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">She is too dangerous<br><div id = "clear"><a href = 'EXEC: city_form = 6 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
@@ -893,7 +893,7 @@ $text_display = '<br>'
 $text_display += {<br><div id="under">Fast sex<br><div id = "clear"><a href = 'EXEC: interaction_city = 2221 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Anal sex<br><div id = "clear"><a href = 'EXEC: interaction_city = 2222 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Fast blowjob<br><div id = "clear"><a href = 'EXEC: interaction_city = 2223 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
-$text_display += {<br><div id="under">Fast pazuri<br><div id = "clear"><a href = 'EXEC: interaction_city = 2224 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+$text_display += {<br><div id="under">Fast paizuri<br><div id = "clear"><a href = 'EXEC: interaction_city = 2224 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Sex with lolita<br><div id = "clear"><a href = 'EXEC: interaction_city = 2225 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Change selection<br><div id = "clear"><a href = 'EXEC: sp_txt = 1 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 }
@@ -938,12 +938,12 @@ $boutic_options[1] = {
 $text_display = '<br>'
 $text_display += {<br><div id="under">Menswear<div id = "clear"><a href = 'EXEC: sp_txt = 6 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 IF slave_state > CONST_INT['no_slave']:
- $text_display += {<div id="under">Women`s uniform<div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Women’s uniform<div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Fashionable ladieswear<div id = "clear"><a href = 'EXEC: sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Gloves<div id = "clear"><a href = 'EXEC: sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Shoes<div id = "clear"><a href = 'EXEC: sp_txt = 5 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  else
- $text_display += {<div id="under_gray">Women`s uniform<br></div>}
+ $text_display += {<div id="under_gray">Women’s uniform<br></div>}
  $text_display += {<div id="under_gray">Fashionable ladieswear<br></div>}
  $text_display += {<div id="under_gray">Gloves<br></div>}
  $text_display += {<div id="under_gray">Shoes<br></div>}
@@ -1036,13 +1036,13 @@ $text_display += {<br><div id="under">Other goods<div id = "clear"><a href = 'EX
 $jeweler_options[1] = {
 $text_display = '<br>'
 IF slave_state > CONST_INT['no_slave']:
- $text_display += {<br><div id="under">Women`s jewelry<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Women’s jewelry<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Fashionable accessories<br><div id = "clear"><a href = 'EXEC: sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  else
- $text_display += {<br><div id="under_gray">Women`s jewelry<br></div>}
+ $text_display += {<br><div id="under_gray">Women’s jewelry<br></div>}
  $text_display += {<br><div id="under_gray">Fashionable accessories<br></div>} 
 END
-!$text_display += {<br><div id="under">Men`s jewelry<br><div id = "clear"><a href = 'EXEC: sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+!$text_display += {<br><div id="under">Men’s jewelry<br><div id = "clear"><a href = 'EXEC: sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Check preferences of the proprietress<div id = "clear"><a href = 'EXEC: interaction_city = 11441 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0 and slave['brand'] ! 4:
  $text_display += {<br><div id="under">Offer an employee<br><div id = "clear"><a href = 'EXEC: interaction_city = 11442 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1160,7 +1160,7 @@ $place = 'gastronom'
 $text_display = '<br>'
 $text_display += {<br><div id="under">Eggs and milk<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Groceries and alcohol<br><div id = "clear"><a href = 'EXEC: sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
-$text_display += {<br><div id="under">Butchery<br><div id = "clear"><a href = 'EXEC: sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+$text_display += {<br><div id="under">Butcher<br><div id = "clear"><a href = 'EXEC: sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Check preferences of the proprietress<div id = "clear"><a href = 'EXEC: interaction_city = 11591 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0 and slave['brand'] ! 4:
  $text_display += {<br><div id="under">Offer an employee<br><div id = "clear"><a href = 'EXEC: interaction_city = 11592 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1336,9 +1336,9 @@ IF sparks => 10:
  $text_display += {<div id="under_gray">Kamrian resin x5 (10 sparks)<br></div>} 
 END
 IF sparks => 10:
- $text_display += {<div id="under">Faeries` pollen x5 (10 sparks)<div id = "clear"><a href = 'EXEC: interaction_city = 4313 & mystra_spd = 3 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
+ $text_display += {<div id="under">Faeries’ pollen x5 (10 sparks)<div id = "clear"><a href = 'EXEC: interaction_city = 4313 & mystra_spd = 3 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
  else
- $text_display += {<div id="under_gray">Faeries` pollen x5 (10 sparks)<br></div>} 
+ $text_display += {<div id="under_gray">Faeries’ pollen x5 (10 sparks)<br></div>} 
 END
 IF sparks => 10:
  $text_display += {<div id="under">Essence of oblivion x5 (10 sparks)<div id = "clear"><a href = 'EXEC: interaction_city = 4314 & mystra_spd = 4 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
@@ -1351,7 +1351,7 @@ $text_display += {<br><div id="under">Leave the shop<br><div id = "clear"><a hre
 }
 
 $mistra_options[2] = {
-$sp_text[2] = '   Mystra knows a lot about alchemy and useful potions that can be made in the home laboratory, using ingredients purchased here. Asking her seems like a good idea.'
+$sp_text[2] = '   Mystra knows a lot about alchemy and useful potions that can be made in the home laboratory using ingredients purchased here. Asking her seems like a good idea.'
 $text_display = '<br>'
 $text_display += {<br><div id="under">Tell me about elixirs<div id = "clear"><a href = 'EXEC: interaction_city = 4327 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
 $text_display += {<br><div id="under">Bacchic nectar<div id = "clear"><a href = 'EXEC: interaction_city = 4321 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
@@ -1365,7 +1365,7 @@ $text_display += {<br><div id="under">End conversation<br><div id = "clear"><a h
 
 !spellbook
 $spell_book[0] = {
-$sp_text[0] = '   You open an old worn book with a picture of spark on the cover. It seems you can learn here more about the spells effect. It would be nice to do it before you start to conjure.'
+$sp_text[0] = '   You open an old worn book with a picture of a spark on the cover. It seems you can learn more about spell effect here. It would be nice to do it before you start to conjure.'
 $text_display = '<br>'
 $text_display += {<br><div id="under">Basics<div id = "clear"><a href = 'EXEC: interaction = 71 & gt "interaction"'><img src = "content\pic\clear.gif"></a></div></div>} 
 $text_display += {<br><div id="under">Auspex<div id = "clear"><a href = 'EXEC: interaction = 72 & gt "interaction"'><img src = "content\pic\clear.gif"></a></div></div>} 
@@ -1399,9 +1399,9 @@ IF frige["alcohol"] > 0:
  $text_display += {<br><div id="under_gray">Strong alcohol<br></div>}
 END
 IF lab_store["slime"] > 0:
- $text_display += {<br><div id="under">Fiend`s mucus<div id = "clear"><a href = 'EXEC: $potion_base = "slime" & lab_store["slime"] -= 1 & sp_txt = 1 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
+ $text_display += {<br><div id="under">Fiend’s mucus<div id = "clear"><a href = 'EXEC: $potion_base = "slime" & lab_store["slime"] -= 1 & sp_txt = 1 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
  else
- $text_display += {<br><div id="under_gray">Fiend`s mucus<br></div>} 
+ $text_display += {<br><div id="under_gray">Fiend’s mucus<br></div>} 
 END
 $text_display += {<br><div id="under">Cancel brewing<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
@@ -1419,9 +1419,9 @@ IF lab_store["koffe"] > 0 and put_koffe = 0:
  $text_display += {<br><div id="under_gray">Kamrian resin<br></div>} 
 END
 IF lab_store["meth"] > 0 and put_meth = 0:
- $text_display += {<br><div id="under">Faeries'' pollen<div id = "clear"><a href = 'EXEC: put_meth = 1 & lab_store["meth"] -= 1 & sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
+ $text_display += {<br><div id="under">Faeries’ pollen<div id = "clear"><a href = 'EXEC: put_meth = 1 & lab_store["meth"] -= 1 & sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
  else
- $text_display += {<br><div id="under_gray">Faeries'' pollen<br></div>} 
+ $text_display += {<br><div id="under_gray">Faeries’ pollen<br></div>} 
 END
 IF lab_store["opium"] > 0 and put_opium = 0:
  $text_display += {<br><div id="under">Essence of oblivion<div id = "clear"><a href = 'EXEC: put_opium = 1 & lab_store["opium"] -= 1 & sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
@@ -1444,9 +1444,9 @@ IF lab_store["koffe"] > 0 and put_koffe = 0:
  $text_display += {<br><div id="under_gray">Kamrian resin<br></div>} 
 END
 IF lab_store["meth"] > 0 and put_meth = 0:
- $text_display += {<br><div id="under">Faeries'' pollen<div id = "clear"><a href = 'EXEC: put_meth = 1 & lab_store["meth"] -= 1 & sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
+ $text_display += {<br><div id="under">Faeries’ pollen<div id = "clear"><a href = 'EXEC: put_meth = 1 & lab_store["meth"] -= 1 & sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
  else
- $text_display += {<br><div id="under_gray">Faeries'' pollen<br></div>} 
+ $text_display += {<br><div id="under_gray">Faeries’ pollen<br></div>} 
 END
 IF lab_store["opium"] > 0 and put_opium = 0:
  $text_display += {<br><div id="under">Essence of oblivion<div id = "clear"><a href = 'EXEC: put_opium = 1 & lab_store["opium"] -= 1 & sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>} 
@@ -1469,9 +1469,9 @@ IF lab_store["koffe"] > 0 and put_koffe = 0:
  $text_display += {<br><div id="under_gray">Kamrian resin<br></div>} 
 END
 IF lab_store["meth"] > 0 and put_meth = 0:
- $text_display += {<br><div id="under">Faeries'' pollen<div id = "clear"><a href = 'EXEC: put_meth = 1 & lab_store["meth"] -= 1 & interaction = 22 & gt "interaction"'><img src = "content\pic\clear.gif"></a></div></div>} 
+ $text_display += {<br><div id="under">Faeries’ pollen<div id = "clear"><a href = 'EXEC: put_meth = 1 & lab_store["meth"] -= 1 & interaction = 22 & gt "interaction"'><img src = "content\pic\clear.gif"></a></div></div>} 
  else
- $text_display += {<br><div id="under_gray">Faeries'' pollen<br></div>} 
+ $text_display += {<br><div id="under_gray">Faeries’ pollen<br></div>} 
 END
 IF lab_store["opium"] > 0 and put_opium = 0:
  $text_display += {<br><div id="under">Essence of oblivion<div id = "clear"><a href = 'EXEC: put_opium = 1 & lab_store["opium"] -= 1 & interaction = 22 & gt "interaction"'><img src = "content\pic\clear.gif"></a></div></div>} 
@@ -1578,7 +1578,7 @@ $text_display += {<br><div id="under">Other services<br><div id = "clear"><a hre
 !Coliseum
 !added $sp_text for the first and second options are so theres no sticky text about preparing for battle
 $colloseum_options[1] = { 
- $sp_text[1] = '   You enter the service premises under the amphitheater. The guards passed you without problems - Slavers Guild is always the case in the school of gladiators and the stables. You only have to find the right person.' 
+ $sp_text[1] = '   You enter the premises under the amphitheater. The guards let you pass without problems - the Slavers Guild can always access the school of gladiators and the stables. You only have to find the right person.' 
  $text_display = '<br>'
  $text_display += {<br><div id="under">Lanista<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Stableman<br><div id = "clear"><a href = 'EXEC: sp_txt = 22 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1595,7 +1595,7 @@ $colloseum_options[1] = {
   $text_display += '<br><div id="under_gray">Days to battle: <<gladi_count>><br></div>'
   else
   IF slave_state = CONST_INT['slave_exist'] and slave['energy'] > 0:
-   $text_display += {<br><div id="under">Put gladiatrix<br><div id = "clear"><a href = 'EXEC: sp_txt = 24 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+   $text_display += {<br><div id="under">Present gladiatrix<br><div id = "clear"><a href = 'EXEC: sp_txt = 24 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
    else
    $text_display += {<br><div id="under">Watch the battle<div id = "clear"><a href = 'EXEC: interaction_city = 1252 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END  
@@ -1606,19 +1606,19 @@ $colloseum_options[1] = {
 $colloseum_options[21] = { 
  $text_display = '<br>'
  IF master_energy > 0:
-  $text_display += {<br><div id="under">- Arrange me a sparring<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+  $text_display += {<br><div id="under">- Arrange sparring for me<br><div id = "clear"><a href = 'EXEC: sp_txt = 2 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
   else
-  $text_display += {<div id="under_gray">- Arrange me a sparring<br></div>} 
+  $text_display += {<div id="under_gray">- Arrange sparring for me<br></div>} 
  END
  IF slave_state = CONST_INT['slave_exist'] and slave["energy"] > 0:
-  $text_display += {<div id="under">- Arrange a sparring for my slave<br><div id = "clear"><a href = 'EXEC: sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+  $text_display += {<div id="under">- Arrange sparring for my slave<br><div id = "clear"><a href = 'EXEC: sp_txt = 3 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
   else
-  $text_display += {<div id="under_gray">- Arrange a sparring for my slave<br></div>}   
+  $text_display += {<div id="under_gray">- Arrange sparring for my slave<br></div>}   
  END
  IF assistant_state = 1 and assistant["energy"] > 0: 
-  $text_display += {<div id="under">- Arrange a sparring for my assistant<br><div id = "clear"><a href = 'EXEC: sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+  $text_display += {<div id="under">- Arrange sparring for my assistant<br><div id = "clear"><a href = 'EXEC: sp_txt = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
   else
-  $text_display += {<div id="under_gray">- Arrange a sparring for my assistant<br></div>} 
+  $text_display += {<div id="under_gray">- Arrange sparring for my assistant<br></div>} 
  END
  IF spm_number < master_fighter and master_energy > 0:
   $text_display += {<div id="under">- Teach me a special technique<br><div id = "clear"><a href = 'EXEC: sp_txt = 5 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1636,7 +1636,7 @@ $colloseum_options[21] = {
 }
 
 $colloseum_options[22] = {
- $sp_text[22] = '   You find a beastman-stableman with a horse''s head, which is responsible for race. He can be a source of valuable information, especially when it is necessary to know what awaits you in the next race.'
+ $sp_text[22] = '   You find the beastman-stableman with a horse’s head who is responsible for the race. He can be a source of valuable information, especially when it is necessary to know what awaits you in the next race.'
  $text_display = '<br>'
  $text_display += {<br><div id="under">- Tell me about the next track<br><div id = "clear"><a href = 'EXEC: interaction_city = 1951 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">- Tell me about a chariot race<br><div id = "clear"><a href = 'EXEC: interaction_city = 1952 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1645,7 +1645,7 @@ $colloseum_options[22] = {
 
 
 $colloseum_options[23] = { 
- $sp_text[23] = '   While there is still time for race, you can order a variety of chariot modification. The more heavy elements are used, the less will be the speed and agility of your chariot, but it will lower the risk of the fact that it may fall apart in the middle of the race. Ignoring your own defense, you''re playing with death.'
+ $sp_text[23] = '   While there is still time before the race, you can order a variety of chariot modification. The more heavy elements are used, the less the speed and agility of your chariot, but it will lower the risk of falling apart in the middle of the race. Ignore your own defense and you’re playing with death.'
  IF heavy_frame = 1:
   $text_display += {<br><br><div id="under">Pobedit frame<br><div id = "clear"><a href = 'EXEC: heavy_frame = 0 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
   else
@@ -1677,7 +1677,7 @@ $colloseum_options[23] = {
 
 $colloseum_options[24] = { 
  IF $slave['trademark_style'] = '':
-  $sp_text[24] = '   Battles take place in the arena with a clear regulation of weapons and equipment. You need to choose a style that will fight <<$slave_name>> and appropriate outfit to this style.'
+  $sp_text[24] = '   Battles take place in the arena, with clear regulation of weapons and equipment. You need to choose the style that <<$slave_name>> will fight with and an outfit appropriate to this style.'
   $text_display += {<br><br><div id="under">Net and trident<br><div id = "clear"><a href = 'EXEC: $g_type = "retiarius" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Armor and whipsaw<br><div id = "clear"><a href = 'EXEC: $g_type = "flagrius" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Dual wield<br><div id = "clear"><a href = 'EXEC: $g_type = "dimacherus" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1685,7 +1685,7 @@ $colloseum_options[24] = {
   $text_display += {<br><div id="under">Heavy weapons<br><div id = "clear"><a href = 'EXEC: $g_type = "kimerian" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Refuse the fight<br><div id = "clear"><a href = 'EXEC: sp_txt = 1 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
   ELSE
-  $sp_text[24] = '   Recognized champion of the arena fights only in the most spectacular battles, which leads the audience the most. Usually this unusual fights that involves the champions opens and closes days in the arena.'
+  $sp_text[24] = '   Recognized champions of the arena fight only in the most spectacular battles, which lead the audience the most. Usually these unusual fights involving champions are openers and closers for days in the arena.'
   $text_display += {<br><br><div id="under">Challange the champion<br><div id = "clear"><a href = 'EXEC: $slave["trademark_style"] & challenge_type = 1 & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Group fight<br><div id = "clear"><a href = 'EXEC: $slave["trademark_style"] & challenge_type = 2 & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Battle against fiend<br><div id = "clear"><a href = 'EXEC: $slave["trademark_style"] & challenge_type = 3 & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1702,7 +1702,7 @@ $colloseum_options[2] = {
  $text_display += {<div id="under">- Against amazon<br><div id = "clear"><a href = 'EXEC: colloseum_fight = 4 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">- Against ironclad<br><div id = "clear"><a href = 'EXEC: colloseum_fight = 5 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 !$text_display += {<div id="under_gray">- Against you!<br></div>} 
- $text_display += {<br><div id="under">- Albeit no, I`d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">- No, I’d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
 $colloseum_options[3] = { 
@@ -1712,7 +1712,7 @@ $colloseum_options[3] = {
  $text_display += {<div id="under">- Against amazon<br><div id = "clear"><a href = 'EXEC: colloseum_fight = 14 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">- Against ironclad<br><div id = "clear"><a href = 'EXEC: colloseum_fight = 15 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 !$text_display += {<div id="under_gray">- Against you!<br></div>} 
- $text_display += {<br><div id="under">- Albeit no, I`d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">- No, I’d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
 $colloseum_options[4] = { 
@@ -1722,7 +1722,7 @@ $colloseum_options[4] = {
  $text_display += {<div id="under">- Against amazon<br><div id = "clear"><a href = 'EXEC: colloseum_fight = 34 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">- Against ironclad<br><div id = "clear"><a href = 'EXEC: colloseum_fight = 35 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 !$text_display += {<div id="under_gray">- Against you!<br></div>} 
- $text_display += {<br><div id="under">- Albeit no, I`d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">- No, I’d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
 $colloseum_options[5] = {
@@ -1759,7 +1759,7 @@ $colloseum_options[5] = {
   else
   $text_display += {<div id="under_gray">Precise hit <br></div>} 
  END   
- $text_display += {<br><div id="under">- Albeit no, I`d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">- No, I`d rather...<br><div id = "clear"><a href = 'EXEC: sp_txt = 21 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
 !Moneylender
@@ -1816,7 +1816,7 @@ IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0 and slave['bran
  else
  $text_display += {<br><div id="under_gray">Offer merchandise<br></div>}
 END
-$text_display += {<br><div id="under">Check preferences к рабыням<br><div id = "clear"><a href = 'EXEC: interaction_city = 3112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+$text_display += {<br><div id="under">Check preferences<br><div id = "clear"><a href = 'EXEC: interaction_city = 3112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
 $text_display += {<br><div id="under">Bid farewell and leave<br><div id = "clear"><a href = 'EXEC: city_form = 31 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
