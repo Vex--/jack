@@ -9,36 +9,36 @@ $защита_врага_описание['блок'] = "<a href='EXEC: msg $б�
 $защита_врага_описание['контратака'] = "<a href='EXEC: msg $контратака_справка'><font color='purple'>Counterattacks</font></a>"
 $защита_врага_описание['уклонение'] = "<a href='EXEC: msg $уклонение_справка'><font color='green'>Evades</font></a>"
 
-$слабость_справка = "   Weakened character deals half damage with their <font color='red'>power</font> attacks."
-$скованность_справка = "   Character experiencing stiffness will deal half damage with their <font color='green'>speed</font> attacks."
-$боль_справка = "   Character is experiencing severe pain will inflict half damage with their <font color='purple'>precise</font> attacks."
-$шаткость_справка = "   Character that is not standing firmly on his feet gets double damage from <font color='red'>power</font> attacks."
-$ошеломление_справка = "   Stunned character gets twice as much damage from <font color='green'>speed</font> attacks."
-$рассеянность_справка = "   Distracted character will receive twice as much damage from <font color='purple'>precise</font> attacks."
-$бешенство_справка = "   Character experiences battle fury that doubles the damage of his <font color='red'>power</font> attacks."
-$разгон_справка = "   Wisely using inertia for acceleration character does double damage with <font color='green'>speed</font> attacks."
-$меткость_справка = "&nbsp&nbsp&nbsp<font color='purple'>Precise</font> attacks of this character deal double damage."
-$адреналин_справка = "   Adrenaline surge allows this character to ignore half the damage from <font color='red'>power</font> attacks."
-$верткость_справка = "   Character dexterously evades from <font color='green'>speed</font> attacks, ignoring half of their damage."
-$внимание_справка = "   Attentive character reflects <font color='purple'>precise</font> attacks twice as successful, receiving only half of their damage."
+$слабость_справка = "   Weakened characters deal half damage with their <font color='red'>power</font> attacks."
+$скованность_справка = "   Characters experiencing stiffness will deal half damage with their <font color='green'>speed</font> attacks."
+$боль_справка = "   Characters experiencing severe pain will inflict half damage with their <font color='purple'>precise</font> attacks."
+$шаткость_справка = "   Characters that are not standing firmly on their feet will get double damage from <font color='red'>power</font> attacks."
+$ошеломление_справка = "   Stunned characters get twice as much damage from <font color='green'>speed</font> attacks."
+$рассеянность_справка = "   Distracted characters will receive twice as much damage from <font color='purple'>precise</font> attacks."
+$бешенство_справка = "   Characters experiencing battle fury will double the damage of their <font color='red'>power</font> attacks."
+$разгон_справка = "   Characters accelerated through wise use of their inertia will do double damage with their <font color='green'>speed</font> attacks."
+$меткость_справка = "   The <font color='purple'>precise</font> attacks of this character will deal double damage."
+$адреналин_справка = "   Adrenaline surge allows this character to ignore half the damage of <font color='red'>power</font> attacks."
+$верткость_справка = "   The character dexterously evades <font color='green'>speed</font> attacks, ignoring half of their damage."
+$внимание_справка = "   Attentive characters reflect <font color='purple'>precise</font> attacks quite successfully, receiving only half of their damage."
 
 $хиты_справка = "&nbsp&nbsp&nbsp<font color='red'>Red heart</font> demonstrates vitality. 0 = death.
    <font color='green'>Green heart</font> demonstrates stamina. 0 = loss of consciousness.
    <font color='purple'>Purple heart</font> demonstrates morale. 0 = retreat."
 
-$блок_справка = "&nbsp&nbsp&nbsp<font color='red'>Power attack</font> will pierce this defense, inflicting double damage.
-   <font color='purple'>Precise attack</font> will inflict a negative state on a blocking person. 
+$блок_справка = "&nbsp&nbsp&nbsp<font color='red'>Power attack</font> will pierce their defense, inflicting double damage.
+   <font color='purple'>Precise attack</font> will inflict a negative state on the blocking enemy. 
    <font color='green'>Speed attack</font> will give the attacker a favorable condition."
-$контратака_справка = "&nbsp&nbsp&nbsp<font color='purple'>Precise attack</font> will pierce this defense, inflicting double damage.
+$контратака_справка = "&nbsp&nbsp&nbsp<font color='purple'>Precise attack</font> will pierce their defense, inflicting double damage.
    <font color='red'>Power attack</font> will inflict a negative state on a blocking person. 
    <font color='green'>Speed attack</font> will give the attacker a favorable condition."
-$уклонение_справка = "&nbsp&nbsp&nbsp<font color='green'>Speed attack</font> will pierce this defense, inflicting double damage.
-   <font color='purple'>Precise attack</font> will inflict a negative state on a blocking person. 
+$уклонение_справка = "&nbsp&nbsp&nbsp<font color='green'>Speed attack</font> will pierce their defense, inflicting double damage.
+   <font color='purple'>Precise attack</font> will inflict a negative state on the blocking enemy. 
    <font color='red'>Power attack</font> will give the attacker a favorable condition."
    
-$живучесть_справка = "   Red heart shows the value of vitality. Loss of vitality leads to wounds and traumas. If the value reaches zero, the character dies."
-$выносливость_справка = "   Green heart shows the value of stamina. Loss of stamina may result in bruising. If stamina reaches zero, the character falls unconscious, but is alive."
-$боевой_дух_справка = "   Purple heart shows the scale of morale. Loss of morale does not hold long-term consequences. When morale drops to zero, the character will surrender or run away from the battlefield."
+$живучесть_справка = "   The red heart shows the vitality value. The loss of vitality leads to wounds and traumas. If the value reaches zero, the character dies."
+$выносливость_справка = "   The green heart shows the stamina value. The loss of stamina may result in bruising. If stamina reaches zero, the character falls unconscious, but is alive."
+$боевой_дух_справка = "   The purple heart shows the morale scale. The loss of morale does not hold long-term consequences. When morale drops to zero, the character will surrender or run away from the battlefield."
 
 --- #тексты_движка ---------------------------------
 
