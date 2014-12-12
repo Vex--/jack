@@ -67,11 +67,11 @@ i = 0
 if i < n: jump 'loop4'
 
 if ndex < 1: $slave_mood_list[1] = '   [<<$slave_name>>]
-- I''m all right. Nothing special...'
+- I’m all right. It’s nothing special...'
 
 :loop_broken
 if $slave_psy_status = 'broken': $slave_mood_list[1] = '   [<<$slave_name>>]
-- Nohow, I do not care.'
+- No, I do not care.'
 
 if master_mood > 5:  master_mood = 5
 if master_mood < -5:  master_mood = -5
