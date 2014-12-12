@@ -51,7 +51,7 @@ if i < n: jump 'interest_loop'
 
 bank_size = 100 * rating
 $auction_flow[1] = '
-   Middleman offers starting bid of <<bank_size>> sparks. If noone bids more, <<$slave_name>> goes to him at that price.'
+   The middleman offers a starting bid of <<bank_size>> sparks. If no one any bids more, <<$slave_name>> will go to him at that price.'
 $auc_winner = 'Перекупщик'
 bet_size = auction_increment[rating]
 y = 0
@@ -77,7 +77,7 @@ IF bank_size < cap_summ[$auction_participant[i]] and i ! y:
  IF bet_size > 0:
   bank_size += bet_size
   $auction_flow[u] = '
-   <<$npc_name[$auction_participant[i]]>> bets <<bet_size>> more and increases bet to <<bank_size>>'
+   <<$npc_name[$auction_participant[i]]>> bets <<bet_size>> more and increases the bet to <<bank_size>>.'
   $auc_winner = $npc_name[$auction_participant[i]]
   y = i
   x = 1
