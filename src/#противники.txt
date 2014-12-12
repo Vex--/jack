@@ -27,7 +27,7 @@
 $название_моба['подручный'] = "Minion"
 $аватара_моба['подручный'] = "content/pic/mob/minion_ava.jpg"
 $силуэт_моба['подручный'] = "content/pic/mob/minion.gif"
-$описание_моба['подручный'] = "Armed with a rubber baton minion of a black medic."
+$описание_моба['подручный'] = "Armed with a rubber baton, he is the Black Medic’s Minion."
 $склонение_моб['подручный'] = "minion"
 $склонение_моба['подручный'] = "minion"
 $склонение_мобу['подручный'] = "minion"
@@ -43,9 +43,9 @@ $атака_1_тип_вреда['подручный'] = 'дробящий'
 $атака_1_штраф['подручный'] = 'шаткость'
 $атака_1_бонус['подручный'] = 'бешенство'
 атака_1_длительность['подручный'] = 4
-$атака_1_текст['подручный'] = "Minion beats you <font color='red'>with full strength</font> using his rubber baton."
+$атака_1_текст['подручный'] = "The Black Medic’s Minion beats at you <font color='red'>with full strength</font> using his rubber baton."
 
-$смерть['подручный'] = 'Defeated minion of a black medic lies on the ground.'
+$смерть['подручный'] = 'The defeated Black Medic’s Minion lies on the ground.'
 
 модификатор_колющий['подручный'] = 0
 модификатор_рубящий['подручный'] = 0
@@ -63,7 +63,7 @@ $смерть['подручный'] = 'Defeated minion of a black medic lies on 
 $название_моба['канибал'] = "Cannibal"
 $аватара_моба['канибал'] = "content/pic/mob/canibal_ava.jpg"
 $силуэт_моба['канибал'] = "content/pic/mob/canibal.gif"
-$описание_моба['канибал'] = "Shaking from the kuru disease cannibal."
+$описание_моба['канибал'] = "A Cannibal shaking from the Kuru disease."
 $склонение_моб['канибал'] = "cannibal"
 $склонение_моба['канибал'] = "cannibal"
 $склонение_мобу['канибал'] = "cannibal"
@@ -79,9 +79,9 @@ $атака_1_тип_вреда['канибал'] = 'дробящий'
 $атака_1_штраф['канибал'] = 'шаткость'
 $атака_1_бонус['канибал'] = 'бешенство'
 атака_1_длительность['канибал'] = 3
-$атака_1_текст['канибал'] = "Sick cannibal tries to strangle you with his trembling but yet <font color='purple'>strong</font> hands."
+$атака_1_текст['канибал'] = "The sick Cannibal tries to strangle you with his trembling yet <font color='purple'>strong</font> hands."
 
-$смерть['канибал'] = 'Killed cannibal lies on the ground.'
+$смерть['канибал'] = 'The killed Cannibal lies on the ground.'
 
 !Cripple ['калека']
 $название_моба['калека'] = "Cripple"
@@ -103,9 +103,9 @@ $атака_1_тип_вреда['калека'] = 'дробящий'
 $атака_1_штраф['калека'] = 'ошеломление'
 $атака_1_бонус['калека'] = 'адреналин'
 атака_1_длительность['калека'] = 3
-$атака_1_текст['калека'] = "Cripple with surprising <font color='red'>power</font> beats you with his crutch."
+$атака_1_текст['калека'] = "The Cripple with surprising <font color='red'>power</font> beats you with his crutch."
 
-$смерть['калека'] = 'Defeated cripple lies in a pool of blood.'
+$смерть['калека'] = 'The defeated Cripple lies in a pool of blood.'
 
 !Beggar ['нищеброд']
 $название_моба['нищеброд'] = "Beggar"
@@ -127,9 +127,9 @@ $атака_1_тип_вреда['нищеброд'] = 'дробящий'
 $атака_1_штраф['нищеброд'] = 'рассеянность'
 $атака_1_бонус['нищеброд'] = 'меткость'
 атака_1_длительность['нищеброд'] = 3
-$атака_1_текст['нищеброд'] = "Beggar with surprising <font color='purple'>precision</font> throws rocks at you."
+$атака_1_текст['нищеброд'] = "The Beggar with surprising <font color='purple'>precision</font> throws rocks at you."
 
-$смерть['нищеброд'] = 'Beggar fell down dead.'
+$смерть['нищеброд'] = 'The Beggar fell down dead.'
 
 !Madman ['безумец']
 $название_моба['безумец'] = "Madman"
@@ -151,9 +151,9 @@ $атака_1_тип_вреда['безумец'] = 'рубящий'
 $атака_1_штраф['безумец'] = 'боль'
 $атака_1_бонус['безумец'] = 'адреналин'
 атака_1_длительность['безумец'] = 3
-$атака_1_текст['безумец'] = "Madman pounces on you, trying to cut your <font color='purple'>throat</font> with his teeth. Maybe he has a zombie virus?"
+$атака_1_текст['безумец'] = "The Madman pounces on you, trying to cut your <font color='purple'>throat</font> with his teeth. Maybe he has a zombie virus?"
 
-$смерть['безумец'] = 'Madman beats in his death throes.'
+$смерть['безумец'] = 'The Madman bleats in his death throes.'
 
 !Haggard ['изможденный']
 $название_моба['изможденный'] = "Haggard"
@@ -175,9 +175,9 @@ $атака_1_тип_вреда['изможденный'] = 'колющий'
 $атака_1_штраф['изможденный'] = 'слабость'
 $атака_1_бонус['изможденный'] = 'разгон'
 атака_1_длительность['изможденный'] = 5
-$атака_1_текст['изможденный'] = "Skinny old man with surprising <font color='green'>speed</font> pokes you with homemade sharpening."
+$атака_1_текст['изможденный'] = "The Haggard old man with surprising <font color='green'>speed</font> pokes you with a homemade shiv."
 
-$смерть['изможденный'] = 'Haggard corpse lying on the ground like a broken doll.'
+$смерть['изможденный'] = 'His Haggard corpse lying on the ground like a broken doll.'
 
 
 
@@ -185,8 +185,8 @@ $смерть['изможденный'] = 'Haggard corpse lying on the ground li
 
 !SPARRING PARTNERS
 !NAKED SLAVE ['голая_рабыня']
-$название_моба['голая_рабыня'] = "Naked slave"
-$описание_моба['голая_рабыня'] = "Student of the gladiators school, which is released to fight not only unarmed, but all naked. This is a necessary step of training to future gladiatrix, so that she accustomed to her role as entertainment for the public."
+$название_моба['голая_рабыня'] = "Naked Slave"
+$описание_моба['голая_рабыня'] = "Student of the gladiator school are released to fight not only unarmed, but also naked. This is a necessary step in the training of a future gladiatrix, so that she is accustomed to her role as entertainment for the public."
 $склонение_моб['голая_рабыня'] = "naked slave"
 $склонение_моба['голая_рабыня'] = "naked slave"
 $склонение_мобу['голая_рабыня'] = "naked slave"
@@ -202,23 +202,23 @@ $атака_1_тип_вреда['голая_рабыня'] = 'дробящий'
 $атака_1_штраф['голая_рабыня'] = 'боль'
 $атака_1_бонус['голая_рабыня'] = 'верткость'
 атака_1_длительность['голая_рабыня'] = 4
-$атака_1_текст['голая_рабыня'] = "Naked gladiatrix kicks you, aiming <font color='purple'>exactly</font> in the groin."
+$атака_1_текст['голая_рабыня'] = "The Naked Gladiatrix kicks you, aiming <font color='purple'>exactly</font> at your groin."
 $атака_2_тип['голая_рабыня'] = 'быстрая'
 $атака_2_тип_вреда['голая_рабыня'] = 'рубящий'
 $атака_2_штраф['голая_рабыня'] = 'боль'
 $атака_2_бонус['голая_рабыня'] = 'бешенство'
 атака_2_длительность['голая_рабыня'] = 4
-$атака_2_текст['голая_рабыня'] = "Naked gladiatrix <font color='green'>furiously</font> scratches you with fingernails."
+$атака_2_текст['голая_рабыня'] = "The Naked Gladiatrix <font color='green'>furiously</font> scratches at you with her fingernails."
 $атака_3_тип['голая_рабыня'] = 'сильная'
 $атака_3_тип_вреда['голая_рабыня'] = 'рубящий'
 $атака_3_штраф['голая_рабыня'] = 'боль'
 $атака_3_бонус['голая_рабыня'] = 'адреналин'
 атака_3_длительность['голая_рабыня'] = 4
-$атака_3_текст['голая_рабыня'] = "Naked gladiatrix <font color='red'>like mad</font> bites you with teeth"
+$атака_3_текст['голая_рабыня'] = "The Naked Gladiatrix bites you <font color='red'>like mad</font> with her teeth"
 
-$смерть['голая_рабыня'] = 'Naked gladiatrix lying curled up in a pool of her own blood.'
-$отключка['голая_рабыня'] = 'Naked gladiatrix lying on the sand of the arena, losing consciousness from the beatings.'
-$бегство['голая_рабыня'] = 'Naked gladiatrix kneeling, begging for mercy.'
+$смерть['голая_рабыня'] = 'The Naked Gladiatrix lies curled up in a pool of her own blood.'
+$отключка['голая_рабыня'] = 'The Naked Gladiatrix lies on the sand of the arena, losing consciousness from the beating.'
+$бегство['голая_рабыня'] = 'The Naked Gladiatrix is kneeling, begging for mercy.'
 
 хрупкий['голая_рабыня'] = 0
 тонкое_тело['голая_рабыня'] = 0
@@ -240,7 +240,7 @@ $бегство['голая_рабыня'] = 'Naked gladiatrix kneeling, begging
 
 !MISTRESS ['госпожа']
 $название_моба['госпожа'] = "Mistress"
-$описание_моба['госпожа'] = "Although the whip and not a deadly weapon, it is very often used in the battle of women gladiators. Every school graduate should be able to apply the painful blows with such weapon... and tolerate them."
+$описание_моба['госпожа'] = "Although the whip is not a deadly weapon, it is very often used in the battle of women gladiators. Every school graduate should be able to apply painful blows with such weapon... and tolerate them."
 $склонение_моб['госпожа'] = "mistress with a whip"
 $склонение_моба['госпожа'] = "mistress with a whip"
 $склонение_мобу['госпожа'] = "mistress with a whip"
@@ -256,17 +256,17 @@ $атака_1_тип_вреда['госпожа'] = 'психический'
 $атака_1_штраф['госпожа'] = 'боль'
 $атака_1_бонус['госпожа'] = 'разгон'
 атака_1_длительность['госпожа'] = 5
-$атака_1_текст['госпожа'] = "Mistress deals <font color='purple'>tricky</font> sway with her whip, attacking from an unexpected side."
+$атака_1_текст['госпожа'] = "The Mistress gives a <font color='purple'>tricky</font> sway with her whip, attacking from an unexpected side."
 $атака_2_тип['госпожа'] = 'быстрая'
 $атака_2_тип_вреда['госпожа'] = 'психический'
 $атака_2_штраф['госпожа'] = 'боль'
 $атака_2_бонус['госпожа'] = 'меткость'
 атака_2_длительность['госпожа'] = 5
-$атака_2_текст['госпожа'] = "Mistress <font color='green'>furiously</font> whips you with her whip from all sides."
+$атака_2_текст['госпожа'] = "The Mistress <font color='green'>furiously</font> whips you from all sides."
 
-$смерть['госпожа'] = 'Mistress lying dead in a pool of her own blood. Handle of the whip fell out from her feeble fingers...'
-$отключка['госпожа'] = 'Beaten mistress crouched on the sand of the arena, unable to get up and continue the fight.'
-$бегство['госпожа'] = 'Mistress dropped the whip and got on her knees, begging you for mercy.'
+$смерть['госпожа'] = 'The Mistress lies dead in a pool of her own blood. The handle of the whip fell out of her feeble fingers...'
+$отключка['госпожа'] = 'The beaten Mistress is crouched on the sand of the arena, unable to get up and continue the fight.'
+$бегство['госпожа'] = 'The Mistress dropped the whip and got on her knees, begging you for mercy.'
 
 хрупкий['госпожа'] = 0
 тонкое_тело['госпожа'] = 0
@@ -288,7 +288,7 @@ $бегство['госпожа'] = 'Mistress dropped the whip and got on her kn
 
 !SHINOBI ['шиноби']
 $название_моба['шиноби'] = "Shinobi"
-$описание_моба['шиноби'] = "Shinobi-warriors armed with short swords and more rely on speed and maneuver than powerful blows or strong armor."
+$описание_моба['шиноби'] = "Shinobi warriors armed with short swords rely more on speed and maneuverability than powerful blows or strong armor."
 $склонение_моб['шиноби'] = "shinobi"
 $склонение_моба['шиноби'] = "shinobi"
 $склонение_мобу['шиноби'] = "shinobi"
@@ -304,17 +304,17 @@ $атака_1_тип_вреда['шиноби'] = 'колющий'
 $атака_1_штраф['шиноби'] = 'ошеломление'
 $атака_1_бонус['шиноби'] = 'разгон'
 атака_1_длительность['шиноби'] = 5
-$атака_1_текст['шиноби'] = "Shinobi deals <font color='purple'>insidious</font> thrust at the most unexpected moment."
+$атака_1_текст['шиноби'] = "The Shinobi deals an <font color='purple'>insidious</font> thrust at the most unexpected moment."
 $атака_2_тип['шиноби'] = 'быстрая'
 $атака_2_тип_вреда['шиноби'] = 'рубящий'
 $атака_2_штраф['шиноби'] = 'рассеянность'
 $атака_2_бонус['шиноби'] = 'меткость'
 атака_2_длительность['шиноби'] = 5
-$атака_2_текст['шиноби'] = "Sword in the shinobi hands <font color='green'>spins</font> with the speed of the propeller."
+$атака_2_текст['шиноби'] = "The sword in the Shinobi’s hands <font color='green'>spins</font> with the speed of the propeller."
 
-$смерть['шиноби'] = 'Defeated shinobi lying in a pool of her own blood.'
-$отключка['шиноби'] = 'Beaten shinobi lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['шиноби'] = 'Shinobi drops her weapons and surrenders at mercy of the winner.'
+$смерть['шиноби'] = 'The defeated Shinobi lies in a pool of her own blood.'
+$отключка['шиноби'] = 'The beaten Shinobi lies on the sand of the arena and can not get up to continue the fight.'
+$бегство['шиноби'] = 'The Shinobi drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['шиноби'] = 0
 тонкое_тело['шиноби'] = 0
@@ -336,7 +336,7 @@ $бегство['шиноби'] = 'Shinobi drops her weapons and surrenders at m
 
 !AMAZON ['амазонка']
 $название_моба['амазонка'] = "Amazon"
-$описание_моба['амазонка'] = "Physically strong slaves often choose amazons barbaric style of fighting - almost naked, but with a heavy two-handed weapon."
+$описание_моба['амазонка'] = "Physically strong slaves often choose amazon or barbaric styles of fighting - almost naked, but with heavy two-handed weapons."
 $склонение_моб['амазонка'] = "amazon"
 $склонение_моба['амазонка'] = "amazon"
 $склонение_мобу['амазонка'] = "amazon"
@@ -352,17 +352,17 @@ $атака_1_тип_вреда['амазонка'] = 'дробящий'
 $атака_1_штраф['амазонка'] = 'шаткость'
 $атака_1_бонус['амазонка'] = 'адреналин'
 атака_1_длительность['амазонка'] = 5
-$атака_1_текст['амазонка'] = "<font color='red'>Swinging</font> with all her strength, amazon unleashes the power of her two-handed weapon."
+$атака_1_текст['амазонка'] = "<font color='red'>Swinging</font> with all her strength, the Amazon unleashes the power of her two-handed weapon."
 $атака_2_тип['амазонка'] = 'сильная'
 $атака_2_тип_вреда['амазонка'] = 'колющий'
 $атака_2_штраф['амазонка'] = 'скованность'
 $атака_2_бонус['амазонка'] = 'внимание'
 атака_2_длительность['амазонка'] = 5
-$атака_2_текст['амазонка'] = "Amazon trying to deal you <font color='red'>deadly</font> wound, using a spike on the back of the hammer."
+$атака_2_текст['амазонка'] = "The Amazon tries to deal you a <font color='red'>deadly</font> wound using the spike on the back of her hammer."
 
-$смерть['амазонка'] = 'The lifeless body of the mighty amazon helplessly lying on the blood-soaked sand of the arena.'
-$отключка['амазонка'] = 'Amazon lying on the yellow sand of the arena unconscious.'
-$бегство['амазонка'] = 'Mighty amazon drops her weapon and surrenders at mercy of the winner.'
+$смерть['амазонка'] = 'The lifeless body of the mighty Amazon lies helplessly on the blood-soaked sand of the arena.'
+$отключка['амазонка'] = 'The Amazon lies on the yellow sands of the arena, unconscious.'
+$бегство['амазонка'] = 'The mighty Amazon drops her weapon and surrenders to the mercy of the winner.'
 
 хрупкий['амазонка'] = 0
 тонкое_тело['амазонка'] = 0
@@ -384,7 +384,7 @@ $бегство['амазонка'] = 'Mighty amazon drops her weapon and surren
 
 !IRONCLAD ['латница']
 $название_моба['латница'] = "Ironclad"
-$описание_моба['латница'] = "Even when gladiatrix wear heavy armor, this armor is manufactured in such a way as to leave open some interesting places. In the end, the fight - it is primarily a show!"
+$описание_моба['латница'] = "Even when a gladiatrix wears heavy armor, this armor is manufactured in such a way as to leave some interesting places open. In the end, the fight - is primarily a show!"
 $склонение_моб['латница'] = "ironclad"
 $склонение_моба['латница'] = "ironclad"
 $склонение_мобу['латница'] = "ironclad"
@@ -400,16 +400,16 @@ $атака_1_тип_вреда['латница'] = 'рубящий'
 $атака_1_штраф['латница'] = 'ошеломление'
 $атака_1_бонус['латница'] = 'разгон'
 атака_1_длительность['латница'] = 5
-$атака_1_текст['латница'] = "Ironclad with all her strength <font color='red'>unleashes</font> the blow of her sword on your head."
+$атака_1_текст['латница'] = "The Ironclad gladiatrix, with all her strength, <font color='red'>unleashes</font> a blow from her sword on your head."
 $атака_2_тип['латница'] = 'быстрая'
 $атака_2_тип_вреда['латница'] = 'рубящий'
 $атака_2_штраф['латница'] = 'шаткость'
 $атака_2_бонус['латница'] = 'бешенство'
 атака_2_длительность['латница'] = 5
-$атака_2_текст['латница'] = "Ironclad deals <font color='green'>series</font> of fast attacks, trying to deprive you of balance."
-$смерть['латница'] = 'Ironclad''s lifeless body lying on the blood-soaked sand of the arena.'
-$отключка['латница'] = 'Ironclad lying on the ground unconscious.'
-$бегство['латница'] = 'Unable to endure the pain, ironclad surrender at mercy of the winner.'
+$атака_2_текст['латница'] = "The Ironclad gladiatrix deals a <font color='green'>series</font> of fast attacks, trying to deprive you of balance."
+$смерть['латница'] = 'The Ironclad gladiatrix’s lifeless body lies on the blood-soaked sands of the arena.'
+$отключка['латница'] = 'The Ironclad gladiatrix lies on the ground unconscious.'
+$бегство['латница'] = 'Unable to endure the pain, the Ironclad gladiatrix surrender to the mercy of the winner.'
 
 хрупкий['латница'] = 0
 тонкое_тело['латница'] = 0
@@ -435,7 +435,7 @@ $бегство['латница'] = 'Unable to endure the pain, ironclad surrend
 $название_моба['паладин'] = "Paladin"
 $аватара_моба['паладин'] = "content/pic/mob/paladin_ava.jpg"
 $силуэт_моба['паладин'] = "content/pic/mob/paladin.gif"
-$описание_моба['паладин'] = "   Paladin in the service of the Taurus House."
+$описание_моба['паладин'] = "   A Paladin in the service of the Taurus House."
 $склонение_моб['паладин'] = "paladin"
 $склонение_моба['паладин'] = "paladin"
 $склонение_мобу['паладин'] = "paladin"
@@ -451,17 +451,17 @@ $атака_1_тип_вреда['паладин'] = 'рубящий'
 $атака_1_штраф['паладин'] = 'шаткость'
 $атака_1_бонус['паладин'] = 'разгон'
 атака_1_длительность['паладин'] = 7
-$атака_1_текст['паладин'] = "Paladin <font color='red'>unleashes</font> the blow of his sword on your head."
+$атака_1_текст['паладин'] = "The Paladin <font color='red'>unleashes</font> a blow from his sword on your head."
 $атака_2_тип['паладин'] = 'быстрая'
 $атака_2_тип_вреда['паладин'] = 'рубящий'
 $атака_2_штраф['паладин'] = 'ошеломление'
 $атака_2_бонус['паладин'] = 'бешенство'
 атака_2_длительность['паладин'] = 7
-$атака_2_текст['паладин'] = "Paladin easily <font color='green'>rotates</font> his two-handed sword, attacking you from the most unexpected sides."
+$атака_2_текст['паладин'] = "The Paladin easily <font color='green'>rotates</font> his two-handed sword, attacking you from the most unexpected sides."
 
-$смерть['паладин'] = 'Bloodied paladin lying on the ground, his armor pierced in several places.'
-$отключка['паладин'] = 'Paladin lying on the ground, you see heavy dent on his helmet.'
-$бегство['паладин'] = 'Paladin of Taurus House retreats... What a disgrace!'
+$смерть['паладин'] = 'The bloodied Paladin lies on the ground, his armor pierced in several places.'
+$отключка['паладин'] = 'The Paladin lies on the ground. You see a heavy dent on his helmet.'
+$бегство['паладин'] = 'The Paladin of Taurus House retreats... What a disgrace!'
 
 хрупкий['паладин'] = 0
 тонкое_тело['паладин'] = 0
@@ -485,7 +485,7 @@ $бегство['паладин'] = 'Paladin of Taurus House retreats... What a 
 $название_моба['пехотинец'] = "Footman"
 $аватара_моба['пехотинец'] = "content/pic/mob/footman_ava.jpg"
 $силуэт_моба['пехотинец'] = "content/pic/mob/footman.gif"
-$описание_моба['пехотинец'] = "   Footman in the service of the Taurus House."
+$описание_моба['пехотинец'] = "   A Footman in the service of the Taurus House."
 $склонение_моб['пехотинец'] = "footman"
 $склонение_моба['пехотинец'] = "footman"
 $склонение_мобу['пехотинец'] = "footman"
@@ -501,17 +501,17 @@ $атака_1_тип_вреда['пехотинец'] = 'колющий'
 $атака_1_штраф['пехотинец'] = 'боль'
 $атака_1_бонус['пехотинец'] = 'внимание'
 атака_1_длительность['пехотинец'] = 7
-$атака_1_текст['пехотинец'] = "Footman deals <font color='purple'>precise</font> spear attack."
+$атака_1_текст['пехотинец'] = "The Footman deals a <font color='purple'>precise</font> spear attack."
 $атака_2_тип['пехотинец'] = 'быстрая'
 $атака_2_тип_вреда['пехотинец'] = 'колющий'
 $атака_2_штраф['пехотинец'] = 'скованность'
 $атака_2_бонус['пехотинец'] = 'адреналин'
 атака_2_длительность['пехотинец'] = 7
-$атака_2_текст['пехотинец'] = "Footman oppresses you with <font color='green'>rapid</font> attacks of his spear."
+$атака_2_текст['пехотинец'] = "The Footman oppresses you with <font color='green'>rapid</font> attacks from his spear."
 
-$смерть['пехотинец'] = 'Dead footman lies on the ground.'
-$отключка['пехотинец'] = 'Footman moans lying on the ground and unable to get up.'
-$бегство['пехотинец'] = 'Footman flees from the battlefield!'
+$смерть['пехотинец'] = 'The dead footman lies on the ground.'
+$отключка['пехотинец'] = 'The Footman moans, lies on the ground, and is unable to get up.'
+$бегство['пехотинец'] = 'The Footman flees from the battlefield!'
 
 хрупкий['пехотинец'] = 0
 тонкое_тело['пехотинец'] = 0
@@ -551,17 +551,17 @@ $атака_1_тип_вреда['козлорогий'] = 'рубящий'
 $атака_1_штраф['козлорогий'] = 'слабость'
 $атака_1_бонус['козлорогий'] = 'адреналин'
 атака_1_длительность['козлорогий'] = 4
-$атака_1_текст['козлорогий'] = "Goathead <font color='red'>unleashes</font> on you artless but powerful blow of two-handed axe."
+$атака_1_текст['козлорогий'] = "The Goathead beastman <font color='red'>unleashes</font> on you the artless but powerful blow of a two-handed axe."
 $атака_2_тип['козлорогий'] = 'сильная'
 $атака_2_тип_вреда['козлорогий'] = 'дробящий'
 $атака_2_штраф['козлорогий'] = 'ошеломление'
 $атака_2_бонус['козлорогий'] = 'бешенство'
 атака_2_длительность['козлорогий'] = 3
-$атака_2_текст['козлорогий'] = "Beastman <font color='green'>rams</font> you with his strong horns."
+$атака_2_текст['козлорогий'] = "The Goathead beastman <font color='green'>rams</font> you with his strong horns."
 
-$смерть['козлорогий'] = 'Murdered beastman lying on the ground, in a pool of his own black blood.'
-$отключка['козлорогий'] = 'Whacked beastman lies on the ground and bleats in pain.'
-$бегство['козлорогий'] = 'Maddened from pain, beastman quickly runs away!'
+$смерть['козлорогий'] = 'The murdered Goathead beastman lies on the ground in a pool of his own black blood.'
+$отключка['козлорогий'] = 'The whacked Goathead beastman lies on the ground and bleats in pain.'
+$бегство['козлорогий'] = 'Maddened from pain, the Goathead beastman quickly runs away!'
 
 хрупкий['козлорогий'] = 0
 тонкое_тело['козлорогий'] = 0
@@ -601,17 +601,17 @@ $атака_1_тип_вреда['свинорылый'] = 'дробящий'
 $атака_1_штраф['свинорылый'] = 'ошеломление'
 $атака_1_бонус['свинорылый'] = 'адреналин'
 атака_1_длительность['свинорылый'] = 4
-$атака_1_текст['свинорылый'] = "Pigmug with squealing <font color='red'>beats</font> you with his wooden club."
+$атака_1_текст['свинорылый'] = "The Pigmug beastman, with a squeal, <font color='red'>beats</font> you with his wooden club."
 $атака_2_тип['свинорылый'] = 'быстрая'
 $атака_2_тип_вреда['свинорылый'] = 'дробящий'
 $атака_2_штраф['свинорылый'] = 'шаткость'
 $атака_2_бонус['свинорылый'] = 'бешенство'
 атака_2_длительность['свинорылый'] = 3
-$атака_2_текст['свинорылый'] = "Pigmug tries to topple you to the ground with <font color='green'>swift</font> dash, like in American football."
+$атака_2_текст['свинорылый'] = "The Pigmug beastman tries to topple you to the ground with a <font color='green'>swift</font> dash, like in American football."
 
-$смерть['свинорылый'] = 'Lying in his own blood, beastman looks like a pig in a slaughterhouse.'
-$отключка['свинорылый'] = 'Beaten pigmug falls, unable to continue the fight.'
-$бегство['свинорылый'] = 'Pigmug runs away.'
+$смерть['свинорылый'] = 'Lying in his own blood, the Pigmug beastman looks like a pig in a slaughterhouse.'
+$отключка['свинорылый'] = 'The beaten Pigmug beastman falls, unable to continue the fight.'
+$бегство['свинорылый'] = 'The Pigmug beastman runs away.'
 
 хрупкий['свинорылый'] = 0
 тонкое_тело['свинорылый'] = 0
@@ -651,17 +651,17 @@ $атака_1_тип_вреда['жабован'] = 'дробящий'
 $атака_1_штраф['жабован'] = 'рассеянность'
 $атака_1_бонус['жабован'] = 'внимание'
 атака_1_длительность['жабован'] = 5
-$атака_1_текст['жабован'] = "Toadman shoots with his sticky purple tongue <font color='purple'>right</font> in your face."
+$атака_1_текст['жабован'] = "The Toadman shoots his sticky purple tongue <font color='purple'>right</font> in your face."
 $атака_2_тип['жабован'] = 'сильная'
 $атака_2_тип_вреда['жабован'] = 'дробящий'
 $атака_2_штраф['жабован'] = 'шаткость'
 $атака_2_бонус['жабован'] = 'верткость'
 атака_2_длительность['жабован'] = 5
-$атака_2_текст['жабован'] = "Toadman pounces on you with <font color='red'>swift</font> jump, trying to knock you down."
+$атака_2_текст['жабован'] = "The Toadman pounces on you with a <font color='red'>swift</font> jump, trying to knock you down."
 
-$смерть['жабован'] = 'Dead toadman lying on the ground and deflates as the broken frog.'
-$отключка['жабован'] = 'Beaten toadman lying on the ground and sluggishly twitches with his legs.'
-$бегство['жабован'] = 'Toadman leaves the battlefield with huge leaps.'
+$смерть['жабован'] = 'The dead Toadman lies on the ground and deflates like a broken frog.'
+$отключка['жабован'] = 'The beaten Toadman lies on the ground and sluggishly twitches his legs.'
+$бегство['жабован'] = 'The Toadman leaves the battlefield with huge leaps.'
 
 хрупкий['жабован'] = 0
 тонкое_тело['жабован'] = 0
@@ -701,17 +701,17 @@ $атака_1_тип_вреда['крысолюд'] = 'режущий'
 $атака_1_штраф['крысолюд'] = 'шаткость'
 $атака_1_бонус['крысолюд'] = 'вёрткость'
 атака_1_длительность['крысолюд'] = 7
-$атака_1_текст['крысолюд'] = "Ratman tries to <font color='purple'>cut</font> your tendon using a curve and a serrated knife."
+$атака_1_текст['крысолюд'] = "The Ratman tries to <font color='purple'>cut</font> your tendon using a curved and serrated knife."
 $атака_2_тип['крысолюд'] = 'быстрая'
 $атака_2_тип_вреда['крысолюд'] = 'режущий'
 $атака_2_штраф['крысолюд'] = 'боль'
 $атака_2_бонус['крысолюд'] = 'меткость'
 атака_2_длительность['крысолюд'] = 7
-$атака_2_текст['крысолюд'] = "Ratman <font color='green'>stabs</font> you with his long knife."
+$атака_2_текст['крысолюд'] = "The Ratman <font color='green'>stabs</font> you with his long knife."
 
-$смерть['крысолюд'] = 'Killed ratman still slightly twitching.'
-$отключка['крысолюд'] = 'Defeated ratman tries to crawl away.'
-$бегство['крысолюд'] = 'Kneeling on all fours ratman runs away from the battlefield.'
+$смерть['крысолюд'] = 'The killed Ratman is still slightly twitching.'
+$отключка['крысолюд'] = 'The defeated Ratman tries to crawl away.'
+$бегство['крысолюд'] = 'Kneeling on all fours, the Ratman runs away from the battlefield.'
 
 хрупкий['крысолюд'] = 0
 тонкое_тело['крысолюд'] = 0
@@ -736,7 +736,7 @@ $бегство['крысолюд'] = 'Kneeling on all fours ratman runs away fr
 $название_моба['черный_медик'] = "Black medic"
 $аватара_моба['черный_медик'] = "content/pic/mob/medic_ava.jpg"
 $силуэт_моба['черный_медик'] = "content/pic/mob/medic.gif"
-$описание_моба['черный_медик'] = "He hunts for fresh donor organs."
+$описание_моба['черный_медик'] = "He is a Black Medic. He hunts for fresh organ donors."
 $склонение_моб['черный_медик'] = "black medic"
 $склонение_моба['черный_медик'] = "black medic"
 $склонение_мобу['черный_медик'] = "black medic"
@@ -752,17 +752,17 @@ $атака_1_тип_вреда['черный_медик'] = 'колющий'
 $атака_1_штраф['черный_медик'] = 'боль'
 $атака_1_бонус['черный_медик'] = 'точность'
 атака_1_длительность['черный_медик'] = 5
-$атака_1_текст['черный_медик'] = "Black medic attacks you with his mechanical syringe gun, <font color='purple'>aiming</font> in the sore spots."
+$атака_1_текст['черный_медик'] = "The Black Medic attacks you with his mechanical syringe gun, <font color='purple'>aiming</font> at your sore spots."
 $атака_2_тип['черный_медик'] = 'быстрая'
 $атака_2_тип_вреда['черный_медик'] = 'рубящий'
 $атака_2_штраф['черный_медик'] = 'слабость'
 $атака_2_бонус['черный_медик'] = 'разгон'
 атака_2_длительность['черный_медик'] = 5
-$атака_2_текст['черный_медик'] = "Black medic <font color='green'>furiously</font> swings with his circular saw for autopsy."
+$атака_2_текст['черный_медик'] = "The Black Medic <font color='green'>furiously</font> swings with his circular autopsy saw."
 
-$смерть['черный_медик'] = 'Dead hunter for organs lying in a pool of blood, mixed with machine oil.'
-$отключка['черный_медик'] = 'Black medic lying on the ground, his biosecurity suit broken and torn.'
-$бегство['черный_медик'] = 'Frightened medic runs away screaming for help.'
+$смерть['черный_медик'] = 'The dead Hunter of Organs lying in a pool of blood mixed with machine oil.'
+$отключка['черный_медик'] = 'The Black Medic is lying on the ground, his biosecurity suit broken and torn.'
+$бегство['черный_медик'] = 'The frightened Black Medic runs away, screaming for help.'
 
 хрупкий['черный_медик'] = 0
 тонкое_тело['черный_медик'] = 0
@@ -886,34 +886,34 @@ $атака_1_тип_вреда['исчадие_молодь'] = 'колющий
 $атака_1_штраф['исчадие_молодь'] = 'боль'
 $атака_1_бонус['исчадие_молодь'] = 'внимание'
 атака_1_длительность['исчадие_молодь'] = 5
-$атака_1_текст['исчадие_молодь'] = "Creature opens its mouth, and shoots you <font color='purple'>exactly</font> in the head with tentacle that have smaller mouth at the end."
+$атака_1_текст['исчадие_молодь'] = "The creature opens its mouth and shoots <font color='purple'>exactly</font> at your head with its smaller fanged tentacles."
 $атака_2_тип['исчадие_молодь'] = 'быстрая'
 $атака_2_тип_вреда['исчадие_молодь'] = 'рубящий'
 $атака_2_штраф['исчадие_молодь'] = 'верткость'
 $атака_2_бонус['исчадие_молодь'] = 'меткость'
 атака_2_длительность['исчадие_молодь'] = 5
-$атака_2_текст['исчадие_молодь'] = "Fiend <font color='green'>threshes</font> with its tentacles like whips. Ouch, they are razor sharp!"
+$атака_2_текст['исчадие_молодь'] = "The Fiend <font color='green'>threshes</font> with its tentacles like whips. Ouch, they are razor sharp!"
 $атака_3_тип['исчадие_молодь'] = 'сильная'
 $атака_3_тип_вреда['исчадие_молодь'] = 'дробящий'
 $атака_3_штраф['исчадие_молодь'] = 'рассеянность'
 $атака_3_бонус['исчадие_молодь'] = 'адреналин'
 атака_3_длительность['исчадие_молодь'] = 10
-$атака_3_текст['исчадие_молодь'] = "Fiend accelerates and <font color='red'>rams</font> you, trying to knock you off with its solid bony outgrowth on the head."
+$атака_3_текст['исчадие_молодь'] = "The Fiend accelerates and <font color='red'>rams</font> you, trying to knock you off balance with the solid bony outgrowth on its head."
 
 !superb not used for enemies
 базовый_вред_суператаки_1['исчадие_молодь'] = 1
 $суператака_1_тип['исчадие_молодь'] = 'точная'
 $суператака_1_тип_вреда['исчадие_молодь'] = 'психический'
-$суператака_1_текст['исчадие_молодь'] = "Young fiend <font color='purple'>directs</font> its tentacles at you and sprinkles with some burning muck in the face."
+$суператака_1_текст['исчадие_молодь'] = "The Young Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles you with some burning muck right in the face."
 $суператака_1_кратко['исчадие_молодь'] = "[almost blind]"
 $спецэффект_суператаки_1['исчадие_молодь'] = {
 рассеянность = 99
 боль = 99
 }
 
-$смерть['исчадие_молодь'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$отключка['исчадие_молодь'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$бегство['исчадие_молодь'] = 'Maddened from pain young fiend flees back to the Fogs.'
+$смерть['исчадие_молодь'] = 'The defeated Fiend writhes on the ground, bleeding with a smelly ichor.'
+$отключка['исчадие_молодь'] = 'The defeated Fiend writhes on the ground, bleeding with a smelly ichor.'
+$бегство['исчадие_молодь'] = 'Maddened from pain, the Young Fiend flees back to the Fog.'
 
 хрупкий['исчадие_молодь'] = 0
 тонкое_тело['исчадие_молодь'] = 0
@@ -937,7 +937,7 @@ $бегство['исчадие_молодь'] = 'Maddened from pain young fiend
 $название_моба['исчадие'] = "Fog fiend"
 $аватара_моба['исчадие'] = "content/pic/mob/spawn_ava.jpg"
 $силуэт_моба['исчадие'] = "content/pic/mob/spawn.gif"
-$описание_моба['исчадие'] = "Mature For fiend."
+$описание_моба['исчадие'] = "Mature Fog fiend."
 $склонение_моб['исчадие'] = "fiend"
 $склонение_моба['исчадие'] = "fiend"
 $склонение_мобу['исчадие'] = "fiend"
@@ -953,24 +953,24 @@ $атака_1_тип_вреда['исчадие'] = 'колющий'
 $атака_1_штраф['исчадие'] = 'боль'
 $атака_1_бонус['исчадие'] = 'внимание'
 атака_1_длительность['исчадие'] = 7
-$атака_1_текст['исчадие'] = "Creature opens its mouth, and shoots you <font color='purple'>exactly</font> in the head with tentacle that have smaller mouth at the end."
+$атака_1_текст['исчадие'] = "The creature opens its mouth and shoots <font color='purple'>exactly</font> at your head with its smaller fanged tentacles."
 $атака_2_тип['исчадие'] = 'быстрая'
 $атака_2_тип_вреда['исчадие'] = 'рубящий'
 $атака_2_штраф['исчадие'] = 'верткость'
 $атака_2_бонус['исчадие'] = 'меткость'
 атака_2_длительность['исчадие'] = 7
-$атака_2_текст['исчадие'] = "Fiend <font color='green'>threshes</font> with its tentacles like whips. Ouch, they are razor sharp!"
+$атака_2_текст['исчадие'] = "The Fiend <font color='green'>threshes</font> with its tentacles like whips. Ouch, they are razor sharp!"
 $атака_3_тип['исчадие'] = 'сильная'
 $атака_3_тип_вреда['исчадие'] = 'дробящий'
 $атака_3_штраф['исчадие'] = 'рассеянность'
 $атака_3_бонус['исчадие'] = 'адреналин'
 атака_3_длительность['исчадие'] = 10
-$атака_3_текст['исчадие'] = "Fiend <font color='red'>butts</font> you with its bony outgrowth on head, trying to knock you down."
+$атака_3_текст['исчадие'] = "The Fiend <font color='red'>butts</font> you with bony outgrowth on its head, trying to knock you down."
 
 базовый_вред_суператаки_1['исчадие'] = 1
 $суператака_1_тип['исчадие'] = 'точная'
 $суператака_1_тип_вреда['исчадие'] = 'психический'
-$суператака_1_текст['исчадие'] = "Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles with some burning muck in the face."
+$суператака_1_текст['исчадие'] = "The Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles  some burning muck in your face."
 $суператака_1_кратко['исчадие'] = "[almost blind]"
 $спецэффект_суператаки_1['исчадие'] = {
 рассеянность = 99
@@ -980,7 +980,7 @@ $спецэффект_суператаки_1['исчадие'] = {
 базовый_вред_суператаки_2['исчадие'] = 1
 $суператака_2_тип['исчадие'] = 'сильная'
 $суператака_2_тип_вреда['исчадие'] = 'дробящий'
-$суператака_2_текст['исчадие'] = "Without stopping to <font color='red'>thresh</font> you with tentacles, monster mutates right before your eyes, trying to adapt to your style of combat."
+$суператака_2_текст['исчадие'] = "Without ceasing to <font color='red'>thresh</font> you with its tentacles, the monster mutates right before your eyes, trying to adapt to your style of combat."
 $суператака_2_кратко['исчадие'] = "[adaptive mutation]"
 $спецэффект_суператаки_2['исчадие'] = {
 меткость[1] = 99
@@ -995,9 +995,9 @@ $спецэффект_суператаки_2['исчадие'] = {
 рассеянность[1] = 1
 }
 
-$смерть['исчадие'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$отключка['исчадие'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$бегство['исчадие'] = 'Maddened from pain fiend flees back to the Fogs.'
+$смерть['исчадие'] = 'The defeated Fiend writhes on the ground, bleeding with a smelly ichor.'
+$отключка['исчадие'] = 'The defeated Fiend writhes on the ground, bleeding with a smelly ichor.'
+$бегство['исчадие'] = 'Maddened from pain, the Fiend flees back to the Fog.'
 
 хрупкий['исчадие'] = 0
 тонкое_тело['исчадие'] = 0
@@ -1038,24 +1038,24 @@ $атака_1_тип_вреда['чудовщиное_исчадие'] = 'кол
 $атака_1_штраф['чудовщиное_исчадие'] = 'боль'
 $атака_1_бонус['чудовщиное_исчадие'] = 'внимание'
 атака_1_длительность['чудовщиное_исчадие'] = 8
-$атака_1_текст['чудовщиное_исчадие'] = "Creature opens its mouth, and shoots you <font color='purple'>exactly</font> in the head with tentacle that have smaller mouth at the end."
+$атака_1_текст['чудовщиное_исчадие'] = "The creature opens its mouth and shoots <font color='purple'>exactly</font> at your head with its smaller fanged tentacles."
 $атака_2_тип['чудовщиное_исчадие'] = 'быстрая'
 $атака_2_тип_вреда['чудовщиное_исчадие'] = 'рубящий'
 $атака_2_штраф['чудовщиное_исчадие'] = 'верткость'
 $атака_2_бонус['чудовщиное_исчадие'] = 'меткость'
 атака_2_длительность['чудовщиное_исчадие'] = 8
-$атака_2_текст['чудовщиное_исчадие'] = "Fiend <font color='green'>threshes</font> with its tentacles like whips. Ouch, they are razor sharp!"
+$атака_2_текст['чудовщиное_исчадие'] = "The Fiend <font color='green'>threshes</font> with its tentacles like whips. Ouch, they are razor sharp!"
 $атака_3_тип['чудовщиное_исчадие'] = 'сильная'
 $атака_3_тип_вреда['чудовщиное_исчадие'] = 'дробящий'
 $атака_3_штраф['чудовщиное_исчадие'] = 'рассеянность'
 $атака_3_бонус['чудовщиное_исчадие'] = 'адреналин'
 атака_3_длительность['чудовщиное_исчадие'] = 10
-$атака_3_текст['чудовщиное_исчадие'] = "Fiend <font color='red'>rams</font> you with heavy tentacle that has a bone excrescence like a club. Such an attack is able to throw human for ten meters."
+$атака_3_текст['чудовщиное_исчадие'] = "The Fiend <font color='red'>rams</font> you with a heavy tentacle that has a bone excrescence like a club. Such an attack is able to throw a human up to ten meters."
 
 базовый_вред_суператаки_1['чудовщиное_исчадие'] = 5
 $суператака_1_тип['чудовщиное_исчадие'] = 'точная'
 $суператака_1_тип_вреда['чудовщиное_исчадие'] = 'психический'
-$суператака_1_текст['чудовщиное_исчадие'] = "Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles with some burning muck in the face."
+$суператака_1_текст['чудовщиное_исчадие'] = "The Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles some burning muck in your face."
 $суператака_1_кратко['чудовщиное_исчадие'] = "[almost blind]"
 $спецэффект_суператаки_1['чудовщиное_исчадие'] = {
 рассеянность = 99
@@ -1065,7 +1065,7 @@ $спецэффект_суператаки_1['чудовщиное_исчади�
 базовый_вред_суператаки_2['чудовщиное_исчадие'] = 5
 $суператака_2_тип['чудовщиное_исчадие'] = 'сильная'
 $суператака_2_тип_вреда['чудовщиное_исчадие'] = 'дробящий'
-$суператака_2_текст['чудовщиное_исчадие'] = "Without stopping to <font color='red'>thresh</font> you with tentacles, monster mutates right before your eyes, trying to adapt to your style of combat."
+$суператака_2_текст['чудовщиное_исчадие'] = "Without ceasing to <font color='red'>thresh</font> you with its tentacles, the monster mutates right before your eyes, trying to adapt to your style of combat."
 $суператака_2_кратко['чудовщиное_исчадие'] = "[adaptive mutation]"
 $спецэффект_суператаки_2['чудовщиное_исчадие'] = {
 меткость[1] = 99
@@ -1083,7 +1083,7 @@ $спецэффект_суператаки_2['чудовщиное_исчади�
 базовый_вред_суператаки_3['чудовщиное_исчадие'] = 5
 $суператака_3_тип['чудовщиное_исчадие'] = 'быстрая'
 $суператака_3_тип_вреда['чудовщиное_исчадие'] = 'колющий'
-$суператака_3_текст['чудовщиное_исчадие'] = "You understand that on the fiend tentacles grew spikes, that delivers <font color='purple'>fast-acting</font> poison directly into your bloodstream."
+$суператака_3_текст['чудовщиное_исчадие'] = "You understand that the fiend grew spikes on its tentacles that delivers a <font color='purple'>fast-acting</font> poison directly into your bloodstream."
 $суператака_3_кратко['чудовщиное_исчадие'] = "[toxic slime]"
 $спецэффект_суператаки_3['чудовщиное_исчадие'] = {
 шаткость = 99
@@ -1091,9 +1091,9 @@ $спецэффект_суператаки_3['чудовщиное_исчади�
 рассеянность = 99
 }
 
-$смерть['чудовщиное_исчадие'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$отключка['чудовщиное_исчадие'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$бегство['чудовщиное_исчадие'] = 'Maddened from pain fiend flees back to the Fogs.'
+$смерть['чудовщиное_исчадие'] = 'The defeated fiend writhing on the ground, bleeding with a smelly ichor.'
+$отключка['чудовщиное_исчадие'] = 'The defeated fiend writhing on the ground, bleeding with a smelly ichor.'
+$бегство['чудовщиное_исчадие'] = 'Maddened from pain, the Fiend flees back to the Fog.'
 
 хрупкий['чудовщиное_исчадие'] = 0
 тонкое_тело['чудовщиное_исчадие'] = 0
@@ -1133,24 +1133,24 @@ $атака_1_тип_вреда['вампир'] = 'колющий'
 $атака_1_штраф['вампир'] = 'боль'
 $атака_1_бонус['вампир'] = 'меткость'
 атака_1_длительность['вампир'] = 10
-$атака_1_текст['вампир'] = "With short and <font color='purple'>verified</font> motion, vampire thrust you with a katana."
+$атака_1_текст['вампир'] = "With a short and <font color='purple'>substantive</font> motion, the Vampire thrusts at you with a katana."
 $атака_2_тип['вампир'] = 'быстрая'
 $атака_2_тип_вреда['вампир'] = 'рубящий'
 $атака_2_штраф['вампир'] = 'скованность'
 $атака_2_бонус['вампир'] = 'разгон'
 атака_2_длительность['вампир'] = 10
-$атака_2_текст['вампир'] = "Moving with inhuman <font color='green'>speed</font>, vampire showers you with a hail of blows."
+$атака_2_текст['вампир'] = "Moving with inhuman <font color='green'>speed</font>, the Vampire showers you with a hail of blows."
 $атака_3_тип['вампир'] = 'сильная'
 $атака_3_тип_вреда['вампир'] = 'рубящий'
 $атака_3_штраф['вампир'] = 'шаткость'
 $атака_3_бонус['вампир'] = 'бешенство'
 атака_3_длительность['вампир'] = 10
-$атака_3_текст['вампир'] = "Vampire puts katana over his head and deals surprisingly <font color='red'>powerful</font> cutting blow."
+$атака_3_текст['вампир'] = "The Vampire puts the katana over his head and deals a surprisingly <font color='red'>powerful</font> cutting blow."
 
 базовый_вред_суператаки_1['вампир'] = 20
 $суператака_1_тип['вампир'] = 'точная'
 $суператака_1_тип_вреда['вампир'] = 'психический'
-$суператака_1_текст['вампир'] = "Vampire <font color='purple'>catches</font> your glance with his shining eyes and you feel that you lose your will."
+$суператака_1_текст['вампир'] = "The Vampire <font color='purple'>catches</font> your glance with his shining eyes and you feel that you are losing your will."
 $суператака_1_кратко['вампир'] = "[hypnosis]"
 $спецэффект_суператаки_1['вампир'] = {
 слабость = 99
@@ -1158,9 +1158,9 @@ $спецэффект_суператаки_1['вампир'] = {
 рассеянность = 99
 }
 
-$смерть['вампир'] = 'Defeated vampire burns leaving only ashes.'
-$отключка['вампир'] = 'Defeated vampire burns leaving only ashes.'
-$бегство['вампир'] = 'Vampire retreats.'
+$смерть['вампир'] = 'The defeated Vampire burns, leaving only ashes.'
+$отключка['вампир'] = 'The defeated Vampire burns, leaving only ashes.'
+$бегство['вампир'] = 'The Vampire retreats.'
 
 хрупкий['вампир'] = 0
 тонкое_тело['вампир'] = 0
@@ -1200,30 +1200,30 @@ $атака_1_тип_вреда['вервольф'] = 'рубящий'
 $атака_1_штраф['вервольф'] = 'рассеянность'
 $атака_1_бонус['вервольф'] = 'меткость'
 атака_1_длительность['вервольф'] = 10
-$атака_1_текст['вервольф'] = "Werewolf hits you <font color='purple'>in the eyes</font> with his long and sharp claws."
+$атака_1_текст['вервольф'] = "The Werewolf hits you <font color='purple'>in the eyes</font> with his long and sharp claws."
 $атака_2_тип['вервольф'] = 'быстрая'
 $атака_2_тип_вреда['вервольф'] = 'рубящий'
 $атака_2_штраф['вервольф'] = 'ошеломление'
 $атака_2_бонус['вервольф'] = 'разгон'
 атака_2_длительность['вервольф'] = 10
-$атака_2_текст['вервольф'] = "Like <font color='green'>lightning</font>, the werewolf rushes past you, hitting with claws."
+$атака_2_текст['вервольф'] = "Like <font color='green'>lightning</font>, the Werewolf rushes past you, hitting you with its claws."
 $атака_3_тип['вервольф'] = 'сильная'
 $атака_3_тип_вреда['вервольф'] = 'режущий'
 $атака_3_штраф['вервольф'] = 'шаткость'
 $атака_3_бонус['вервольф'] = 'бешенство'
 атака_3_длительность['вервольф'] = 10
-$атака_3_текст['вервольф'] = "Werewolf squeezes you with his <font color='red'>mighty</font> jaw."
+$атака_3_текст['вервольф'] = "The Werewolf squeezes you with his <font color='red'>mighty</font> jaw."
 
 базовый_вред_суператаки_1['вервольф'] = 25
 $суператака_1_тип['вервольф'] = 'сильная'
 $суператака_1_тип_вреда['вервольф'] = 'режущий'
-$суператака_1_текст['вервольф'] = "Werewolf <font color='red'>furiously</font> rips you with fangs and claws."
+$суператака_1_текст['вервольф'] = "The Werewolf <font color='red'>furiously</font> rips at you with its fangs and claws."
 $суператака_1_кратко['вервольф'] = "[strong damage]"
 $спецэффект_суператаки_1['вервольф'] = {}
 
-$смерть['вервольф'] = 'Dead werewolf turns into a man. He''s dead too...'
-$отключка['вервольф'] = 'Werewolf collapses.'
-$бегство['вервольф'] = 'Werewolf runs away.'
+$смерть['вервольф'] = 'The dead Werewolf turns into a man. He’s dead too...'
+$отключка['вервольф'] = 'The Werewolf collapses.'
+$бегство['вервольф'] = 'The Werewolf runs away.'
 
 хрупкий['вервольф'] = 0
 тонкое_тело['вервольф'] = 0
@@ -1263,28 +1263,28 @@ $атака_1_тип_вреда['лич'] = 'колющий'
 $атака_1_штраф['лич'] = 'боль'
 $атака_1_бонус['лич'] = 'внимание'
 атака_1_длительность['лич'] = 10
-$атака_1_текст['лич'] = "Lich <font color='purple'>precisely</font> struck you by lightning strikes."
+$атака_1_текст['лич'] = "The Lich <font color='purple'>precisely</font> strikes you with lightning strikes."
 $атака_2_тип['лич'] = 'быстрая'
 $атака_2_тип_вреда['лич'] = 'рубящий'
 $атака_2_штраф['лич'] = 'верткость'
 $атака_2_бонус['лич'] = 'меткость'
 атака_2_длительность['лич'] = 10
-$атака_2_текст['лич'] = "Lich attacks you with a series of <font color='green'>magic</font> projectiles."
+$атака_2_текст['лич'] = "The Lich attacks you with a series of <font color='green'>magic</font> projectiles."
 $атака_3_тип['лич'] = 'сильная'
 $атака_3_тип_вреда['лич'] = 'дробящий'
 $атака_3_штраф['лич'] = 'рассеянность'
 $атака_3_бонус['лич'] = 'адреналин'
 атака_3_длительность['лич'] = 10
-$атака_3_текст['лич'] = "Lich hits you with <font color='red'>roaring</font> fireball."
+$атака_3_текст['лич'] = "The Lich hits you with a <font color='red'>roaring</font> fireball."
 
-$смерть['лич'] = 'Defeated lich falls to the ground as a pile of bones and rags.'
-$отключка['лич'] = 'Lich collapses.'
-$бегство['лич'] = 'Lich teleports to an unknown destination.'
+$смерть['лич'] = 'The defeated Lich falls to the ground as a pile of bones and rags.'
+$отключка['лич'] = 'The Lich collapses.'
+$бегство['лич'] = 'The Lich teleports to an unknown destination.'
 
 базовый_вред_суператаки_1['лич'] = 5
 $суператака_1_тип['лич'] = 'точная'
 $суператака_1_тип_вреда['лич'] = 'психический'
-$суператака_1_текст['лич'] = "Necromancer squeezes his bony fingers in <font color='purple'>magic</font> gesture, and you feel infernal pain."
+$суператака_1_текст['лич'] = "The Necromancer squeezes his bony fingers in a <font color='purple'>magic</font> gesture, and you feel infernal pain."
 $суператака_1_кратко['лич'] = "[almost blind]"
 $спецэффект_суператаки_1['лич'] = {
 рассеянность = 99
@@ -1316,7 +1316,7 @@ $название_моба['fugituive_a'] = "Fugitive"
 $аватара_моба['fugituive_a'] = "content/pic/mob/gladiator_prisoner_a.jpg"
 $силуэт_моба['fugituive_a'] = "content/pic/mob/gladiator_prisoners.jpg"
 $описание_моба['fugituive_a'] = "   [ARENA SUPERVISOR]
-   - Her today victims will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given fighting weapon. And if the champion loses, the surviving fugitive will come to the arena again, as gladiatrix!"
+   - Her victims today will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given a fighting weapon. And if the champion loses, the surviving fugitives will come to the arena again, as gladiatrix!"
 $склонение_моб['fugituive_a'] = "aggressive fugitive"
 $склонение_моба['fugituive_a'] = "aggressive fugitive"
 $склонение_мобу['fugituive_a'] = "aggressive fugitive"
@@ -1332,16 +1332,16 @@ $атака_1_тип_вреда['fugituive_a'] = 'дробящий'
 $атака_1_штраф['fugituive_a'] = 'слабость'
 $атака_1_бонус['fugituive_a'] = 'адреналин'
 атака_1_длительность['fugituive_a'] = 2
-$атака_1_текст['fugituive_a'] = "Aggressive fugitive <font color='red'>furiously</font> beats you with brass knuckles."
+$атака_1_текст['fugituive_a'] = "The Aggressive Fugitive <font color='red'>furiously</font> beats at you with brass knuckles."
 
-$смерть['fugituive_a'] = 'Aggressive fugitive writhes in a pool of blood, desperately clinging to life.'
+$смерть['fugituive_a'] = 'The Aggressive Fugitive writhes in a pool of her own blood, desperately clinging to life.'
 
 !FUGITIVE B ['fugituive_b']
 $название_моба['fugituive_b'] = "Fugitive"
 $аватара_моба['fugituive_b'] = "content/pic/mob/gladiator_prisoner_b.jpg"
 $силуэт_моба['fugituive_b'] = "content/pic/mob/gladiator_prisoners.jpg"
 $описание_моба['fugituive_b'] = "   [ARENA SUPERVISOR]
-   - Her today victims will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given fighting weapon. And if the champion loses, the surviving fugitive will come to the arena again, as gladiatrix!"
+   - Her victims today will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given a fighting weapon. And if the champion loses, the surviving fugitives will come to the arena again, as gladiatrix!"
 $склонение_моб['fugituive_b'] = "gloomy fugitive"
 $склонение_моба['fugituive_b'] = "gloomy fugitive"
 $склонение_мобу['fugituive_b'] = "gloomy fugitive"
@@ -1357,16 +1357,16 @@ $атака_1_тип_вреда['fugituive_b'] = 'колющий'
 $атака_1_штраф['fugituive_b'] = 'боль'
 $атака_1_бонус['fugituive_b'] = 'внимание'
 атака_1_длительность['fugituive_b'] = 2
-$атака_1_текст['fugituive_b'] = "Gloomy fugitive <font color='purple'>intently</font> pokes you with a short spear."
+$атака_1_текст['fugituive_b'] = "The Gloomy Fugitive <font color='purple'>intently</font> pokes at you with a short spear."
 
-$смерть['fugituive_b'] = 'Gloomy fugitive lying on her back on the bloody floor of the arena.'
+$смерть['fugituive_b'] = 'The Gloomy Fugitive lying on her back on the bloody floor of the arena.'
 
 !FUGITIVE D ['fugituive_c']
 $название_моба['fugituive_c'] = "Fugitive"
 $аватара_моба['fugituive_c'] = "content/pic/mob/gladiator_prisoner_c.jpg"
 $силуэт_моба['fugituive_c'] = "content/pic/mob/gladiator_prisoners.jpg"
 $описание_моба['fugituive_c'] = "   [ARENA SUPERVISOR]
-   - Her today victims will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given fighting weapon. And if the champion loses, the surviving fugitive will come to the arena again, as gladiatrix!"
+   - Her victims today will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given a fighting weapon. And if the champion loses, the surviving fugitives will come to the arena again, as gladiatrix!"
 $склонение_моб['fugituive_c'] = "frightened fugitive"
 $склонение_моба['fugituive_c'] = "frightened fugitive"
 $склонение_мобу['fugituive_c'] = "frightened fugitive"
@@ -1382,16 +1382,16 @@ $атака_1_тип_вреда['fugituive_c'] = 'рубящий'
 $атака_1_штраф['fugituive_c'] = 'скованность'
 $атака_1_бонус['fugituive_c'] = 'верткость'
 атака_1_длительность['fugituive_c'] = 2
-$атака_1_текст['fugituive_c'] = "Frightened fugitive <font color='green'>desperately</font> swings from you with light saber."
+$атака_1_текст['fugituive_c'] = "The Frightened Fugitive <font color='green'>desperately</font> swings at you with a light saber."
 
-$смерть['fugituive_c'] = 'Frightened fugitive trying to crawl away, leaving a trail of blood on the floor.'
+$смерть['fugituive_c'] = 'The Frightened Fugitive trying to crawl away, leaving a trail of blood on the floor.'
 
 !FUGITIVE C ['fugituive_d']
 $название_моба['fugituive_d'] = "Fugitive"
 $аватара_моба['fugituive_d'] = "content/pic/mob/gladiator_prisoner_d.jpg"
 $силуэт_моба['fugituive_d'] = "content/pic/mob/gladiator_prisoners.jpg"
 $описание_моба['fugituive_d'] = "   [ARENA SUPERVISOR]
-   - Her today victims will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given fighting weapon. And if the champion loses, the surviving fugitive will come to the arena again, as gladiatrix!"
+  - Her victims today will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given a fighting weapon. And if the champion loses, the surviving fugitives will come to the arena again, as gladiatrix!"
 $склонение_моб['fugituive_d'] = "tall fugitive"
 $склонение_моба['fugituive_d'] = "tall fugitive"
 $склонение_мобу['fugituive_d'] = "tall fugitive"
@@ -1407,16 +1407,16 @@ $атака_1_тип_вреда['fugituive_d'] = 'дробящий'
 $атака_1_штраф['fugituive_d'] = 'шаткость'
 $атака_1_бонус['fugituive_d'] = 'бешенство'
 атака_1_длительность['fugituive_d'] = 2
-$атака_1_текст['fugituive_d'] = "Tall fugitive <font color='red'>beats</font> you with a heavy metal club."
+$атака_1_текст['fugituive_d'] = "The Tall Fugitive <font color='red'>beats</font> you with a heavy metal club."
 
-$смерть['fugituive_d'] = 'Tall fugitive dies.'
+$смерть['fugituive_d'] = 'The Tall Fugitive dies.'
 
 !FUGITIVE E ['fugituive_e']
 $название_моба['fugituive_e'] = "Fugitive"
 $аватара_моба['fugituive_e'] = "content/pic/mob/gladiator_prisoner_e.jpg"
 $силуэт_моба['fugituive_e'] = "content/pic/mob/gladiator_prisoners.jpg"
 $описание_моба['fugituive_e'] = "   [ARENA SUPERVISOR]
-   - Her today victims will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given fighting weapon. And if the champion loses, the surviving fugitive will come to the arena again, as gladiatrix!"
+  - Her victims today will be the five runaway slaves. But it is not an execution, dear fellow citizens, no. Each runaway will be given a fighting weapon. And if the champion loses, the surviving fugitives will come to the arena again, as gladiatrix!"
 $склонение_моб['fugituive_e'] = "little fugitive"
 $склонение_моба['fugituive_e'] = "little fugitive"
 $склонение_мобу['fugituive_e'] = "little fugitive"
@@ -1432,9 +1432,9 @@ $атака_1_тип_вреда['fugituive_e'] = 'колющий'
 $атака_1_штраф['fugituive_e'] = 'рассеянность'
 $атака_1_бонус['fugituive_e'] = 'меткость'
 атака_1_длительность['fugituive_e'] = 4
-$атака_1_текст['fugituive_e'] = "Little fugitive <font color='purple'>threw</font> shuriken at you."
+$атака_1_текст['fugituive_e'] = "The Little Fugitive <font color='purple'>throws</font> a shuriken at you."
 
-$смерть['fugituive_e'] = 'Little fugitive writhes in her death throes.'
+$смерть['fugituive_e'] = 'The Little Fugitive writhes in her death throes.'
 
 
 
@@ -1444,7 +1444,7 @@ $название_моба['dimaher_a'] = "Gladiatrix"
 $аватара_моба['dimaher_a'] = "content/pic/mob/gladiator_dimaha_1_ava.jpg"
 $силуэт_моба['dimaher_a'] = "content/pic/mob/gladiator_dimaha_1.gif"
 $описание_моба['dimaher_a'] = "   [ARENA SUPERVISOR]
-   - And her opponent, fresh blood. She fights in the dimachaerus style that we all love so much. But will this young girl, who first appeared in the arena, able to fight with two swords at once? Let's take a look!"
+   - And her opponent, fresh blood. She fights in the dimachaerus style that we all love so much. But will this young girl, who first appeared in the arena, be able to fight with two swords at once? Let's take a look!"
 $склонение_моб['dimaher_a'] = "opponent"
 $склонение_моба['dimaher_a'] = "opponent"
 $склонение_мобу['dimaher_a'] = "opponent"
@@ -1460,16 +1460,16 @@ $атака_1_тип_вреда['dimaher_a'] = 'колющий'
 $атака_1_штраф['dimaher_a'] = 'ошеломление'
 $атака_1_бонус['dimaher_a'] = 'меткость'
 атака_1_длительность['dimaher_a'] = 3
-$атака_1_текст['dimaher_a'] = "Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
+$атака_1_текст['dimaher_a'] = "The Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
 
-$смерть['dimaher_a'] = 'Defeated opponent lies in a pool of her own blood.'
+$смерть['dimaher_a'] = 'The defeated opponent lies in a pool of her own blood.'
 
 !Dimachaerus B ['dimaher_b']
 $название_моба['dimaher_b'] = "Gladiatrix"
 $аватара_моба['dimaher_b'] = "content/pic/mob/gladiator_dimaha_2_ava.jpg"
 $силуэт_моба['dimaher_b'] = "content/pic/mob/gladiator_dimaha_2.gif"
 $описание_моба['dimaher_b'] = "   [ARENA SUPERVISOR]
-   - Her opponent fights in favorite by public dimachaerus style. And just look at those huge... ahem... knives! Will she be able to use them adequately? We'll see!"
+   - Her opponent fights in the publicly favored dimachaerus style. And just look at those huge... ahem... knives! Will she be able to use them adequately? We’ll see!"
 $склонение_моб['dimaher_b'] = "opponent"
 $склонение_моба['dimaher_b'] = "opponent"
 $склонение_мобу['dimaher_b'] = "opponent"
@@ -1485,17 +1485,17 @@ $атака_1_тип_вреда['dimaher_b'] = 'колющий'
 $атака_1_штраф['dimaher_b'] = 'ошеломление'
 $атака_1_бонус['dimaher_b'] = 'меткость'
 атака_1_длительность['dimaher_b'] = 3
-$атака_1_текст['dimaher_b'] = "Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
+$атака_1_текст['dimaher_b'] = "The Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
 $атака_2_тип['dimaher_b'] = 'быстрая'
 $атака_2_тип_вреда['dimaher_b'] = 'рубящий'
 $атака_2_штраф['dimaher_b'] = 'рассеянность'
 $атака_2_бонус['dimaher_b'] = 'разгон'
 атака_2_длительность['dimaher_b'] = 3
-$атака_2_текст['dimaher_b'] = "Gladiatrix <font color='green'>rotates</font> two blades, recalling the deadly mill."
+$атака_2_текст['dimaher_b'] = "The Gladiatrix <font color='green'>rotates</font> her two blades, recalling a deadly mill."
 
-$смерть['dimaher_b'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['dimaher_b'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['dimaher_b'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['dimaher_b'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['dimaher_b'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['dimaher_b'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['dimaher_b'] = 0
 тонкое_тело['dimaher_b'] = 0
@@ -1520,7 +1520,7 @@ $название_моба['dimaher_c'] = "Gladiatrix"
 $аватара_моба['dimaher_c'] = "content/pic/mob/gladiator_dimaha_3_ava.jpg"
 $силуэт_моба['dimaher_c'] = "content/pic/mob/gladiator_dimaha_3.gif"
 $описание_моба['dimaher_c'] = "   [ARENA SUPERVISOR]
-   - And against her will act gladiatrix that has earned the love of the public, using dimachaerus style. We know how she deftly wielded her knives. So let's see what our great rivals are capable of!"
+   - A gladiatrix acting against her will that has earned the love of the public, using the dimachaerus style. We know how deftly she wields her knives. So let’s see what our great rivals are capable of!"
 $склонение_моб['dimaher_c'] = "opponent"
 $склонение_моба['dimaher_c'] = "opponent"
 $склонение_мобу['dimaher_c'] = "opponent"
@@ -1536,17 +1536,17 @@ $атака_1_тип_вреда['dimaher_c'] = 'колющий'
 $атака_1_штраф['dimaher_c'] = 'ошеломление'
 $атака_1_бонус['dimaher_c'] = 'меткость'
 атака_1_длительность['dimaher_c'] = 4
-$атака_1_текст['dimaher_c'] = "Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
+$атака_1_текст['dimaher_c'] = "The Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
 $атака_2_тип['dimaher_c'] = 'быстрая'
 $атака_2_тип_вреда['dimaher_c'] = 'рубящий'
 $атака_2_штраф['dimaher_c'] = 'рассеянность'
 $атака_2_бонус['dimaher_c'] = 'разгон'
 атака_2_длительность['dimaher_c'] = 4
-$атака_2_текст['dimaher_c'] = "Gladiatrix <font color='green'>rotates</font> two blades, recalling the deadly mill."
+$атака_2_текст['dimaher_c'] = "The Gladiatrix <font color='green'>rotates</font> two blades, recalling a deadly mill."
 
-$смерть['dimaher_c'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['dimaher_c'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['dimaher_c'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['dimaher_c'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['dimaher_c'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['dimaher_c'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['dimaher_c'] = 0
 тонкое_тело['dimaher_c'] = 0
@@ -1571,7 +1571,7 @@ $название_моба['dimaher_d'] = "Gladiatrix"
 $аватара_моба['dimaher_d'] = "content/pic/mob/gladiator_dimaha_4_ava.jpg"
 $силуэт_моба['dimaher_d'] = "content/pic/mob/gladiator_dimaha_4.gif"
 $описание_моба['dimaher_d'] = "   [ARENA SUPERVISOR]
-   - And these red hair many probably know. Yes, her opponent has managed to acquire considerable fame by fighting in the dimachaerus style at this arena. The battle promises to be exciting, so let's watch!"
+   - Many probably know this red hair. Yes, her opponent has managed to acquire considerable fame by fighting in the dimachaerus style at this arena. The battle promises to be exciting, so let’s watch!"
 $склонение_моб['dimaher_d'] = "opponent"
 $склонение_моба['dimaher_d'] = "opponent"
 $склонение_мобу['dimaher_d'] = "opponent"
@@ -1587,17 +1587,17 @@ $атака_1_тип_вреда['dimaher_d'] = 'колющий'
 $атака_1_штраф['dimaher_d'] = 'ошеломление'
 $атака_1_бонус['dimaher_d'] = 'меткость'
 атака_1_длительность['dimaher_d'] = 5
-$атака_1_текст['dimaher_d'] = "Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
+$атака_1_текст['dimaher_d'] = "The Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
 $атака_2_тип['dimaher_d'] = 'быстрая'
 $атака_2_тип_вреда['dimaher_d'] = 'рубящий'
 $атака_2_штраф['dimaher_d'] = 'рассеянность'
 $атака_2_бонус['dimaher_d'] = 'разгон'
 атака_2_длительность['dimaher_d'] = 5
-$атака_2_текст['dimaher_d'] = "Gladiatrix <font color='green'>rotates</font> two blades, recalling the deadly mill."
+$атака_2_текст['dimaher_d'] = "The Gladiatrix <font color='green'>rotates</font> two blades, recalling a deadly mill."
 
-$смерть['dimaher_d'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['dimaher_d'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['dimaher_d'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['dimaher_d'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['dimaher_d'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['dimaher_d'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['dimaher_d'] = 0
 тонкое_тело['dimaher_d'] = 0
@@ -1622,7 +1622,7 @@ $название_моба['dimaher_e'] = "Gladiatrix"
 $аватара_моба['dimaher_e'] = "content/pic/mob/gladiator_dimaha_5_ava.jpg"
 $силуэт_моба['dimaher_e'] = "content/pic/mob/gladiator_dimaha_5.gif"
 $описание_моба['dimaher_e'] = "   [ARENA SUPERVISOR]
-   - And today her opponent will be one of the best gladiatrix ever fought on this stage with paired weapons. Worthy opponents to fight for the highest title! You impatient to see it as well as I am? Then let's begin!"
+   - And today her opponent will be one of the best gladiatrix to ever fight on this stage with paired weapons. A worthy opponent to fight for the highest title! Are you as impatient to see it as I am? Then let’s begin!"
 $склонение_моб['dimaher_e'] = "opponent"
 $склонение_моба['dimaher_e'] = "opponent"
 $склонение_мобу['dimaher_e'] = "opponent"
@@ -1638,17 +1638,17 @@ $атака_1_тип_вреда['dimaher_e'] = 'колющий'
 $атака_1_штраф['dimaher_e'] = 'ошеломление'
 $атака_1_бонус['dimaher_e'] = 'меткость'
 атака_1_длительность['dimaher_e'] = 6
-$атака_1_текст['dimaher_e'] = "Gladiatrix deals <font color='purple'>thrusting</font> attack with her blades simultaneously."
+$атака_1_текст['dimaher_e'] = "The Gladiatrix deals <font color='purple'>thrusting</font> attacks with her blades simultaneously."
 $атака_2_тип['dimaher_e'] = 'быстрая'
 $атака_2_тип_вреда['dimaher_e'] = 'рубящий'
 $атака_2_штраф['dimaher_e'] = 'рассеянность'
 $атака_2_бонус['dimaher_e'] = 'разгон'
 атака_2_длительность['dimaher_e'] = 6
-$атака_2_текст['dimaher_e'] = "Gladiatrix <font color='green'>rotates</font> two blades, recalling the deadly mill."
+$атака_2_текст['dimaher_e'] = "The Gladiatrix <font color='green'>rotates</font> two blades, recalling a deadly mill."
 
-$смерть['dimaher_e'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['dimaher_e'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['dimaher_e'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['dimaher_e'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['dimaher_e'] = 'The beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
+$бегство['dimaher_e'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['dimaher_e'] = 0
 тонкое_тело['dimaher_e'] = 0
@@ -1674,7 +1674,7 @@ $название_моба['hoplite_a'] = "Gladiatrix"
 $аватара_моба['hoplite_a'] = "content/pic/mob/gladiator_hoplite_1_ava.jpg"
 $силуэт_моба['hoplite_a'] = "content/pic/mob/gladiator_hoplite_1.gif"
 $описание_моба['hoplite_a'] = "   [ARENA SUPERVISOR]
-   - Against her acts débutante of our arena, but just look at her! Armor and whipsaw, yes, you're right - she acts in ferroflagellation style. It looks like a very bloody battle ahead. So what are we waiting for?!"
+   - Against her is a débutante of our arena, but just look at her! Armor and whipsaw, yes, you're right - she acts in the ferroflagellation style. It looks like a very bloody battle ahead. So what are we waiting for?!"
 $склонение_моб['hoplite_a'] = "opponent"
 $склонение_моба['hoplite_a'] = "opponent"
 $склонение_мобу['hoplite_a'] = "opponent"
@@ -1690,16 +1690,16 @@ $атака_1_тип_вреда['hoplite_a'] = 'рубящий'
 $атака_1_штраф['hoplite_a'] = 'боль'
 $атака_1_бонус['hoplite_a'] = 'разгон'
 атака_1_длительность['hoplite_a'] = 3
-$атака_1_текст['hoplite_a'] = "Gladiatrix <font color='red'>with big sweep</font> whips you with her steel whip."
+$атака_1_текст['hoplite_a'] = "The Gladiatrix, <font color='red'>with a big sweep</font>, whips you with her steel whip."
 
-$смерть['hoplite_a'] = 'Defeated opponent lies in a pool of her own blood.'
+$смерть['hoplite_a'] = 'The defeated opponent lies in a pool of her own blood.'
 
 !Hoplomachus B ['hoplite_b']
 $название_моба['hoplite_b'] = "Gladiatrix"
 $аватара_моба['hoplite_b'] = "content/pic/mob/gladiator_hoplite_2_ava.jpg"
 $силуэт_моба['hoplite_b'] = "content/pic/mob/gladiator_hoplite_2.gif"
 $описание_моба['hoplite_b'] = "   [ARENA SUPERVISOR]
-   - And her opponent, stern woman from the harsh world... and Heaven will see, she chose a harsh weapon. Fight with ferroflagellant will not be boring, that's for sure!"
+   - And her opponent, a stern woman from a harsh world... and Heaven knows she chose a harsh weapon. Fights with ferroflagellant style will not be boring, that’s for sure!"
 $склонение_моб['hoplite_b'] = "opponent"
 $склонение_моба['hoplite_b'] = "opponent"
 $склонение_мобу['hoplite_b'] = "opponent"
@@ -1715,17 +1715,17 @@ $атака_1_тип_вреда['hoplite_b'] = 'рубящий'
 $атака_1_штраф['hoplite_b'] = 'боль'
 $атака_1_бонус['hoplite_b'] = 'разгон'
 атака_1_длительность['hoplite_b'] = 3
-$атака_1_текст['hoplite_b'] = "Gladiatrix <font color='red'>with big sweep</font> whips you with her steel whip."
+$атака_1_текст['hoplite_b'] = "The Gladiatrix, <font color='red'>with a big sweep</font>, whips you with her steel whip."
 $атака_2_тип['hoplite_b'] = 'быстрая'
 $атака_2_тип_вреда['hoplite_b'] = 'рубящий'
 $атака_2_штраф['hoplite_b'] = 'слабость'
 $атака_2_бонус['hoplite_b'] = 'бешенство'
 атака_2_длительность['hoplite_b'] = 3
-$атака_2_текст['hoplite_b'] = "Gladiatrix deals <font color='green'>swift</font> attack with her jagged whip."
+$атака_2_текст['hoplite_b'] = "The Gladiatrix deals a <font color='green'>swift</font> attack with her jagged whip."
 
-$смерть['hoplite_b'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['hoplite_b'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['hoplite_b'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['hoplite_b'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['hoplite_b'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['hoplite_b'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['hoplite_b'] = 0
 тонкое_тело['hoplite_b'] = 0
@@ -1750,7 +1750,7 @@ $название_моба['hoplite_c'] = "Gladiatrix"
 $аватара_моба['hoplite_c'] = "content/pic/mob/gladiator_hoplite_3_ava.jpg"
 $силуэт_моба['hoplite_c'] = "content/pic/mob/gladiator_hoplite_3.gif"
 $описание_моба['hoplite_c'] = "   [ARENA SUPERVISOR]
-   - And here is her opponent, acting in ferroflagrum style. Just look at this black, spiked, impenetrable armor. But if she can close from blows her soft, tender tummy? Until now, she was able to do it!"
+   - And here is her opponent, acting in the ferroflagrum style. Just look at this black, spiked, impenetrable armor. But if can she keep blows from her soft, tender tummy? Until now she was able to do it!"
 $склонение_моб['hoplite_c'] = "opponent"
 $склонение_моба['hoplite_c'] = "opponent"
 $склонение_мобу['hoplite_c'] = "opponent"
@@ -1766,17 +1766,17 @@ $атака_1_тип_вреда['hoplite_c'] = 'рубящий'
 $атака_1_штраф['hoplite_c'] = 'боль'
 $атака_1_бонус['hoplite_c'] = 'разгон'
 атака_1_длительность['hoplite_c'] = 4
-$атака_1_текст['hoplite_c'] = "Gladiatrix <font color='red'>with big sweep</font> whips you with her steel whip."
+$атака_1_текст['hoplite_c'] = "The Gladiatrix, <font color='red'>with a big sweep</font>, whips you with her steel whip."
 $атака_2_тип['hoplite_c'] = 'быстрая'
 $атака_2_тип_вреда['hoplite_c'] = 'рубящий'
 $атака_2_штраф['hoplite_c'] = 'слабость'
 $атака_2_бонус['hoplite_c'] = 'бешенство'
 атака_2_длительность['hoplite_c'] = 4
-$атака_2_текст['hoplite_c'] = "Gladiatrix deals <font color='green'>swift</font> attack with her jagged whip."
+$атака_2_текст['hoplite_c'] = "The Gladiatrix deals a <font color='green'>swift</font> attack with her jagged whip."
 
-$смерть['hoplite_c'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['hoplite_c'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['hoplite_c'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['hoplite_c'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['hoplite_c'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['hoplite_c'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['hoplite_c'] = 0
 тонкое_тело['hoplite_c'] = 0
@@ -1801,7 +1801,7 @@ $название_моба['hoplite_d'] = "Gladiatrix"
 $аватара_моба['hoplite_d'] = "content/pic/mob/gladiator_hoplite_4_ava.jpg"
 $силуэт_моба['hoplite_d'] = "content/pic/mob/gladiator_hoplite_4.gif"
 $описание_моба['hoplite_d'] = "   [ARENA SUPERVISOR]
-   - And today her opponent will be an experienced and well-known for her cruelty ferroflagellant. We have repeatedly seen how ruthless her whipsaw, but today the opponents deserve each other!"
+   - And today her opponent will be an experienced ferroflagellant well-known for her cruelty. We have repeatedly seen how ruthless her whipsaw is, but today these opponents deserve each other!"
 $склонение_моб['hoplite_d'] = "opponent"
 $склонение_моба['hoplite_d'] = "opponent"
 $склонение_мобу['hoplite_d'] = "opponent"
@@ -1817,17 +1817,17 @@ $атака_1_тип_вреда['hoplite_d'] = 'рубящий'
 $атака_1_штраф['hoplite_d'] = 'боль'
 $атака_1_бонус['hoplite_d'] = 'разгон'
 атака_1_длительность['hoplite_d'] = 5
-$атака_1_текст['hoplite_d'] = "Gladiatrix <font color='red'>with big sweep</font> whips you with her steel whip."
+$атака_1_текст['hoplite_d'] = "The Gladiatrix, <font color='red'>with a big sweep</font>, whips you with her steel whip."
 $атака_2_тип['hoplite_d'] = 'быстрая'
 $атака_2_тип_вреда['hoplite_d'] = 'рубящий'
 $атака_2_штраф['hoplite_d'] = 'слабость'
 $атака_2_бонус['hoplite_d'] = 'бешенство'
 атака_2_длительность['hoplite_d'] = 5
-$атака_2_текст['hoplite_d'] = "Gladiatrix deals <font color='green'>swift</font> attack with her jagged whip."
+$атака_2_текст['hoplite_d'] = "The Gladiatrix deals a <font color='green'>swift</font> attack with her jagged whip."
 
-$смерть['hoplite_d'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['hoplite_d'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['hoplite_d'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['hoplite_d'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['hoplite_d'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['hoplite_d'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['hoplite_d'] = 0
 тонкое_тело['hoplite_d'] = 0
@@ -1852,7 +1852,7 @@ $название_моба['hoplite_e'] = "Gladiatrix"
 $аватара_моба['hoplite_e'] = "content/pic/mob/gladiator_hoplite_5_ava.jpg"
 $силуэт_моба['hoplite_e'] = "content/pic/mob/gladiator_hoplite_5.gif"
 $описание_моба['hoplite_e'] = "   [ARENA SUPERVISOR]
-   - And of course such a strong gladiatrix needs a decent opponent. Meet - one of the best and most famous ferroflagellant of this arena. Beautiful and deadly. Let blood will be shed!"
+   - And of course such a strong gladiatrix needs a decent opponent. Meet one of the best and most famous ferroflagellants of this arena. Beautiful and deadly. Blood will be shed!"
 $склонение_моб['hoplite_e'] = "opponent"
 $склонение_моба['hoplite_e'] = "opponent"
 $склонение_мобу['hoplite_e'] = "opponent"
@@ -1868,17 +1868,17 @@ $атака_1_тип_вреда['hoplite_e'] = 'рубящий'
 $атака_1_штраф['hoplite_e'] = 'боль'
 $атака_1_бонус['hoplite_e'] = 'разгон'
 атака_1_длительность['hoplite_e'] = 6
-$атака_1_текст['hoplite_e'] = "Gladiatrix <font color='red'>with big sweep</font> whips you with her steel whip."
+$атака_1_текст['hoplite_e'] = "The Gladiatrix, <font color='red'>with a big sweep</font>, whips you with her steel whip."
 $атака_2_тип['hoplite_e'] = 'быстрая'
 $атака_2_тип_вреда['hoplite_e'] = 'рубящий'
 $атака_2_штраф['hoplite_e'] = 'слабость'
 $атака_2_бонус['hoplite_e'] = 'бешенство'
 атака_2_длительность['hoplite_e'] = 6
-$атака_2_текст['hoplite_e'] = "Gladiatrix deals <font color='green'>swift</font> attack with her jagged whip."
+$атака_2_текст['hoplite_e'] = "The Gladiatrix deals a <font color='green'>swift</font> attack with her jagged whip."
 
-$смерть['hoplite_e'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['hoplite_e'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['hoplite_e'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['hoplite_e'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['hoplite_e'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['hoplite_e'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['hoplite_e'] = 0
 тонкое_тело['hoplite_e'] = 0
@@ -1904,7 +1904,7 @@ $название_моба['secutor_a'] = "Gladiatrix"
 $аватара_моба['secutor_a'] = "content/pic/mob/gladiator_secutor_1_ava.jpg"
 $силуэт_моба['secutor_a'] = "content/pic/mob/gladiator_secutor_1.gif"
 $описание_моба['secutor_a'] = "   [ARENA SUPERVISOR]
-   - And on the other side of the arena - a young but charming débutante acting in secutor style. Just look at her seductive body! Will her shield able to protect the body from the blows of her opponent? Let's see!"
+   - And on the other side of the arena - a young but charming débutante acting in the secutor style. Just look at her seductive body! Will her shield able to protect her body from the blows of her opponent? Let’s see!"
 $склонение_моб['secutor_a'] = "opponent"
 $склонение_моба['secutor_a'] = "opponent"
 $склонение_мобу['secutor_a'] = "opponent"
@@ -1920,16 +1920,16 @@ $атака_1_тип_вреда['secutor_a'] = 'рубящий'
 $атака_1_штраф['secutor_a'] = 'боль'
 $атака_1_бонус['secutor_a'] = 'адреналин'
 атака_1_длительность['secutor_a'] = 3
-$атака_1_текст['secutor_a'] = "Gladiatrix chops with sword using <font color='red'>all her strength</font>, compensating the lack of skills with excess of rage."
+$атака_1_текст['secutor_a'] = "The Gladiatrix chops with the sword using <font color='red'>all her strength</font>, compensating for the lack of skill with excess of rage."
 
-$смерть['secutor_a'] = 'Defeated opponent lies in a pool of her own blood.'
+$смерть['secutor_a'] = 'The defeated opponent lies in a pool of her own blood.'
 
 !Secutor B ['secutor_b']
 $название_моба['secutor_b'] = "Gladiatrix"
 $аватара_моба['secutor_b'] = "content/pic/mob/gladiator_secutor_2_ava.jpg"
 $силуэт_моба['secutor_b'] = "content/pic/mob/gladiator_secutor_2.gif"
 $описание_моба['secutor_b'] = "   [ARENA SUPERVISOR]
-   - And you just look at the innocent look of her opponent! Is not she an angel? But this blond dolly had once proved to us that she is able to win in mortal combat. Will she be lucky this time?"
+   - And just you look at the innocent look of her opponent! Is she not an angel? But this blond dolly has proved once before to us that she is able to win in mortal combat. Will she be lucky this time?"
 $склонение_моб['secutor_b'] = "opponent"
 $склонение_моба['secutor_b'] = "opponent"
 $склонение_мобу['secutor_b'] = "opponent"
@@ -1945,17 +1945,17 @@ $атака_1_тип_вреда['secutor_b'] = 'рубящий'
 $атака_1_штраф['secutor_b'] = 'боль'
 $атака_1_бонус['secutor_b'] = 'адреналин'
 атака_1_длительность['secutor_b'] = 3
-$атака_1_текст['secutor_b'] = "Gladiatrix cuts with sword by investing in a blow <font color='red'>weight</font> of all her body."
+$атака_1_текст['secutor_b'] = "The Gladiatrix cuts with the sword by investing all the <font color='red'>weight</font> of her body into a blow."
 $атака_2_тип['secutor_b'] = 'точная'
 $атака_2_тип_вреда['secutor_b'] = 'колющий'
 $атака_2_штраф['secutor_b'] = 'слабость'
 $атака_2_бонус['secutor_b'] = 'верткость'
 атака_2_длительность['secutor_b'] = 3
-$атака_2_текст['secutor_b'] = "Gladiatrix encounters your attack with <font color='purple'>carefully calculated</font> poke."
+$атака_2_текст['secutor_b'] = "The Gladiatrix counters your attack with a <font color='purple'>carefully calculated</font> poke."
 
-$смерть['secutor_b'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['secutor_b'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['secutor_b'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['secutor_b'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['secutor_b'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['secutor_b'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['secutor_b'] = 0
 тонкое_тело['secutor_b'] = 0
@@ -1980,7 +1980,7 @@ $название_моба['secutor_c'] = "Gladiatrix"
 $аватара_моба['secutor_c'] = "content/pic/mob/gladiator_secutor_3_ava.jpg"
 $силуэт_моба['secutor_c'] = "content/pic/mob/gladiator_secutor_3.gif"
 $описание_моба['secutor_c'] = "   [ARENA SUPERVISOR]
-   - And her today's opponent comes from the people of rock gnomes, renowned for their endurance and unstoppable fury! No wonder that she chose a secutor style. I think the battle will be worthy."
+   - And her opponent today comes from the people called rock gnomes, renowned for their endurance and unstoppable fury! No wonder that she chose a secutor style. I think the battle will be worthy."
 $склонение_моб['secutor_c'] = "opponent"
 $склонение_моба['secutor_c'] = "opponent"
 $склонение_мобу['secutor_c'] = "opponent"
@@ -1996,17 +1996,17 @@ $атака_1_тип_вреда['secutor_c'] = 'рубящий'
 $атака_1_штраф['secutor_c'] = 'боль'
 $атака_1_бонус['secutor_c'] = 'адреналин'
 атака_1_длительность['secutor_c'] = 4
-$атака_1_текст['secutor_c'] = "Gladiatrix cuts with sword by investing in a blow <font color='red'>weight</font> of all her body."
+$атака_1_текст['secutor_c'] = "The Gladiatrix cuts with the sword by investing all the <font color='red'>weight</font> of her body into a blow."
 $атака_2_тип['secutor_c'] = 'точная'
 $атака_2_тип_вреда['secutor_c'] = 'колющий'
 $атака_2_штраф['secutor_c'] = 'слабость'
 $атака_2_бонус['secutor_c'] = 'верткость'
 атака_2_длительность['secutor_c'] = 4
-$атака_2_текст['secutor_c'] = "Gladiatrix encounters your attack with <font color='purple'>carefully calculated</font> poke."
+$атака_2_текст['secutor_c'] = "The Gladiatrix counters your attack with a <font color='purple'>carefully calculated</font> poke."
 
-$смерть['secutor_c'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['secutor_c'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['secutor_c'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['secutor_c'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['secutor_c'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['secutor_c'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['secutor_c'] = 0
 тонкое_тело['secutor_c'] = 0
@@ -2031,7 +2031,7 @@ $название_моба['secutor_d'] = "Gladiatrix"
 $аватара_моба['secutor_d'] = "content/pic/mob/gladiator_secutor_4_ava.jpg"
 $силуэт_моба['secutor_d'] = "content/pic/mob/gladiator_secutor_4.gif"
 $описание_моба['secutor_d'] = "   [ARENA SUPERVISOR]
-   - And her today's opponent, acting in secutor style, reminds us of a bygone absolute champion Bryn. And not just by the color of her hair, believe me, but also with unbending strength and skill. Without further ado, let battle begin!"
+   - And her opponent today, acting in the secutor style, reminds us of the bygone absolute champion Bryn. And not just by the color of her hair, believe me, but also by her unbending strength and skill. Without further ado, let the battle begin!"
 $склонение_моб['secutor_d'] = "opponent"
 $склонение_моба['secutor_d'] = "opponent"
 $склонение_мобу['secutor_d'] = "opponent"
@@ -2047,17 +2047,17 @@ $атака_1_тип_вреда['secutor_d'] = 'рубящий'
 $атака_1_штраф['secutor_d'] = 'боль'
 $атака_1_бонус['secutor_d'] = 'адреналин'
 атака_1_длительность['secutor_d'] = 5
-$атака_1_текст['secutor_d'] = "Gladiatrix cuts with sword by investing in a blow <font color='red'>weight</font> of all her body."
+$атака_1_текст['secutor_d'] = "The Gladiatrix cuts with the sword by investing all the <font color='red'>weight</font> of her body into a blow."
 $атака_2_тип['secutor_d'] = 'точная'
 $атака_2_тип_вреда['secutor_d'] = 'колющий'
 $атака_2_штраф['secutor_d'] = 'слабость'
 $атака_2_бонус['secutor_d'] = 'верткость'
 атака_2_длительность['secutor_d'] = 5
-$атака_2_текст['secutor_d'] = "Gladiatrix encounters your attack with <font color='purple'>carefully calculated</font> poke."
+$атака_2_текст['secutor_d'] = "The Gladiatrix counters your attack with a <font color='purple'>carefully calculated</font> poke."
 
-$смерть['secutor_d'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['secutor_d'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['secutor_d'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['secutor_d'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['secutor_d'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['secutor_d'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['secutor_d'] = 0
 тонкое_тело['secutor_d'] = 0
@@ -2082,7 +2082,7 @@ $название_моба['secutor_e'] = "Gladiatrix"
 $аватара_моба['secutor_e'] = "content/pic/mob/gladiator_secutor_5_ava.jpg"
 $силуэт_моба['secutor_e'] = "content/pic/mob/gladiator_secutor_5.gif"
 $описание_моба['secutor_e'] = "   [ARENA SUPERVISOR]
-   - But today she will get a fitting rebuff! See this heavily armed opponent? All of you know her, because she is one of the best secutor of our renowned arena. Yes, this battle will be hot."
+   - But today she will get a fitting rebuff! See this heavily armed opponent? All of you know her, because she is one of the best secutors of our renowned arena. Yes, this battle will be hot."
 $склонение_моб['secutor_e'] = "opponent"
 $склонение_моба['secutor_e'] = "opponent"
 $склонение_мобу['secutor_e'] = "opponent"
@@ -2098,17 +2098,17 @@ $атака_1_тип_вреда['secutor_e'] = 'рубящий'
 $атака_1_штраф['secutor_e'] = 'боль'
 $атака_1_бонус['secutor_e'] = 'адреналин'
 атака_1_длительность['secutor_e'] = 6
-$атака_1_текст['secutor_e'] = "Gladiatrix cuts with sword by investing in a blow <font color='red'>weight</font> of all her body."
+$атака_1_текст['secutor_e'] = "The Gladiatrix cuts with the sword by investing all the <font color='red'>weight</font> of her body into a blow."
 $атака_2_тип['secutor_e'] = 'точная'
 $атака_2_тип_вреда['secutor_e'] = 'колющий'
 $атака_2_штраф['secutor_e'] = 'слабость'
 $атака_2_бонус['secutor_e'] = 'верткость'
 атака_2_длительность['secutor_e'] = 6
-$атака_2_текст['secutor_e'] = "Gladiatrix encounters your attack with <font color='purple'>carefully calculated</font> poke."
+$атака_2_текст['secutor_e'] = "The Gladiatrix counters your attack with a <font color='purple'>carefully calculated</font> poke."
 
-$смерть['secutor_e'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['secutor_e'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['secutor_e'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['secutor_e'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['secutor_e'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['secutor_e'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['secutor_e'] = 0
 тонкое_тело['secutor_e'] = 0
@@ -2134,7 +2134,7 @@ $название_моба['kimerian_a'] = "Gladiatrix"
 $аватара_моба['kimerian_a'] = "content/pic/mob/gladiator_kimerian_1_ava.jpg"
 $силуэт_моба['kimerian_a'] = "content/pic/mob/gladiator_kimerian_1.gif"
 $описание_моба['kimerian_a'] = "   [ARENA SUPERVISOR]
-   - Her opponent is still quite a child, but she acts in a heavy cimmerian style. Just look what a cutie! Will she be able to cope with such huge axe? Let's see!"
+   - Her opponent is still quite a child, but she fights in a heavy cimmerian style. Just look, what a cutie! Will she be able to cope with such a huge axe? Let’s see!"
 $склонение_моб['kimerian_a'] = "opponent"
 $склонение_моба['kimerian_a'] = "opponent"
 $склонение_мобу['kimerian_a'] = "opponent"
@@ -2150,16 +2150,16 @@ $атака_1_тип_вреда['kimerian_a'] = 'рубящий'
 $атака_1_штраф['kimerian_a'] = 'шаткость'
 $атака_1_бонус['kimerian_a'] = 'адреналин'
 атака_1_длительность['kimerian_a'] = 3
-$атака_1_текст['kimerian_a'] = "Girl wielding her huge axe <font color='red'>as reed</font>. Fortunately, it's not as heavy as it looks. But it still powerful..."
+$атака_1_текст['kimerian_a'] = "The Girl wields her huge axe <font color='red'>like a reed</font>. Fortunately, it’s not as heavy as it looks. But it’s still powerful..."
 
-$смерть['kimerian_a'] = 'Defeated opponent lies in a pool of her own blood.'
+$смерть['kimerian_a'] = 'The defeated opponent lies in a pool of her own blood.'
 
 !Cimmerian B ['kimerian_b']
 $название_моба['kimerian_b'] = "Gladiatrix"
 $аватара_моба['kimerian_b'] = "content/pic/mob/gladiator_kimerian_2_ava.jpg"
 $силуэт_моба['kimerian_b'] = "content/pic/mob/gladiator_kimerian_2.gif"
 $описание_моба['kimerian_b'] = "   [ARENA SUPERVISOR]
-   - Her opponent managed to show herself in battle only once, but many remember that fight and the deadly power of the two-handed sword of this busty beauty acting in cimmerian style. Let's hope that today she will not lose face!"
+   - Her opponent managed to show herself in battle only once, but many remember that fight and the deadly power of the two-handed sword of this busty beauty acting in cimmerian style. Let’s hope that today she will not lose face!"
 $склонение_моб['kimerian_b'] = "opponent"
 $склонение_моба['kimerian_b'] = "opponent"
 $склонение_мобу['kimerian_b'] = "opponent"
@@ -2175,17 +2175,17 @@ $атака_1_тип_вреда['kimerian_b'] = 'рубящий'
 $атака_1_штраф['kimerian_b'] = 'шаткость'
 $атака_1_бонус['kimerian_b'] = 'адреналин'
 атака_1_длительность['kimerian_b'] = 3
-$атака_1_текст['kimerian_b'] = "Blonde wielding her two-handed weapon <font color='red'>as reed</font>."
+$атака_1_текст['kimerian_b'] = "The Blonde wields her two-handed weapon <font color='red'>like a reed</font>."
 $атака_2_тип['kimerian_b'] = 'быстрая'
 $атака_2_тип_вреда['kimerian_b'] = 'рубящий'
 $атака_2_штраф['kimerian_b'] = 'рассеянность'
 $атака_2_бонус['kimerian_b'] = 'верткость'
 атака_2_длительность['kimerian_b'] = 3
-$атака_2_текст['kimerian_b'] = "Blonde rotates axe at <font color='green'>wide</font> arc."
+$атака_2_текст['kimerian_b'] = "The Blonde rotates axe in a <font color='green'>wide</font> arc."
 
-$смерть['kimerian_b'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['kimerian_b'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['kimerian_b'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['kimerian_b'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['kimerian_b'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['kimerian_b'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['kimerian_b'] = 0
 тонкое_тело['kimerian_b'] = 0
@@ -2210,7 +2210,7 @@ $название_моба['kimerian_c'] = "Gladiatrix"
 $аватара_моба['kimerian_c'] = "content/pic/mob/gladiator_kimerian_3_ava.jpg"
 $силуэт_моба['kimerian_c'] = "content/pic/mob/gladiator_kimerian_3.gif"
 $описание_моба['kimerian_c'] = "   [ARENA SUPERVISOR]
-   - And today she have a very exotic white-haired opponent acting in cimmerian style. Just look at the size of this sword. Can anything stop the attack of such a powerful weapon of death? Let's see!"
+   - And today we have a very exotic white-haired opponent acting in a cimmerian style. Just look at the size of that sword. Can anything stop the attack of such a powerful weapon of death? Let’s see!"
 $склонение_моб['kimerian_c'] = "opponent"
 $склонение_моба['kimerian_c'] = "opponent"
 $склонение_мобу['kimerian_c'] = "opponent"
@@ -2226,17 +2226,17 @@ $атака_1_тип_вреда['kimerian_c'] = 'рубящий'
 $атака_1_штраф['kimerian_c'] = 'шаткость'
 $атака_1_бонус['kimerian_c'] = 'адреналин'
 атака_1_длительность['kimerian_c'] = 3
-$атака_1_текст['kimerian_c'] = "Girl wielding her huge sword <font color='red'>as reed</font>. Fortunately, it's not as heavy as it looks. But it still powerful..."
+$атака_1_текст['kimerian_c'] = "The Girl wields her huge sword <font color='red'>like a reed</font>. Fortunately, it’s not as heavy as it looks. But it’s still powerful..."
 $атака_2_тип['kimerian_c'] = 'быстрая'
 $атака_2_тип_вреда['kimerian_c'] = 'рубящий'
 $атака_2_штраф['kimerian_c'] = 'рассеянность'
 $атака_2_бонус['kimerian_c'] = 'верткость'
 атака_2_длительность['kimerian_c'] = 3
-$атака_2_текст['kimerian_c'] = "White-haired girl rotates gigantic sword at <font color='green'>wide</font> arc and unleashes it on your head."
+$атака_2_текст['kimerian_c'] = "The White-haired girl rotates her gigantic sword in a <font color='green'>wide</font> arc and unleashes it on your head."
 
-$смерть['kimerian_c'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['kimerian_c'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['kimerian_c'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['kimerian_c'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['kimerian_c'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['kimerian_c'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['kimerian_c'] = 0
 тонкое_тело['kimerian_c'] = 0
@@ -2261,7 +2261,7 @@ $название_моба['kimerian_d'] = "Gladiatrix"
 $аватара_моба['kimerian_d'] = "content/pic/mob/gladiator_kimerian_4_ava.jpg"
 $силуэт_моба['kimerian_d'] = "content/pic/mob/gladiator_kimerian_4.gif"
 $описание_моба['kimerian_d'] = "   [ARENA SUPERVISOR]
-   - And her famed opponent we all love for the beautiful curvy shapes, charming smile and of course the wonderful mastery of the two-handed morningstar. This weapon will do honor to any gladiator that acts in the cimmerian style."
+   - And her famed opponent we all love for her beautiful curvy shape, charming smile, and of course the wonderful mastery of the two-handed morningstar. This weapon will do honor to any gladiator that acts in the cimmerian style."
 $склонение_моб['kimerian_d'] = "opponent"
 $склонение_моба['kimerian_d'] = "opponent"
 $склонение_мобу['kimerian_d'] = "opponent"
@@ -2277,17 +2277,17 @@ $атака_1_тип_вреда['kimerian_d'] = 'рубящий'
 $атака_1_штраф['kimerian_d'] = 'шаткость'
 $атака_1_бонус['kimerian_d'] = 'адреналин'
 атака_1_длительность['kimerian_d'] = 4
-$атака_1_текст['kimerian_d'] = "Busty gladiatrix unleashes <font color='red'>mighty</font> blow on you with her morningstar." 
+$атака_1_текст['kimerian_d'] = "The Busty Gladiatrix unleashes a <font color='red'>mighty</font> blow on you with her morningstar." 
 $атака_2_тип['kimerian_d'] = 'быстрая'
 $атака_2_тип_вреда['kimerian_d'] = 'рубящий'
 $атака_2_штраф['kimerian_d'] = 'рассеянность'
 $атака_2_бонус['kimerian_d'] = 'верткость'
 атака_2_длительность['kimerian_d'] = 4
-$атака_2_текст['kimerian_d'] = "Gladiatrix rotates her morningstar at <font color='green'>wide</font> arc."
+$атака_2_текст['kimerian_d'] = "The Busty Gladiatrix rotates her morningstar in a <font color='green'>wide</font> arc."
 
-$смерть['kimerian_d'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['kimerian_d'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['kimerian_d'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['kimerian_d'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['kimerian_d'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['kimerian_d'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['kimerian_d'] = 0
 тонкое_тело['kimerian_d'] = 0
@@ -2312,7 +2312,7 @@ $название_моба['kimerian_e'] = "Gladiatrix"
 $аватара_моба['kimerian_e'] = "content/pic/mob/gladiator_kimerian_5_ava.jpg"
 $силуэт_моба['kimerian_e'] = "content/pic/mob/gladiator_kimerian_5.gif"
 $описание_моба['kimerian_e'] = "   [ARENA SUPERVISOR]
-   - And a possessor of these steel muscles I do not need to represent! Meet one of the strongest gladiatrix that ever fought in cimmerian style. Is it possible to overcome such invincible might? We'll find out!"
+   - And the possessor of these steel muscles I do not need to reintroduce! Meet one of the strongest gladiatrix that ever fought in a cimmerian style. Is it possible to overcome such invincible might? We’ll find out!"
 $склонение_моб['kimerian_e'] = "opponent"
 $склонение_моба['kimerian_e'] = "opponent"
 $склонение_мобу['kimerian_e'] = "opponent"
@@ -2328,17 +2328,17 @@ $атака_1_тип_вреда['kimerian_e'] = 'рубящий'
 $атака_1_штраф['kimerian_e'] = 'шаткость'
 $атака_1_бонус['kimerian_e'] = 'адреналин'
 атака_1_длительность['kimerian_e'] = 5
-$атака_1_текст['kimerian_e'] = "Muscular woman wielding her huge axe <font color='red'>as reed</font>."
+$атака_1_текст['kimerian_e'] = "The Muscular woman wields her huge axe <font color='red'>like a reed</font>."
 $атака_2_тип['kimerian_e'] = 'быстрая'
 $атака_2_тип_вреда['kimerian_e'] = 'рубящий'
 $атака_2_штраф['kimerian_e'] = 'рассеянность'
 $атака_2_бонус['kimerian_e'] = 'верткость'
 атака_2_длительность['kimerian_e'] = 5
-$атака_2_текст['kimerian_e'] = "Gladiatrix <font color='green'>at an incredible pace</font> hits you with numerous blows of her heavy axe."
+$атака_2_текст['kimerian_e'] = "The Muscular gladiatrix, <font color='green'>at an incredible pace</font>, hits you with numerous blows from her heavy axe."
 
-$смерть['kimerian_e'] = 'Defeated opponent lies in a pool of her own blood.'
-$отключка['kimerian_e'] = 'Beaten opponent lies on the sand of the arena and can not get up to continue the fight.'
-$бегство['kimerian_e'] = 'Opponent drops her weapons and surrender at mercy of the winner.'
+$смерть['kimerian_e'] = 'The defeated opponent lies in a pool of her own blood.'
+$отключка['kimerian_e'] = 'The beaten opponent lies on the sand of the arena, and can not get up to continue the fight.'
+$бегство['kimerian_e'] = 'The opponent drops her weapons and surrenders to the mercy of the winner.'
 
 хрупкий['kimerian_e'] = 0
 тонкое_тело['kimerian_e'] = 0
@@ -2365,7 +2365,7 @@ $название_моба['champion_corvus'] = "Champion"
 $аватара_моба['champion_corvus'] = "content/pic/mob/gladiator_champion_corvus_ava.jpg"
 $силуэт_моба['champion_corvus'] = "content/pic/mob/gladiator_champion_corvus.gif"
 $описание_моба['champion_corvus'] = "   [ARENA SUPERVISOR]
-   - At her call is answered champion of the Corvus Great House, the lovely Bloody Mistress! You know what she's doing with the defeated opponents, so it's best to our pretender do not even think about losing..."
+   - And her call is answered by the champion of the Corvus Great House, the lovely Bloody Mistress! You all know what she does with her defeated opponents, so it’s best that our pretender does not even think of losing..."
 $склонение_моб['champion_corvus'] = "bloody mistress"
 $склонение_моба['champion_corvus'] = "bloody mistress"
 $склонение_мобу['champion_corvus'] = "bloody mistress"
@@ -2381,24 +2381,24 @@ $атака_1_тип_вреда['champion_corvus'] = 'колющий'
 $атака_1_штраф['champion_corvus'] = 'боль'
 $атака_1_бонус['champion_corvus'] = 'меткость'
 атака_1_длительность['champion_corvus'] = 10
-$атака_1_текст['champion_corvus'] = "Vampiress deals <font color='purple'>precise</font> thrust with her left sword."
+$атака_1_текст['champion_corvus'] = "The Vampiress deals a <font color='purple'>precise</font> thrust of her left sword."
 $атака_2_тип['champion_corvus'] = 'быстрая'
 $атака_2_тип_вреда['champion_corvus'] = 'рубящий'
 $атака_2_штраф['champion_corvus'] = 'скованность'
 $атака_2_бонус['champion_corvus'] = 'разгон'
 атака_2_длительность['champion_corvus'] = 10
-$атака_2_текст['champion_corvus'] = "Moving with inhuman <font color='green'>speed</font>, bloody mistress unleashes at you a hail of blows with her dual swords."
+$атака_2_текст['champion_corvus'] = "Moving with inhuman <font color='green'>speed</font>, the Bloody Mistress unleashes a hail of blows with her dual swords."
 $атака_3_тип['champion_corvus'] = 'сильная'
 $атака_3_тип_вреда['champion_corvus'] = 'рубящий'
 $атака_3_штраф['champion_corvus'] = 'шаткость'
 $атака_3_бонус['champion_corvus'] = 'бешенство'
 атака_3_длительность['champion_corvus'] = 10
-$атака_3_текст['champion_corvus'] = "Champion with incredible <font color='red'>power</font> chops you with both swords like scissors."
+$атака_3_текст['champion_corvus'] = "The Champion with incredible <font color='red'>power</font> chops at you with both swords like scissors."
 
 базовый_вред_суператаки_1['champion_corvus'] = 20
 $суператака_1_тип['champion_corvus'] = 'точная'
 $суператака_1_тип_вреда['champion_corvus'] = 'психический'
-$суператака_1_текст['champion_corvus'] = "Bloody Mistress <font color='purple'>catches</font> your glance with her chilling eyes and you feel that you lose your will."
+$суператака_1_текст['champion_corvus'] = "Bloody Mistress <font color='purple'>catches</font> your glance with her chilling eyes, and you feel that you lose your will."
 $суператака_1_кратко['champion_corvus'] = "[hypnosis]"
 $спецэффект_суператаки_1['champion_corvus'] = {
 слабость = 99
@@ -2406,9 +2406,9 @@ $спецэффект_суператаки_1['champion_corvus'] = {
 рассеянность = 99
 }
 
-$смерть['champion_corvus'] = 'Defeated vampiress burns leaving only ashes.'
-$отключка['champion_corvus'] = 'Defeated vampiress burns leaving only ashes.'
-$бегство['champion_corvus'] = 'Bloody mistress surrenders at mercy of the winner.'
+$смерть['champion_corvus'] = 'The defeated Vampiress burns, leaving only ashes.'
+$отключка['champion_corvus'] = 'The defeated Vampiress burns, leaving only ashes.'
+$бегство['champion_corvus'] = 'The Bloody Mistress surrenders to the mercy of the winner.'
 
 хрупкий['champion_corvus'] = 0
 тонкое_тело['champion_corvus'] = 0
@@ -2433,7 +2433,7 @@ $название_моба['champion_kamira'] = "Champion"
 $аватара_моба['champion_kamira'] = "content/pic/mob/gladiator_champion_kamira_ava.jpg"
 $силуэт_моба['champion_kamira'] = "content/pic/mob/gladiator_champion_kamira.gif"
 $описание_моба['champion_kamira'] = "   [ARENA SUPERVISOR]
-   - At her call is answered champion of the Camira Great House, powerful and unstoppable Maneater! Will Maneater feast on meat that challenged her? Well, she will certainly try!"
+   - And her call is answered by the champion of the Camira Great House, the powerful and unstoppable Maneater! Will Maneater feast on the meat that challenged her? Well, she will certainly try!"
 $склонение_моб['champion_kamira'] = "maneater"
 $склонение_моба['champion_kamira'] = "maneater"
 $склонение_мобу['champion_kamira'] = "maneater"
@@ -2449,32 +2449,32 @@ $атака_1_тип_вреда['champion_kamira'] = 'дробящий'
 $атака_1_штраф['champion_kamira'] = 'ошеломление'
 $атака_1_бонус['champion_kamira'] = 'внимание'
 атака_1_длительность['champion_kamira'] = 5
-$атака_1_текст['champion_kamira'] = "Maneater pokes you with her steel club <font color='purple'>exactly</font> in the solar plexus."
+$атака_1_текст['champion_kamira'] = "The Maneater pokes you with her steel club <font color='purple'>exactly</font> in the solar plexus."
 $атака_2_тип['champion_kamira'] = 'быстрая'
 $атака_2_тип_вреда['champion_kamira'] = 'дробящий'
 $атака_2_штраф['champion_kamira'] = 'рассеянность'
 $атака_2_бонус['champion_kamira'] = 'бешенство'
 атака_2_длительность['champion_kamira'] = 5
-$атака_2_текст['champion_kamira'] = "Ogress <font color='green'>easily</font> rotates heavy steel club over her head."
+$атака_2_текст['champion_kamira'] = "The Ogress <font color='green'>easily</font> rotates the heavy steel club over her head and right at you."
 $атака_3_тип['champion_kamira'] = 'сильная'
 $атака_3_тип_вреда['champion_kamira'] = 'дробящий'
 $атака_3_штраф['champion_kamira'] = 'шаткость'
 $атака_3_бонус['champion_kamira'] = 'адреналин'
 атака_3_длительность['champion_kamira'] = 5
-$атака_3_текст['champion_kamira'] = "Beastmen's champion <font color='red'>unleashes</font> at you crushing blow of her steel club."
+$атака_3_текст['champion_kamira'] = "The Beastmen's champion <font color='red'>unleashes</font> a crushing blow of her steel club."
 
 базовый_вред_суператаки_1['champion_kamira'] = 30
 $суператака_1_тип['champion_kamira'] = 'сильная'
 $суператака_1_тип_вреда['champion_kamira'] = 'дробящий'
-$суператака_1_текст['champion_kamira'] = "Maneater beats ground with club so <font color='red'>strongly</font>, that you knocked down like if it was an earthquake."
+$суператака_1_текст['champion_kamira'] = "The Maneater beats the ground with the club so <font color='red'>strongly</font>, that you get knocked down like it was an earthquake."
 $суператака_1_кратко['champion_kamira'] = "[shaking earth]"
 $спецэффект_суператаки_1['champion_kamira'] = {
 шаткость = 5
 }
 
-$смерть['champion_kamira'] = 'Defeated maneater fell dead.'
-$отключка['champion_kamira'] = 'Maneater falls to the ground, losing consciousness.'
-$бегство['champion_kamira'] = 'Maneater surrenders and asks for mercy.'
+$смерть['champion_kamira'] = 'The defeated Maneater fell dead.'
+$отключка['champion_kamira'] = 'The Maneater falls to the ground, losing consciousness.'
+$бегство['champion_kamira'] = 'The Maneater surrenders and asks for mercy.'
 
 хрупкий['champion_kamira'] = 0
 тонкое_тело['champion_kamira'] = 0
@@ -2500,7 +2500,7 @@ $название_моба['champion_serpis'] = "Champion"
 $аватара_моба['champion_serpis'] = "content/pic/mob/gladiator_champion_sepris_ava.jpg"
 $силуэт_моба['champion_serpis'] = "content/pic/mob/gladiator_champion_sepris.gif"
 $описание_моба['champion_serpis'] = "   [ARENA SUPERVISOR]
-   - At her call is answered champion of the Serpis Great House, ruthless Pirate's Princess. Her katana reeks without a miss and took many lives already. Whether to add them one more? We'll find out!"
+   - And her call is answered by the champion of the Serpis Great House, the ruthless Pirate’s Princess. Her katana reeks without a miss and has taken many lives already. Whether to add them one more? We'll find out!"
 $склонение_моб['champion_serpis'] = "pirate's princess"
 $склонение_моба['champion_serpis'] = "pirate's princess"
 $склонение_мобу['champion_serpis'] = "pirate's princess"
@@ -2516,32 +2516,32 @@ $атака_1_тип_вреда['champion_serpis'] = 'колющий'
 $атака_1_штраф['champion_serpis'] = 'ошеломление'
 $атака_1_бонус['champion_serpis'] = 'бешенство'
 атака_1_длительность['champion_serpis'] = 12
-$атака_1_текст['champion_serpis'] = "Pirate <font color='purple'>pierces</font> your body with the edge of her deadly katana."
+$атака_1_текст['champion_serpis'] = "The Pirate <font color='purple'>pierces</font> your body with the edge of her deadly katana."
 $атака_2_тип['champion_serpis'] = 'быстрая'
 $атака_2_тип_вреда['champion_serpis'] = 'рубящий'
 $атака_2_штраф['champion_serpis'] = 'шаткость'
 $атака_2_бонус['champion_serpis'] = 'меткость'
 атака_2_длительность['champion_serpis'] = 12
-$атака_2_текст['champion_serpis'] = "Opponent's strikes so <font color='green'>swift</font>, that they merge into a single buzzing whirlwind of hardened steel."
+$атака_2_текст['champion_serpis'] = "The Opponent strikes so <font color='green'>swiftly</font>, that they merge into a single buzzing whirlwind of hardened steel."
 $атака_3_тип['champion_serpis'] = 'сильная'
 $атака_3_тип_вреда['champion_serpis'] = 'рубящий'
 $атака_3_штраф['champion_serpis'] = 'рассеянность'
 $атака_3_бонус['champion_serpis'] = 'разгон'
 атака_3_длительность['champion_serpis'] = 12
-$атака_3_текст['champion_serpis'] = "Champion deals <font color='red'>powerful</font> chop downwards."
+$атака_3_текст['champion_serpis'] = "The Champion deals a <font color='red'>powerful</font> chop downwards."
 
 базовый_вред_суператаки_1['champion_serpis'] = 27
 $суператака_1_тип['champion_serpis'] = 'быстрая'
 $суператака_1_тип_вреда['champion_serpis'] = 'рубящий'
-$суператака_1_текст['champion_serpis'] = "<font color='red'>Swift</font> attack of pirate's princess leaves a long bleeding cut on your body."
+$суператака_1_текст['champion_serpis'] = "<font color='red'>Swift</font> attacks from the Pirate Princess leave a long bleeding cut on your body."
 $суператака_1_кратко['champion_serpis'] = "[bleeding]"
 $спецэффект_суператаки_1['champion_serpis'] = {
 боль = 15
 }
 
-$смерть['champion_serpis'] = 'Defeated champion falls on the sand, bleeding.'
-$отключка['champion_serpis'] = 'Champion falls on the sand, fainting from weakness.'
-$бегство['champion_serpis'] = 'Pirate''s Princess surrenders and asks for mercy.'
+$смерть['champion_serpis'] = 'The defeated Champion falls on the sand, bleeding.'
+$отключка['champion_serpis'] = 'The Champion falls on the sand, fainting from weakness.'
+$бегство['champion_serpis'] = 'The Pirate’s Princess surrenders and asks for mercy.'
 
 хрупкий['champion_serpis'] = 0
 тонкое_тело['champion_serpis'] = 0
@@ -2566,7 +2566,7 @@ $название_моба['champion_taurus'] = "Champion"
 $аватара_моба['champion_taurus'] = "content/pic/mob/gladiator_champion_taurus_ava.jpg"
 $силуэт_моба['champion_taurus'] = "content/pic/mob/gladiator_champion_taurus.gif"
 $описание_моба['champion_taurus'] = "   [ARENA SUPERVISOR]
-   - At her call is answered champion of the Taurus Great House, indestructible Steel Queen! Her shield is made of impenetrable vibranium, and the will to win is able to confound any hero. But someone still has to lose today. Soon we will know who it is!"
+   - And her call is answered by the champion of the Taurus Great House, the indestructible Steel Queen! Her shield is made of impenetrable vibranium, and her will to win is able to confound any hero. But someone still has to lose today. Soon we will know who it is!"
 $склонение_моб['champion_taurus'] = "steel queen"
 $склонение_моба['champion_taurus'] = "steel queen"
 $склонение_мобу['champion_taurus'] = "steel queen"
@@ -2582,24 +2582,24 @@ $атака_1_тип_вреда['champion_taurus'] = 'колющий'
 $атака_1_штраф['champion_taurus'] = 'слабость'
 $атака_1_бонус['champion_taurus'] = 'верткость'
 атака_1_длительность['champion_taurus'] = 6
-$атака_1_текст['champion_taurus'] = "Champion deals <font color='purple'>carefully calculated</font> thrust with her gilded sword."
+$атака_1_текст['champion_taurus'] = "The Champion deals a <font color='purple'>carefully calculated</font> thrust with her gilded sword."
 $атака_2_тип['champion_taurus'] = 'быстрая'
 $атака_2_тип_вреда['champion_taurus'] = 'рубящий'
 $атака_2_штраф['champion_taurus'] = 'боль'
 $атака_2_бонус['champion_taurus'] = 'внимание'
 атака_2_длительность['champion_taurus'] = 6
-$атака_2_текст['champion_taurus'] = "Steel Queen unleashes on you <font color='green'>hail</font> of blows."
+$атака_2_текст['champion_taurus'] = "The Steel Queen unleashes on you a <font color='green'>hail</font> of blows."
 $атака_3_тип['champion_taurus'] = 'сильная'
 $атака_3_тип_вреда['champion_taurus'] = 'рубящий'
 $атака_3_штраф['champion_taurus'] = 'скованность'
 $атака_3_бонус['champion_taurus'] = 'адреналин'
 атака_3_длительность['champion_taurus'] = 6
-$атака_3_текст['champion_taurus'] = "Steel Queen puts all her <font color='red'>strength</font> to blow of her gilded sword."
+$атака_3_текст['champion_taurus'] = "The Steel Queen puts all her <font color='red'>strength</font> into one blow of her gilded sword."
 
 базовый_вред_суператаки_1['champion_taurus'] = 7
 $суператака_1_тип['champion_taurus'] = 'сильная'
 $суператака_1_тип_вреда['champion_taurus'] = 'дробящий'
-$суператака_1_текст['champion_taurus'] = "Steel Queen <font color='red'>rams</font> you with her vibranium shield."
+$суператака_1_текст['champion_taurus'] = "The Steel Queen <font color='red'>rams</font> you with her vibranium shield."
 $суператака_1_кратко['champion_taurus'] = "[bull pressure]"
 $спецэффект_суператаки_1['champion_taurus'] = {
 шаткость = 99
@@ -2607,9 +2607,9 @@ $спецэффект_суператаки_1['champion_taurus'] = {
 рассеянность = 99
 }
 
-$смерть['champion_taurus'] = 'Defeated champion falls on the sand, bleeding.'
-$отключка['champion_taurus'] = 'Champion falls on the sand, fainting from weakness.'
-$бегство['champion_taurus'] = 'Steel Queen surrenders and asks for mercy.'
+$смерть['champion_taurus'] = 'The defeated Champion falls on the sand, bleeding.'
+$отключка['champion_taurus'] = 'The Champion falls on the sand, fainting from weakness.'
+$бегство['champion_taurus'] = 'The Steel Queen surrenders and asks for mercy.'
 
 хрупкий['champion_taurus'] = 0
 тонкое_тело['champion_taurus'] = 0
@@ -2635,7 +2635,7 @@ $название_моба['champion_vatican'] = "Champion"
 $аватара_моба['champion_vatican'] = "content/pic/mob/gladiator_champion_vatican_ava.jpg"
 $силуэт_моба['champion_vatican'] = "content/pic/mob/gladiator_champion_vatican.gif"
 $описание_моба['champion_vatican'] = "   [ARENA SUPERVISOR]
-   - At her call is answered by the Vatican champion, paladin of personal security of His Holiness! Look how her sword shines! It is the fire of the True Flame of Creation. This fight will be remembered for a hundred years!"
+   - And her call is answered by the Vatican champion, the paladin charged with the personal security of His Holiness! Look how her sword shines! It is the fire of the True Flame of Creation. This fight will be remembered for a hundred years!"
 $склонение_моб['champion_vatican'] = "lady knight"
 $склонение_моба['champion_vatican'] = "champion of the Pope"
 $склонение_мобу['champion_vatican'] = "champion of the Pope"
@@ -2651,32 +2651,32 @@ $атака_1_тип_вреда['champion_vatican'] = 'огонь'
 $атака_1_штраф['champion_vatican'] = 'боль'
 $атака_1_бонус['champion_vatican'] = 'разгон'
 атака_1_длительность['champion_vatican'] = 9
-$атака_1_текст['champion_vatican'] = "Lady knight <font color='purple'>pierces</font> you with her flaming sword like a lance."
+$атака_1_текст['champion_vatican'] = "The Lady Knight <font color='purple'>pierces</font> you with her flaming sword like a lance."
 $атака_2_тип['champion_vatican'] = 'быстрая'
 $атака_2_тип_вреда['champion_vatican'] = 'огонь'
 $атака_2_штраф['champion_vatican'] = 'рассеянность'
 $атака_2_бонус['champion_vatican'] = 'меткость'
 атака_2_длительность['champion_vatican'] = 9
-$атака_2_текст['champion_vatican'] = "Champion's flaming sword <font color='green'>weaves</font> in the air a deadly and beautiful pattern."
+$атака_2_текст['champion_vatican'] = "The Champion’s flaming sword <font color='green'>weaves</font> in the air a deadly and beautiful pattern."
 $атака_3_тип['champion_vatican'] = 'сильная'
 $атака_3_тип_вреда['champion_vatican'] = 'огонь'
 $атака_3_штраф['champion_vatican'] = 'слабость'
 $атака_3_бонус['champion_vatican'] = 'адреналин'
 атака_3_длительность['champion_vatican'] = 9
-$атака_3_текст['champion_vatican'] = "Champion's magic sword gives her <font color='red'>strength</font> of a ten men."
+$атака_3_текст['champion_vatican'] = "The Champion’s magic sword gives her the <font color='red'>strength</font> of ten men."
 
 базовый_вред_суператаки_1['champion_vatican'] = 30
 $суператака_1_тип['champion_vatican'] = 'быстрая'
 $суператака_1_тип_вреда['champion_vatican'] = 'рубящий'
-$суператака_1_текст['champion_vatican'] = "Roaring flame <font color='red'>covers</font> your whole body, after being hit by magic sword."
+$суператака_1_текст['champion_vatican'] = "A roaring flame <font color='red'>covers</font> your whole body, after being hit by the Lady Knight’s magic sword."
 $суператака_1_кратко['champion_vatican'] = "[shock]"
 $спецэффект_суператаки_1['champion_vatican'] = {
 боль = 99
 }
 
-$смерть['champion_vatican'] = 'Defeated champion of Vatican falls on the sand, bleeding.'
-$отключка['champion_vatican'] = 'Vatican''s champion falls on the sand, fainting from weakness.'
-$бегство['champion_vatican'] = 'Lady knight surrenders and asks for mercy.'
+$смерть['champion_vatican'] = 'The defeated Champion of the Vatican falls on the sand, bleeding.'
+$отключка['champion_vatican'] = 'The Vatican’s Champion falls on the sand, fainting from weakness.'
+$бегство['champion_vatican'] = 'The Lady Knight surrenders and asks for mercy.'
 
 хрупкий['champion_vatican'] = 1
 тонкое_тело['champion_vatican'] = 0
@@ -2701,7 +2701,7 @@ $название_моба['champion_absolute'] = "Doom of Arena"
 $аватара_моба['champion_absolute'] = "content/pic/mob/gladiator_champion_absolute_ava.jpg"
 $силуэт_моба['champion_absolute'] = "content/pic/mob/gladiator_champion_absolute.gif"
 $описание_моба['champion_absolute'] = "   [ARENA SUPERVISOR]
-   - Her opponent knows every resident of Eternal Rome. She is strong and merciless like a demon from the underworld. Her armor is indestructible. Her whipsaw breaks body in half. We love her! This is the Absolute Champion - Doom of the Arena!"
+   - Her opponent knows every resident of Eternal Rome. She is strong and merciless, like a demon from the underworld. Her armor is indestructible. Her whipsaw breaks the body in half. We love her! This is the Absolute Champion - Doom of the Arena!"
 $склонение_моб['champion_absolute'] = "opponent"
 $склонение_моба['champion_absolute'] = "opponent"
 $склонение_мобу['champion_absolute'] = "opponent"
@@ -2717,24 +2717,24 @@ $атака_1_тип_вреда['champion_absolute'] = 'рубящий'
 $атака_1_штраф['champion_absolute'] = 'боль'
 $атака_1_бонус['champion_absolute'] = 'меткость'
 атака_1_длительность['champion_absolute'] = 15
-$атака_1_текст['champion_absolute'] = "Champion of the Arena deals <font color='purple'>tricky</font> cut to your legs with her adamantium whipsaw."
+$атака_1_текст['champion_absolute'] = "The Champion of the Arena deals a <font color='purple'>tricky</font> cut to your legs with her adamantium whipsaw."
 $атака_2_тип['champion_absolute'] = 'быстрая'
 $атака_2_тип_вреда['champion_absolute'] = 'рубящий'
 $атака_2_штраф['champion_absolute'] = 'скованность'
 $атака_2_бонус['champion_absolute'] = 'разгон'
 атака_2_длительность['champion_absolute'] = 15
-$атака_2_текст['champion_absolute'] = "Champion's whipsaw uplifts cloud of dust <font color='green'>like a tornado</font>."
+$атака_2_текст['champion_absolute'] = "The Champion’s whipsaw uplifts a cloud of dust <font color='green'>like a tornado</font>."
 $атака_3_тип['champion_absolute'] = 'сильная'
 $атака_3_тип_вреда['champion_absolute'] = 'рубящий'
 $атака_3_штраф['champion_absolute'] = 'шаткость'
 $атака_3_бонус['champion_absolute'] = 'бешенство'
 атака_3_длительность['champion_absolute'] = 15
-$атака_3_текст['champion_absolute'] = "Heavy adamantium whipsaw <font color='red'>falls</font> on you with such force that threatens to break you in half."
+$атака_3_текст['champion_absolute'] = "A heavy adamantium whipsaw <font color='red'>falls</font> on you with such force that it threatens to break you in half."
 
 базовый_вред_суператаки_1['champion_absolute'] = 30
 $суператака_1_тип['champion_absolute'] = 'сильная'
 $суператака_1_тип_вреда['champion_absolute'] = 'рубящий'
-$суператака_1_текст['champion_absolute'] = "<font color='red'>Crushing</font> blow of champion's adamantium whipsaw leaves a deep laceration on your body."
+$суператака_1_текст['champion_absolute'] = "A <font color='red'>Crushing</font> blow from the Champion's adamantium whipsaw leaves a deep laceration on your body."
 $суператака_1_кратко['champion_absolute'] = "[bleeding]"
 $спецэффект_суператаки_1['champion_absolute'] = {
 боль = 99
@@ -2742,9 +2742,9 @@ $спецэффект_суператаки_1['champion_absolute'] = {
 скованность = 99
 }
 
-$смерть['champion_absolute'] = 'Absolute champion of the arena falls to the ground.'
-$отключка['champion_absolute'] = 'Champion falls on the sand, fainting from weakness.'
-$бегство['champion_absolute'] = 'Champion surrenders and asks for mercy.'
+$смерть['champion_absolute'] = 'The Absolute Champion of the Arena falls to the ground.'
+$отключка['champion_absolute'] = 'The Champion of the Arena falls on the sand, fainting from weakness.'
+$бегство['champion_absolute'] = 'The Champion of the Arena surrenders and asks for mercy.'
 
 хрупкий['champion_absolute'] = 0
 тонкое_тело['champion_absolute'] = 0
@@ -2770,7 +2770,7 @@ $название_моба['исчадие_арены'] = "Arena fiend"
 $аватара_моба['исчадие_арены'] = "content/pic/mob/spawn_ava.jpg"
 $силуэт_моба['исчадие_арены'] = "content/pic/mob/gladiator_spawn.gif"
 $описание_моба['исчадие_арены'] = "   [ARENA SUPERVISOR]
-   - And here is her today's opponent - Fog Fiend. Look, how monster beats in its cage and pulls the tentacles. Yes, it could smell the woman. Now nothing can stop it!"
+   - And here is her opponent today - a Fog Fiend. Look how the monster beats its cage and pulls its tentacles. Yes, it can smell the woman. Now nothing can stop it!"
 $склонение_моб['исчадие_арены'] = "fiend"
 $склонение_моба['исчадие_арены'] = "fiend"
 $склонение_мобу['исчадие_арены'] = "fiend"
@@ -2786,24 +2786,24 @@ $атака_1_тип_вреда['исчадие_арены'] = 'психичес
 $атака_1_штраф['исчадие_арены'] = 'боль'
 $атака_1_бонус['исчадие_арены'] = 'внимание'
 атака_1_длительность['исчадие_арены'] = 7
-$атака_1_текст['исчадие_арены'] = "Creature opens his mouth, and shoots at you <font color='purple'>exactly</font> in the mouth with its sticky long tongue"
+$атака_1_текст['исчадие_арены'] = "The Creature opens his mouth and shoots at you <font color='purple'>exactly</font> in the mouth with its long sticky tongue."
 $атака_2_тип['исчадие_арены'] = 'быстрая'
 $атака_2_тип_вреда['исчадие_арены'] = 'психический'
 $атака_2_штраф['исчадие_арены'] = 'верткость'
 $атака_2_бонус['исчадие_арены'] = 'меткость'
 атака_2_длительность['исчадие_арены'] = 7
-$атака_2_текст['исчадие_арены'] = "Fiend <font color='green'>wraps</font> you with its tentacles and tries to find any suitable hole!"
+$атака_2_текст['исчадие_арены'] = "The Fiend <font color='green'>wraps</font> you with its tentacles and tries to find any suitable hole!"
 $атака_3_тип['исчадие_арены'] = 'сильная'
 $атака_3_тип_вреда['исчадие_арены'] = 'дробящий'
 $атака_3_штраф['исчадие_арены'] = 'рассеянность'
 $атака_3_бонус['исчадие_арены'] = 'адреналин'
 атака_3_длительность['исчадие_арены'] = 10
-$атака_3_текст['исчадие_арены'] = "Fiend <font color='red'>butts</font> you with its bony outgrowth on head, trying to knock you down."
+$атака_3_текст['исчадие_арены'] = "The Fiend <font color='red'>butts</font> you with the bony outgrowth on its head, trying to knock you down."
 
 базовый_вред_суператаки_1['исчадие_арены'] = 1
 $суператака_1_тип['исчадие_арены'] = 'точная'
 $суператака_1_тип_вреда['исчадие_арены'] = 'психический'
-$суператака_1_текст['исчадие_арены'] = "Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles with some sticky muck in the face."
+$суператака_1_текст['исчадие_арены'] = "The Fiend <font color='purple'>directs</font> its tentacles at you and sprinkles some sticky muck in your face."
 $суператака_1_кратко['исчадие_арены'] = "[almost blind]"
 $спецэффект_суператаки_1['исчадие_арены'] = {
 рассеянность = 99
@@ -2813,7 +2813,7 @@ $спецэффект_суператаки_1['исчадие_арены'] = {
 базовый_вред_суператаки_2['исчадие_арены'] = 1
 $суператака_2_тип['исчадие_арены'] = 'сильная'
 $суператака_2_тип_вреда['исчадие_арены'] = 'дробящий'
-$суператака_2_текст['исчадие_арены'] = "Without stopping <font color='red'>wrapping and squeezing</font> you with tentacles, monster mutating right before your eyes trying to adjust to your style of combat."
+$суператака_2_текст['исчадие_арены'] = "Without stopping <font color='red'>wrapping and squeezing</font> you with its tentacles, the monster mutates right before your eyes trying to adjust to your style of combat."
 $суператака_2_кратко['исчадие_арены'] = "[adaptive mutation]"
 $спецэффект_суператаки_2['исчадие_арены'] = {
 меткость[1] = 99
@@ -2828,9 +2828,9 @@ $спецэффект_суператаки_2['исчадие_арены'] = {
 рассеянность[1] = 1
 }
 
-$смерть['исчадие_арены'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$отключка['исчадие_арены'] = 'Defeated fiend writhing on the ground, bleeding with smelly ichor.'
-$бегство['исчадие_арены'] = 'Maddened from pain fiend flees back into the cage.'
+$смерть['исчадие_арены'] = 'The defeated Fiend writhes on the ground, bleeding with a smelly ichor.'
+$отключка['исчадие_арены'] = 'The defeated Fiend writhes on the ground, bleeding with a smelly ichor.'
+$бегство['исчадие_арены'] = 'Maddened from pain, the Fiend flees back into its cage.'
 
 хрупкий['исчадие_арены'] = 0
 тонкое_тело['исчадие_арены'] = 0
