@@ -104,7 +104,7 @@ tentacle_death[3] = -10
 tentacle_death[4] = -25
 
 $tentacle_state[0] = ''
-$tentacle_state[1] = $_font_col_rep[0] + 'Fiend crave' + $_font_closer
+$tentacle_state[1] = $_font_col_rep[0] + 'Fiend craves' + $_font_closer
 $tentacle_state[2] = $_font_col_rep[5] + 'Fiend satisfied' + $_font_closer 
 
 !training cost
@@ -816,40 +816,40 @@ $gendesigner_occupation[3] = 'mech'
 $gendesigner_occupation[4] = 'astrofarmer'
 
 !fame status
-$taurus_fame[0] = $_font_col_rep[0] + 'I have no relationship with the Taurus House. I ought to do direct sales in their territory.' + $_font_closer
-$taurus_fame[1] = $_font_col_rep[1] + 'Someone from Taurus House heard of me already. That is enough to get a permission to live in a Quarter of the Bull, but nothing more.' + $_font_closer
-$taurus_fame[2] = $_font_col_rep[2] + 'I made some useful contacts with the representatives of the Taurus House. But to be admitted to the White Palace, it is necessary to make someone important as my customer.' + $_font_closer
-$taurus_fame[3] = $_font_col_rep[3] + 'I have enough of influential friends in the Taurus House to get access to the White Palace and start working with elite buyers!' + $_font_closer
-$taurus_fame[4] = $_font_col_rep[4] + 'Now, when I made friends with one of the top members of the Taurus House, I can get an audience with the King himself!' + $_font_closer
-$taurus_fame[5] = $_font_col_rep[5] + 'King personally initiated me into knighthood and this means that now I am not just a man - Taurus House is behind me!' + $_font_closer
+$taurus_fame[0] = $_font_col_rep[0] + 'I have no relationship with the Taurus House. I ought to do some direct sales in their territory.' + $_font_closer
+$taurus_fame[1] = $_font_col_rep[1] + 'Someone from Taurus House has heard of me already. That is enough to get permission to live in the Quarter of the Bull, but nothing more.' + $_font_closer
+$taurus_fame[2] = $_font_col_rep[2] + 'I made some useful contacts with representatives of the Taurus House. But to be admitted to the White Palace, it is necessary to make someone important my customer.' + $_font_closer
+$taurus_fame[3] = $_font_col_rep[3] + 'I have enough influential friends in the Taurus House to get access to the White Palace and start working with elite buyers!' + $_font_closer
+$taurus_fame[4] = $_font_col_rep[4] + 'Now that I made friends with one of the top members of the Taurus House, I can get an audience with the King himself!' + $_font_closer
+$taurus_fame[5] = $_font_col_rep[5] + 'The King personally initiated me into knighthood, and this means that now I am not just a lone man - Taurus House is behind me!' + $_font_closer
 
-$serpis_fame[0] = $_font_col_rep[0] + 'I am almost unknown to representatives of Serpis House. If I find at least a seedy client in the Serpentine quarter - they will hear about me.' + $_font_closer
-$serpis_fame[1] = $_font_col_rep[1] + 'I have enough contacts in the Serpis House to obtain a residence permit in the Anthill, but no more. I need to work on my reputation.' + $_font_closer
-$serpis_fame[2] = $_font_col_rep[2] + 'Now I have a couple of friends, who are members of the Serpis House, but this is still not enough to access the Administrative Spires. It is be necessary to sell a slave to one of those big shots.' + $_font_closer
-$serpis_fame[3] = $_font_col_rep[3] + 'I have made many useful connections in the Serpis House and I have enough of influence to go to the Administrative Spires and meet with those, who run that place.' + $_font_closer
-$serpis_fame[4] = $_font_col_rep[4] + 'Thanks to my acquaintance with the highest ranks of the Serpis House, I can get an audience with Mr. President and offer him my goods. A big step forward!' + $_font_closer
-$serpis_fame[5] = $_font_col_rep[5] + 'I received a certificate of Serpis House honorary citizen personally from the hands of Mr. President. This is not a mere formality - there is a real strength behind me now!' + $_font_closer
+$serpis_fame[0] = $_font_col_rep[0] + 'I am almost unknown to the representatives of Serpis House. If I find at least one seedy client in the Serpentine quarter - they will hear about me.' + $_font_closer
+$serpis_fame[1] = $_font_col_rep[1] + 'I have enough contacts in the Serpis House to obtain a residence permit for the Anthill, but no more. I need to work on my reputation.' + $_font_closer
+$serpis_fame[2] = $_font_col_rep[2] + 'Now I have a couple of friends who are members of the Serpis House, but this is still not enough to access the Administrative Spires. It must be necessary to sell a slave to one of the big shots.' + $_font_closer
+$serpis_fame[3] = $_font_col_rep[3] + 'I have made many useful connections in the Serpis House and I have enough of an influence that I can go to the Administrative Spires and meet with those who run that place.' + $_font_closer
+$serpis_fame[4] = $_font_col_rep[4] + 'Thanks to my acquaintance with the highest ranks of the Serpis House, I can get an audience with the President and offer him my goods. A big step forward!' + $_font_closer
+$serpis_fame[5] = $_font_col_rep[5] + 'I received a certificate of honorary citizenship of Serpis House from the hands of the President personally. This is not a mere formality - there is real strength behind me now!' + $_font_closer
 
-$kamira_fame[0] = $_font_col_rep[0] + 'I am unknown by non-humans from the Camira House. But they will recognize me if I will make at least one personal contract with a representative of this house.' + $_font_closer
-$kamira_fame[1] = $_font_col_rep[1] + 'Thanks to my customers, I received permission to live in the Quarter of the Outcasts. But I need to find more customers started to get respect.' + $_font_closer
-$kamira_fame[2] = $_font_col_rep[2] + 'I know someone in the Camira House, but to get a real influence and access to the Tierra del Citadel, I should make friends with someone of the most influential non-humans.' + $_font_closer
+$kamira_fame[0] = $_font_col_rep[0] + 'I am unknown by the non-humans from the Camira House. But they will recognize me if I make at least one personal contract with a representative of this house.' + $_font_closer
+$kamira_fame[1] = $_font_col_rep[1] + 'Thanks to my customers, I received permission to live in the Quarter of the Outcasts. But I need to find more customers to start getting respect.' + $_font_closer
+$kamira_fame[2] = $_font_col_rep[2] + 'I know someone in the Camira House, but to get real influence and access to the Tierra del Citadel, I should make friends with some of the most influential non-humans.' + $_font_closer
 $kamira_fame[3] = $_font_col_rep[3] + 'I have enough friends in the Camira House to get a pass to the Tierra del Citadel and be introduced to the most notable representatives of the House. I can foresee great bargains!' + $_font_closer
 $kamira_fame[4] = $_font_col_rep[4] + 'Thanks to my friendship with the highest hierarchy of Camira House, I can get an interview with the Tiamat Mistress, the leader of the Camira House.' + $_font_closer
 $kamira_fame[5] = $_font_col_rep[5] + 'Tiamat personally recognized me as "one of her flock". This means that the Camira House will stand up for me in any difficult situation!' + $_font_closer
 
-$korvus_fame[0] = $_font_col_rep[0] + 'Undead do not notice me, as if I do not exist at all. If I want to make a name in the Corvus House, I need to make someone from ghouls to be my client.' + $_font_closer
-$korvus_fame[1] = $_font_col_rep[1] + 'Usually undead do not allow people like me to settle in Necropolis, but I managed to achieve an exclusive status. However in the Corvus House I am still barely known.' + $_font_closer
-$korvus_fame[2] = $_font_col_rep[2] + 'I have some of acquaintances in the Corvus House, but they are not enough to access to the Raven Tower. I need to make some of nobles to be my clients.' + $_font_closer
-$korvus_fame[3] = $_font_col_rep[3] + 'My fame as a best supplier of slaves reached Raven Tower and now I have the opportunity to meet with the high-ranking undead from Corvus House.' + $_font_closer
-$korvus_fame[4] = $_font_col_rep[4] + 'Because I earned approval from the senior hierarchy of Corvus House, I have the opportunity to ask for an audience with the Prince of the Undead himself!' + $_font_closer
-$korvus_fame[5] = $_font_col_rep[5] + 'Prince of Undead bestowed upon me a title of nobility. Now Corvus House will be on my side in any difficult situation!' + $_font_closer
+$korvus_fame[0] = $_font_col_rep[0] + 'The undead do not notice me, as if I do not exist at all. If I want to make a name for myself in the Corvus House, I need to make someone from the ghouls my client.' + $_font_closer
+$korvus_fame[1] = $_font_col_rep[1] + 'Usually the undead do not allow people like me to settle in the Necropolis, but I managed to achieve an exclusive status. However, in the Corvus House I am still barely known.' + $_font_closer
+$korvus_fame[2] = $_font_col_rep[2] + 'I have some of acquaintances in the Corvus House, but they are not enough to grant access to the Raven Tower. I need to make some of the nobles clients of mine.' + $_font_closer
+$korvus_fame[3] = $_font_col_rep[3] + 'My fame as the best supplier of slaves has reached Raven Tower, and now I have the opportunity to meet with the high-ranking undead from Corvus House.' + $_font_closer
+$korvus_fame[4] = $_font_col_rep[4] + 'Because I earned the approval of the senior hierarchy of Corvus House, I have the opportunity to ask for an audience with the Prince of the Undead himself!' + $_font_closer
+$korvus_fame[5] = $_font_col_rep[5] + 'The Prince of the Undead bestowed upon me a title of nobility. Now Corvus House will be on my side in any difficult situation!' + $_font_closer
 
-$brand_fame[0] = $_font_col_rep[0] + 'My brand is not known by anybody and this is bad for the price of slaves. I need to sell more slaves under my own brand or make them win competitions for me!' + $_font_closer
-$brand_fame[1] = $_font_col_rep[1] + 'Among all the brands of my guild mine is valued less than others, but if I sell good slaves, it will quickly change.' + $_font_closer
-$brand_fame[2] = $_font_col_rep[2] + 'At least my brand is already know, even though it does not add special prices on slaves that I deliver. It is necessary to improve the quality of my goods!' + $_font_closer
-$brand_fame[3] = $_font_col_rep[3] + 'I am known as supplier of quality products and girls with my brand on a hip are worth something. But this is not a major league.' + $_font_closer
-$brand_fame[4] = $_font_col_rep[4] + 'Work on my image has payed off. My brand is now known by everyone and I am recognized as a great trainer. Selling ​​goods has never been so easy!' + $_font_closer
-$brand_fame[5] = $_font_col_rep[5] + 'Maybe I overestimating myself, but I think that my brand is the best among all members of the guild. Even if I put it on a piece of shit, I will get sparks for this shit!' + $_font_closer
+$brand_fame[0] = $_font_col_rep[0] + 'My brand is not known by anybody, and this is bad for the price of slaves. I need to sell more slaves under my own brand or make them win competitions for me!' + $_font_closer
+$brand_fame[1] = $_font_col_rep[1] + 'Among all the brands of my guild, mine is valued less than others, but if I sell good slaves, that will quickly change.' + $_font_closer
+$brand_fame[2] = $_font_col_rep[2] + 'At least my brand is already known, though that does not add any special bonus to the price of slaves that I deliver. It is necessary to improve the quality of my goods!' + $_font_closer
+$brand_fame[3] = $_font_col_rep[3] + 'I am known as a supplier of quality products, and girls with my brand on their hip are worth something. But this is not the major leagues.' + $_font_closer
+$brand_fame[4] = $_font_col_rep[4] + 'The work on my image has paid off. My brand is now known by everyone and I am recognized as a great trainer. Selling ​​goods has never been so easy!' + $_font_closer
+$brand_fame[5] = $_font_col_rep[5] + 'Maybe I overestimate myself, but I think that my brand is the best of all the members of the guild. Even if I put it on a piece of shit, I will get sparks for that shit!' + $_font_closer
 
 !show vars
 $slave_type_name['refferent'] = 'an assistant'
@@ -959,7 +959,7 @@ $excitement[6] = dyneval($vb_cycle, 0, 'Cold')
 $excitement[0] = 'Contented'
 $excitement[1] = dyneval($vb_cycle, 5, 'Hardon')
 $excitement[2] = dyneval($vb_cycle, 5, 'Mighty hardon')
-$excitement[3] = dyneval($vb_cycle, 5, 'Rock hardon')
+$excitement[3] = dyneval($vb_cycle, 5, 'Rock hard')
 $excitement[4] = dyneval($vb_cycle, 5, 'Stallion')
 $excitement[5] = dyneval($vb_cycle, 5, 'Wild stallion')
 
@@ -990,11 +990,11 @@ $boy_hygiene[4] = $_font_col_rep[1] + 'Filthy' + $_font_closer
 $boy_hygiene[5] = $_font_col_rep[0] + 'Disgusting' + $_font_closer
 
 $girl_fame[0] = $_font_col_rep[0] + 'Unknown' + $_font_closer
-$girl_fame[1] = $_font_col_rep[1] + 'Obscure' + $_font_closer
-$girl_fame[2] = $_font_col_rep[2] + 'Rumored' + $_font_closer
-$girl_fame[3] = $_font_col_rep[3] + 'Recognized' + $_font_closer
-$girl_fame[4] = $_font_col_rep[4] + 'Famous' + $_font_closer
-$girl_fame[5] = $_font_col_rep[5] + 'Legendary' + $_font_closer
+$girl_fame[1] = $_font_col_rep[1] + 'Well-known' + $_font_closer
+$girl_fame[2] = $_font_col_rep[2] + 'Celebrity' + $_font_closer
+$girl_fame[3] = $_font_col_rep[3] + 'Illustrious' + $_font_closer
+$girl_fame[4] = $_font_col_rep[4] + 'Superstar' + $_font_closer
+$girl_fame[5] = $_font_col_rep[5] + 'Legend of Rome' + $_font_closer
 
 $stamina[0] = $_font_col_rep[0] + 'Dying' + $_font_closer
 $stamina[1] = $_font_col_rep[1] + 'Feeble' + $_font_closer
@@ -1399,7 +1399,7 @@ $boobs_modification[3] = 'Nipples-mouths'
 
 $virginity[3] = $_font_col_rep[0] + 'Given birth' + $_font_closer 
 $virginity[2] = $_font_col_rep[3] + 'Firm vagina' + $_font_closer 
-$virginity[1] = $_font_col_rep[4] + 'Restore hymen' + $_font_closer 
+$virginity[1] = $_font_col_rep[4] + 'Restored hymen' + $_font_closer 
 $virginity[0] = $_font_col_rep[5] + 'Virgin' + $_font_closer
 
 $clit_piercing[0] = dyneval($vb_cycle, 0, 'Clitoris not pierced')
