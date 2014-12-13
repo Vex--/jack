@@ -50,52 +50,52 @@ Cancel
 IF city_form = 0:
  $place = 'city' 
  if homerun = 0: master_energy -= 1 & homerun = 1 
- $text_display += {<br><div id="under">White town<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">White Town<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Quarter of the Bull<br><div id = "clear"><a href = 'EXEC: city_form = 2 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Serpentine quarter<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Serpentine Quarter<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Quarter of the Outcasts<br><div id = "clear"><a href = 'EXEC: city_form = 4 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Necropolis<br><div id = "clear"><a href = 'EXEC: city_form = 5 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Border of the Fogs<br><div id = "clear"><a href = 'EXEC: city_form = 6 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Border of the Fog<br><div id = "clear"><a href = 'EXEC: city_form = 6 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  !$text_display += {<br><div id="under">Вернуться домой <br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 1:
  $place = 'white_city' 
- $text_display += {<br><div id="under">Trade square<br><div id = "clear"><a href = 'EXEC: city_form = 11 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">The slavers guild<br><div id = "clear"><a href = 'EXEC: interaction_city = 112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Colosseum<br><div id = "clear"><a href = 'EXEC: interaction_city = 12 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Central forum<br><div id = "clear"><a href = 'EXEC: interaction_city = 15 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Trade Square<br><div id = "clear"><a href = 'EXEC: city_form = 11 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">The Slavers Guild<br><div id = "clear"><a href = 'EXEC: interaction_city = 112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">The Coliseum<br><div id = "clear"><a href = 'EXEC: interaction_city = 12 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Central Forum<br><div id = "clear"><a href = 'EXEC: interaction_city = 15 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">The Vatican<br><div id = "clear"><a href = 'EXEC: interaction_city = 16 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 11:
  $place = 'market_large' 
  IF slave_state = CONST_INT['no_slave']: 
-  $text_display += {<div id="under">Slave market<br><div id = "clear"><a href = 'EXEC: txt = 1 & gt "slave_auction_buy"'><img src = "content\pic\clear.gif"></a></div></div>}
+  $text_display += {<div id="under">Slave Market<br><div id = "clear"><a href = 'EXEC: txt = 1 & gt "slave_auction_buy"'><img src = "content\pic\clear.gif"></a></div></div>}
   else
   IF slave_state = CONST_INT['slave_exist']:
-   $text_display += {<div id="under">Slave market<br><div id = "clear"><a href = 'EXEC: txt = 1 & gt "slave_auction_sell"'><img src = "content\pic\clear.gif"></a></div></div>}
+   $text_display += {<div id="under">Slave Market<br><div id = "clear"><a href = 'EXEC: txt = 1 & gt "slave_auction_sell"'><img src = "content\pic\clear.gif"></a></div></div>}
    else
-   $text_display += {<div id="under_gray">Slave market<br></div>}   
+   $text_display += {<div id="under_gray">Slave Market<br></div>}   
   END
  END
  $text_display += {<br><div id="under">"Gastronomicon"<br><div id = "clear"><a href = 'EXEC: interaction_city = 115 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Salon "Elven laid"<br><div id = "clear"><a href = 'EXEC: interaction_city = 116 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Salon "Elven Laid"<br><div id = "clear"><a href = 'EXEC: interaction_city = 116 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Boutique of Servilia Quint<br><div id = "clear"><a href = 'EXEC: interaction_city = 113 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Ashura`s treasury<br><div id = "clear"><a href = 'EXEC: interaction_city = 114 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Manhunter`s armory<br><div id = "clear"><a href = 'EXEC: interaction_city = 111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Real estate office<br><div id = "clear"><a href = 'EXEC: interaction_city = 13 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the trade square<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Ashura’s Treasury<br><div id = "clear"><a href = 'EXEC: interaction_city = 114 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Manhunter’s Armory<br><div id = "clear"><a href = 'EXEC: interaction_city = 111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Real Estate Office<br><div id = "clear"><a href = 'EXEC: interaction_city = 13 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Trade Square<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 2:
  $place = 'taurus_district' 
- $text_display += {<br><div id="under">Residences area<br><div id = "clear"><a href = 'EXEC: city_form = 21 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Residence Area<br><div id = "clear"><a href = 'EXEC: city_form = 21 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Salon of Madame Jofre<br><div id = "clear"><a href = 'EXEC: interaction_city = 22 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Gentleman`s club<br><div id = "clear"><a href = 'EXEC: interaction_city = 23 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">White palace<br><div id = "clear"><a href = 'EXEC: interaction_city = 24 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Gentlemens Club<br><div id = "clear"><a href = 'EXEC: interaction_city = 23 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">White Palace<br><div id = "clear"><a href = 'EXEC: interaction_city = 24 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 21:
@@ -103,130 +103,130 @@ IF city_form = 21:
  if $estate = 'taurus_house': $text_display += {<br><div id="under">Your apartment<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Housing of don Castille<br><div id = "clear"><a href = 'EXEC: interaction_city = 210 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Apartments of don Diego<br><div id = "clear"><a href = 'EXEC: interaction_city = 211 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Gilmeritus`s labratory<br><div id = "clear"><a href = 'EXEC: interaction_city = 212 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Gilmeritus’s Labratory<br><div id = "clear"><a href = 'EXEC: interaction_city = 212 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Manor of Sire Toughbar<br><div id = "clear"><a href = 'EXEC: interaction_city = 213 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Lady Edna`s mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 214 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Suinton residence<br><div id = "clear"><a href = 'EXEC: interaction_city = 215 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">To the central street<br><div id = "clear"><a href = 'EXEC: city_form = 2 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Lady Edna’s Mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 214 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Suinton Residence<br><div id = "clear"><a href = 'EXEC: interaction_city = 215 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">To the Central Street<br><div id = "clear"><a href = 'EXEC: city_form = 2 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 3:
  $place = 'serpis_district' 
- $text_display += {<br><div id="under">Anthill<br><div id = "clear"><a href = 'EXEC: city_form = 31 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">"Virgin's hip" <br><div id = "clear"><a href = 'EXEC: interaction_city = 32 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">The Anthill<br><div id = "clear"><a href = 'EXEC: city_form = 31 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">"Virgin’s Hip" <br><div id = "clear"><a href = 'EXEC: interaction_city = 32 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Technosphere <br><div id = "clear"><a href = 'EXEC: city_form = 33 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Administrative spires <br><div id = "clear"><a href = 'EXEC: interaction_city = 34 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Administrative Spires <br><div id = "clear"><a href = 'EXEC: interaction_city = 34 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 31:
  $place = 'serpis_district' 
  if $estate = 'serpis_house': $text_display += {<div id="under">Your apartment<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Peter Viaboo`s apartment<br><div id = "clear"><a href = 'EXEC: interaction_city = 312 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Master Lao`s house <br><div id = "clear"><a href = 'EXEC: interaction_city = 311 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Lardbag`s apartment<br><div id = "clear"><a href = 'EXEC: interaction_city = 313 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Grease`s apartments<br><div id = "clear"><a href = 'EXEC: interaction_city = 314 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Peter Viaboo’s Apartment<br><div id = "clear"><a href = 'EXEC: interaction_city = 312 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Master Lao’s House <br><div id = "clear"><a href = 'EXEC: interaction_city = 311 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Lardbag’s Apartment<br><div id = "clear"><a href = 'EXEC: interaction_city = 313 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Grease’s Apartments<br><div id = "clear"><a href = 'EXEC: interaction_city = 314 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Barracks of Krull<br><div id = "clear"><a href = 'EXEC: interaction_city = 315 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Observatory of the Zefyros<br><div id = "clear"><a href = 'EXEC: interaction_city = 316 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Plaisir`s penthouse<br><div id = "clear"><a href = 'EXEC: interaction_city = 317 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Green Mamba`s lair<br><div id = "clear"><a href = 'EXEC: interaction_city = 318 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Leonid`s manor<br><div id = "clear"><a href = 'EXEC: interaction_city = 319 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Lucius` apartments<br><div id = "clear"><a href = 'EXEC: interaction_city = 3110 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Plaisir’s Penthouse<br><div id = "clear"><a href = 'EXEC: interaction_city = 317 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Green Mamba’s Lair<br><div id = "clear"><a href = 'EXEC: interaction_city = 318 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Leonid’s Manor<br><div id = "clear"><a href = 'EXEC: interaction_city = 319 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Lucius’s Apartments<br><div id = "clear"><a href = 'EXEC: interaction_city = 3110 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Floor of Singh-Khan<br><div id = "clear"><a href = 'EXEC: interaction_city = 3111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Frogler`s residence<br><div id = "clear"><a href = 'EXEC: interaction_city = 3112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">The spire of the Heir Tutti<br><div id = "clear"><a href = 'EXEC: interaction_city = 3113 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">To the central street<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Frogler’s Residence<br><div id = "clear"><a href = 'EXEC: interaction_city = 3112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">The Spire of the Heir Tutti<br><div id = "clear"><a href = 'EXEC: interaction_city = 3113 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">To the Central Street<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 33:
  $place = 'technodrom' 
- $text_display += {<br><br><br><br><br><div id="under">Medical center <br><div id = "clear"><a href = 'EXEC: interaction_city = 331 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><br><br><br><br><div id="under">Medical Center <br><div id = "clear"><a href = 'EXEC: interaction_city = 331 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  IF sparks > 0:
-  $text_display += {<br><div id="under">Cryostatic store <br><div id = "clear"><a href = 'EXEC: interaction_city = 332 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+  $text_display += {<br><div id="under">Cryostatic Store <br><div id = "clear"><a href = 'EXEC: interaction_city = 332 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
   else
-  $text_display += {<br><div id="under_gray">Cryostatic store <br></div>}  
+  $text_display += {<br><div id="under_gray">Cryostatic Store <br></div>}  
  END
- $text_display += {<br><div id="under">Library terminal <br><div id = "clear"><a href = 'EXEC: interaction_city = 333 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the technosphere<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Library Terminal <br><div id = "clear"><a href = 'EXEC: interaction_city = 333 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Technosphere<br><div id = "clear"><a href = 'EXEC: city_form = 3 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 4:
  $place = 'kamira_district' 
- $text_display += {<br><div id="under">Residential area<br><div id = "clear"><a href = 'EXEC: city_form = 41 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Residential Area<br><div id = "clear"><a href = 'EXEC: city_form = 41 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">"Patterns of Uncle Bo" <br><div id = "clear"><a href = 'EXEC: interaction_city = 42 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">"The Rarity Of Mystra" <br><div id = "clear"><a href = 'EXEC: interaction_city = 43 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Public animal farm <br><div id = "clear"><a href = 'EXEC: interaction_city = 44 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Public Animal Farm <br><div id = "clear"><a href = 'EXEC: interaction_city = 44 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Tierra del Citadel <br><div id = "clear"><a href = 'EXEC: interaction_city = 45 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 41:
  $place = 'kamira_district' 
- if $estate = 'kamira_house': $text_display += {<br><div id="under">Your apartment<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ if $estate = 'kamira_house': $text_display += {<br><div id="under">Your Apartment<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">The Sanctuary of Magnaga<br><div id = "clear"><a href = 'EXEC: interaction_city = 411 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Kratos stall<br><div id = "clear"><a href = 'EXEC: interaction_city = 412 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Glot`s gatehouse<br><div id = "clear"><a href = 'EXEC: interaction_city = 413 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Bullhorn`s den<br><div id = "clear"><a href = 'EXEC: interaction_city = 414 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Arbue residence<br><div id = "clear"><a href = 'EXEC: interaction_city = 415 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Mickey`s house<br><div id = "clear"><a href = 'EXEC: interaction_city = 4112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Sphingy library<br><div id = "clear"><a href = 'EXEC: interaction_city = 416 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Mordhulla`s mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 417 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Kurfilinn`s castle<br><div id = "clear"><a href = 'EXEC: interaction_city = 418 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Charming castle<br><div id = "clear"><a href = 'EXEC: interaction_city = 419 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Pyra`s altar<br><div id = "clear"><a href = 'EXEC: interaction_city = 4110 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Batory`s mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 4111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">To the central street<br><div id = "clear"><a href = 'EXEC: city_form = 4 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Kratos’s Stall<br><div id = "clear"><a href = 'EXEC: interaction_city = 412 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Glot’s Gatehouse<br><div id = "clear"><a href = 'EXEC: interaction_city = 413 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Bullhorn’s Den<br><div id = "clear"><a href = 'EXEC: interaction_city = 414 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Arbue Residence<br><div id = "clear"><a href = 'EXEC: interaction_city = 415 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Mickey’s House<br><div id = "clear"><a href = 'EXEC: interaction_city = 4112 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Sphingy’s Library<br><div id = "clear"><a href = 'EXEC: interaction_city = 416 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Mordhulla’s Mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 417 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Kurfilinn’s Castle<br><div id = "clear"><a href = 'EXEC: interaction_city = 418 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Prince Charming’s Castle<br><div id = "clear"><a href = 'EXEC: interaction_city = 419 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Pyra’s Altar<br><div id = "clear"><a href = 'EXEC: interaction_city = 4110 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Batory’s Mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 4111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">To the Central Street<br><div id = "clear"><a href = 'EXEC: city_form = 4 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 5:
  $place = 'korvus_district' 
- $text_display += {<br><div id="under">Residences area<br><div id = "clear"><a href = 'EXEC: city_form = 51 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">"Steel rose" <br><div id = "clear"><a href = 'EXEC: interaction_city = 52 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Anatomical theatre <br><div id = "clear"><a href = 'EXEC: interaction_city = 53 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Residence Area<br><div id = "clear"><a href = 'EXEC: city_form = 51 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">"Steel Rose" <br><div id = "clear"><a href = 'EXEC: interaction_city = 52 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Anatomical Theatre <br><div id = "clear"><a href = 'EXEC: interaction_city = 53 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">Raven Tower <br><div id = "clear"><a href = 'EXEC: interaction_city = 54 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Leave the quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Quarter<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 51:
  $place = 'korvus_district' 
  if $estate = 'korvus_house': $text_display += {<br><div id="under">Your apartment<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Mound of the Undead<br><div id = "clear"><a href = 'EXEC: interaction_city = 511 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Para Lysis` crypt<br><div id = "clear"><a href = 'EXEC: interaction_city = 512 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Lestor`s mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 513 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Draugr ruins<br><div id = "clear"><a href = 'EXEC: interaction_city = 514 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Para Lysis’s Crypt<br><div id = "clear"><a href = 'EXEC: interaction_city = 512 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Lestor’s Mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 513 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Draugr Ruins<br><div id = "clear"><a href = 'EXEC: interaction_city = 514 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Tower of Scarlet<br><div id = "clear"><a href = 'EXEC: interaction_city = 515 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Madman`s mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 516 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Madman’s Mansion<br><div id = "clear"><a href = 'EXEC: interaction_city = 516 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Lair of the Faceless<br><div id = "clear"><a href = 'EXEC: interaction_city = 517 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Venturi`s estate<br><div id = "clear"><a href = 'EXEC: interaction_city = 518 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Venturi’s Estate<br><div id = "clear"><a href = 'EXEC: interaction_city = 518 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<div id="under">Mansion of Lady Yasmania<br><div id = "clear"><a href = 'EXEC: interaction_city = 519 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Jagellon palace<br><div id = "clear"><a href = 'EXEC: interaction_city = 5110 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<div id="under">Imladis castle<br><div id = "clear"><a href = 'EXEC: interaction_city = 5111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">To the central street<br><div id = "clear"><a href = 'EXEC: city_form = 5 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Jagellon Palace<br><div id = "clear"><a href = 'EXEC: interaction_city = 5110 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<div id="under">Imladis Castle<br><div id = "clear"><a href = 'EXEC: interaction_city = 5111 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">To the Central Street<br><div id = "clear"><a href = 'EXEC: city_form = 5 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 6:
  $place = 'slums' 
  IF master_energy > 0:
-  $text_display += {<br><div id="under">Patrol border of Fogs<br><div id = "clear"><a href = 'EXEC: interaction_city = 62 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+  $text_display += {<br><div id="under">Patrol the Border of the Fog<br><div id = "clear"><a href = 'EXEC: interaction_city = 62 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
   else
-  $text_display += {<br><div id="under_gray">Patrol border of Fogs<br></div>}    
+  $text_display += {<br><div id="under_gray">Patrol the Border of the Fog<br></div>}    
  END
- $text_display += {<br><div id="under">Smuggler`s rendezvous<br><div id = "clear"><a href = 'EXEC: interaction_city = 65 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Moneylender`s home<br><div id = "clear"><a href = 'EXEC: interaction_city = 63 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Base camp<br><div id = "clear"><a href = 'EXEC: interaction_city = 64 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Slums <br><div id = "clear"><a href = 'EXEC: city_form = 61 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under">Walk to the city<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Smuggler’s Rendezvous<br><div id = "clear"><a href = 'EXEC: interaction_city = 65 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Moneylender’s Home<br><div id = "clear"><a href = 'EXEC: interaction_city = 63 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Base Camp<br><div id = "clear"><a href = 'EXEC: interaction_city = 64 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">The Slums <br><div id = "clear"><a href = 'EXEC: city_form = 61 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Walk to the City<br><div id = "clear"><a href = 'EXEC: city_form = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 61:
  $place = 'slums' 
- if $estate = 'slum_house': $text_display += {<br><div id="under">Your shack<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
- $text_display += {<br><div id="under_gray">Unfamiliar house<br></div>} 
- $text_display += {<br><div id="under_gray">Unfamiliar house<br></div>}  
- $text_display += {<br><div id="under_gray">Unfamiliar house<br></div>}
- $text_display += {<br><div id="under_gray">Unfamiliar house<br></div>} 
- $text_display += {<br><div id="under_gray">Unfamiliar house<br></div>}  
- $text_display += {<br><div id="under">To city gate<br><div id = "clear"><a href = 'EXEC: city_form = 6 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ if $estate = 'slum_house': $text_display += {<br><div id="under">Your Shack<br><div id = "clear"><a href = 'EXEC: menu_form = 0 & city_form = 0 & gt "menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under_gray">Unfamiliar House<br></div>} 
+ $text_display += {<br><div id="under_gray">Unfamiliar House<br></div>}  
+ $text_display += {<br><div id="under_gray">Unfamiliar House<br></div>}
+ $text_display += {<br><div id="under_gray">Unfamiliar House<br></div>} 
+ $text_display += {<br><div id="under_gray">Unfamiliar House<br></div>}  
+ $text_display += {<br><div id="under">To the City Gate<br><div id = "clear"><a href = 'EXEC: city_form = 6 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF city_form = 1000: 
@@ -249,36 +249,36 @@ IF city_form = 1000:
   $setting_display += {<br><br><div id="under_gray">{ { { AUTOSAVE } } }<br></div>}
   $setting_display += {<br><div id="under_gray">{ At the beginning of the day }<br></div>}
   IF autosave_day ! 1:
-   $setting_display += {<br><div id="under">On<br><div id = "clear"><a href = 'EXEC: autosave_day = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+   $setting_display += {<br><div id="under">Disabled<br><div id = "clear"><a href = 'EXEC: autosave_day = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
    else
-   $setting_display += {<br><div id="under">Off<br><div id = "clear"><a href = 'EXEC: autosave_day = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
+   $setting_display += {<br><div id="under">Enabled<br><div id = "clear"><a href = 'EXEC: autosave_day = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END
   $setting_display += {<br><div id="under_gray">{ Each decade }<br></div>}
   IF autosave_decade ! 1:
-   $setting_display += {<br><div id="under">On<br><div id = "clear"><a href = 'EXEC: autosave_decade = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+   $setting_display += {<br><div id="under">Disabled<br><div id = "clear"><a href = 'EXEC: autosave_decade = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
    else
-   $setting_display += {<br><div id="under">Off<br><div id = "clear"><a href = 'EXEC: autosave_decade = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
+   $setting_display += {<br><div id="under">Enabled<br><div id = "clear"><a href = 'EXEC: autosave_decade = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END
   
   $setting_display_r += {<div id="under_gray">{ { { NSFW } } }<br></div>}
   IF nsfw ! 1:
-   $setting_display_r += {<br><div id="under">On<br><div id = "clear"><a href = 'EXEC: nsfw = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+   $setting_display_r += {<br><div id="under">Enabled<br><div id = "clear"><a href = 'EXEC: nsfw = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
    else
-   $setting_display_r += {<br><div id="under">Off<br><div id = "clear"><a href = 'EXEC: nsfw = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
+   $setting_display_r += {<br><div id="under">Disabled<br><div id = "clear"><a href = 'EXEC: nsfw = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END
   
-  $setting_display_r += {<br><div id="under_gray">{ { { No Loli } } }<br></div>}
+  $setting_display_r += {<br><div id="under_gray">{ { { Loli } } }<br></div>}
   IF no_loli ! 1:
-   $setting_display_r += {<br><div id="under">On<br><div id = "clear"><a href = 'EXEC: no_loli = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+   $setting_display_r += {<br><div id="under">Enabled<br><div id = "clear"><a href = 'EXEC: no_loli = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
    else
-   $setting_display_r += {<br><div id="under">Off<br><div id = "clear"><a href = 'EXEC: no_loli = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
+   $setting_display_r += {<br><div id="under">Disabled<br><div id = "clear"><a href = 'EXEC: no_loli = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END
   
-  $setting_display_r += {<br><div id="under_gray">{ { { No MILF } } }<br></div>}
+  $setting_display_r += {<br><div id="under_gray">{ { { MILF } } }<br></div>}
   IF no_milf ! 1:
-   $setting_display_r += {<br><div id="under">On<br><div id = "clear"><a href = 'EXEC: no_milf = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+   $setting_display_r += {<br><div id="under">Enabled<br><div id = "clear"><a href = 'EXEC: no_milf = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
    else
-   $setting_display_r += {<br><div id="under">Off<br><div id = "clear"><a href = 'EXEC: no_milf = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
+   $setting_display_r += {<br><div id="under">Disabled<br><div id = "clear"><a href = 'EXEC: no_milf = 0 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END
   
   $setting_display_r += {<br><br><div id="under_gray">{ { { SOUND SETTINGS } } }<br></div>}
