@@ -1600,7 +1600,7 @@ $colloseum_options[1] = {
    $text_display += {<br><div id="under">Watch the battle<div id = "clear"><a href = 'EXEC: interaction_city = 1252 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>} 
   END  
  END
- $text_display += {<br><div id="under">Leave the Colosseum<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
+ $text_display += {<br><div id="under">Leave the Coliseum<br><div id = "clear"><a href = 'EXEC: city_form = 1 & gt "city_menu_form"'><img src = "content\pic\clear.gif"></a></div></div>}
 }
 
 $colloseum_options[21] = { 
@@ -1636,7 +1636,7 @@ $colloseum_options[21] = {
 }
 
 $colloseum_options[22] = {
- $sp_text[22] = '   You find the beastman-stableman with a horse’s head who is responsible for the race. He can be a source of valuable information, especially when it is necessary to know what awaits you in the next race.'
+ $sp_text[22] = '   You find the beastman-stableman with the horse’s head who is responsible for the race. He can be a source of valuable information, especially when it is necessary to know what awaits you in the next race.'
  $text_display = '<br>'
  $text_display += {<br><div id="under">- Tell me about the next track<br><div id = "clear"><a href = 'EXEC: interaction_city = 1951 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
  $text_display += {<br><div id="under">- Tell me about a chariot race<br><div id = "clear"><a href = 'EXEC: interaction_city = 1952 & gt "interaction_city"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1677,7 +1677,7 @@ $colloseum_options[23] = {
 
 $colloseum_options[24] = { 
  IF $slave['trademark_style'] = '':
-  $sp_text[24] = '   Battles take place in the arena, with clear regulation of weapons and equipment. You need to choose the style that <<$slave_name>> will fight with and an outfit appropriate to this style.'
+  $sp_text[24] = '   Battles take place in the arena, with clear regulations on weapons and equipment. You need to choose the style that <<$slave_name>> will fight with and an outfit appropriate to this style.'
   $text_display += {<br><br><div id="under">Net and trident<br><div id = "clear"><a href = 'EXEC: $g_type = "retiarius" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Armor and whipsaw<br><div id = "clear"><a href = 'EXEC: $g_type = "flagrius" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Dual wield<br><div id = "clear"><a href = 'EXEC: $g_type = "dimacherus" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
@@ -1685,7 +1685,7 @@ $colloseum_options[24] = {
   $text_display += {<br><div id="under">Heavy weapons<br><div id = "clear"><a href = 'EXEC: $g_type = "kimerian" & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Refuse the fight<br><div id = "clear"><a href = 'EXEC: sp_txt = 1 & gt $curloc'><img src = "content\pic\clear.gif"></a></div></div>}
   ELSE
-  $sp_text[24] = '   Recognized champions of the arena fight only in the most spectacular battles, which lead the audience the most. Usually these unusual fights involving champions are openers and closers for days in the arena.'
+  $sp_text[24] = '   Recognized champions of the arena fight only in the most spectacular battles, which excite the audience the most. Usually these unusual fights involving champions are openers and closers for days in the arena.'
   $text_display += {<br><br><div id="under">Challange the champion<br><div id = "clear"><a href = 'EXEC: $slave["trademark_style"] & challenge_type = 1 & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Group fight<br><div id = "clear"><a href = 'EXEC: $slave["trademark_style"] & challenge_type = 2 & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
   $text_display += {<br><div id="under">Battle against fiend<br><div id = "clear"><a href = 'EXEC: $slave["trademark_style"] & challenge_type = 3 & gt "$gladiator_setup"'><img src = "content\pic\clear.gif"></a></div></div>}
