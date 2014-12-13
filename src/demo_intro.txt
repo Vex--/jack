@@ -12,11 +12,11 @@ $npc = 'госпожа_ангелика'
 
 if lecture = 0:
  txt_count = 4
- $text[1] = '<font color="#8B0A50">- Gaudete! I''m Mistress Angelika. The council of Guild Masters has given me the honor to train and certify beginners. What is your name?</font>'
- $text[2] = '<font color="#191970">- My name is <<$master_name>>. I have long dreamed about this moment.</font>'
+ $text[1] = '<font color="#8B0A50">- Gaudete! I’m Mistress Angelika. The Council of Guild Masters has given me the honor of training and certifying beginners. What is your name?</font>'
+ $text[2] = '<font color="#191970">- My name is <<$master_name>>. I have long dreamt of this moment.</font>'
  $text[3] = 'Mistress Angelika checks the list and nods. <br>
- <font color="#8B0A50">- It indicate that you had already fully paid the entry fee, <<$master_name>>. Good. But consider this: we will not tolerate black sheep in our guild, no matter how much they pay. Honor of our organization is paramount.</font>'
- $text[4] = '<font color="#8B0A50">- In order to become a full member of the Slavers Guild you''ll have to pass the exam in conditions close to practice. We also provide training for beginners. I will tell you everything I know a hundred times if need be.</font>'
+ <font color="#8B0A50">- This indicates that you have already paid the entry fee in full, <<$master_name>>. Good. But consider this: we will not tolerate black sheep in our guild, no matter how much they pay. The honor of our organization is paramount.</font>'
+ $text[4] = '<font color="#8B0A50">- In order to become a full member of the Slavers Guild, you’ll have to pass a practical exam in conditions close to reality. We also provide training for beginners. I will tell you everything I know a hundred times if need be.</font>'
 END
 
 npc = 1
@@ -32,9 +32,9 @@ if lecture = 100:
 <div id="under">Lecture III: Sticks and carrots<br><div id = "clear"><a href = ''EXEC: lecture = 3 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
 <div id="under">Lecture IV: Kitchen slavery<br><div id = "clear"><a href = ''EXEC: lecture = 4 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
 <div id="under">Check the conditions of the exam<br><div id = "clear"><a href = ''EXEC: lecture = 5 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
-<div id="under">Examination work<br><div id = "clear"><a href = ''EXEC: gt "start_demo_game"''><img src = "content\pic\clear.gif"></a></div></div>
+<div id="under">Start the examination<br><div id = "clear"><a href = ''EXEC: gt "start_demo_game"''><img src = "content\pic\clear.gif"></a></div></div>
 </div>' 
- $text[1] = 'I must choose what lecture to listen now. Or may have to go to the practical part?'
+ $text[1] = 'I must choose which lecture to listen to now. Or shall I go straight to the practical?'
   else
   '<div id = "bg">
 
@@ -42,155 +42,155 @@ if lecture = 100:
 <div id="under">Lecture II: Psychology of submission<br><div id = "clear"><a href = ''EXEC: lecture = 2 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
 <div id="under">Lecture III: Sticks and carrots<br><div id = "clear"><a href = ''EXEC: lecture = 3 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
 <div id="under">Lecture IV: Kitchen slavery<br><div id = "clear"><a href = ''EXEC: lecture = 4 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
-<div id="under">Hand over the examination work<br><div id = "clear"><a href = ''EXEC: lecture = 11 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
+<div id="under">Hand in your examination work<br><div id = "clear"><a href = ''EXEC: lecture = 11 & gt curloc''><img src = "content\pic\clear.gif"></a></div></div>
 <div id="under">Back to work<br><div id = "clear"><a href = ''EXEC: menu_form = 0 & gt "demo_menu_form"''><img src = "content\pic\clear.gif"></a></div></div>
 </div>' 
   gs '$slave_price'
   IF rating => 2:
-   $text[1] = 'According to my calculations slave already meets <<$rating[2]>> rank. I think it''s time to show her to Mistress Angelica and finish the exam.'
+   $text[1] = 'According to my estimate, this slave already meets <<$rating[2]>> rank. I think it’s time to show her to Mistress Angelica and finish the exam.'
    else
-   $text[1] = 'It seems to me that my slave is not good enough yet, although I can ask Mistress Angelica to evaluate it. Or just remind me something from her lectures...'
+   $text[1] = 'It seems to me that my slave is not yet good enough, although I can always ask Mistress Angelica to evaluate her, or just remind me of something from her lectures...'
   END
  END
 END
 
 IF lecture = 1:
  txt_count = 9
- $text[1] = 'Slave rating is affected by various factors. Firstly, it is the sum of her skills. The ability to keep the house, entertain her master and sexual techniques - all increase her rating.'
- $text[2] = 'Another important factor is her obedience. A perfect slave should thoroughly fulfill all the rules and obey any request of her master without hesitation and delay. Most valued is the sincere desire to please and serve.'
- $text[3] = 'Also of considerable importance is the mental state of a slave. On one hand she should not be squeamish or haughty, but the on the other it is good when the girl is temperamental and has a strong character. People don''t usually like nondescript dolls, people are drawn to bright personalities.'
- $text[4] = 'Finally, charm has a very significant influence on her rating. The extent to which the slave is able to show herself and if she looks stylish. At the same level of skill, a stylish slave will always please the customer more than a dull one. It is necessary to take this into account when selling slaves to elite customers.'
- $text[5] = 'If your training leaves scars on her body, her charm will inevitably fall. Be careful and measure force. It is also necessary to track the weight and physical condition of the girl. She should be neither too thin nor too thick. Stamina and health is very important.'
- $text[6] = 'Client is likely to refuse to buy an ugly slave, and will not take her back. It is necessary to take into account the vagaries of customers.'
- $text[7] = 'It should also be remembered that the above applies only to the general case. Each customer may have their own requirements, which strongly change the rating of our goods in his eyes.'
- $text[8] = 'If client acquires a gladiatrix from you, her strength and exoticness will be important, but her housekeeping and cooking skills won''t matter. In the future, you will have to select untrained slaves and train them based on a specific customer''s wishes.'
- $text[9] = 'Since the Slavers Guild is the customer for the examination, we will only take into account her overall rating. Her individual skills won''t matter as long as her overall rating is high enough.'
+ $text[1] = 'Slave rating is affected by various factors. Firstly, it is the sum of her skills. The ability to keep the house, entertain her master, and her sexual techniques - all increase her rating.'
+ $text[2] = 'Another important factor is her obedience. A perfect slave should thoroughly fulfill all the rules, and obey any request of her master without hesitation or delay. Most valued is a sincere desire to please and serve.'
+ $text[3] = 'Also of considerable importance is the mental state of a slave. On one hand, she should not be squeamish or haughty, but on the other, it is good when a girl is temperamental and has strong character. People don’t usually like nondescript dolls, people are drawn to bright personalities.'
+ $text[4] = 'Finally, charm has a very significant influence on her rating. Charm is the extent to which a slave is able to show herself off, and if she looks stylish. At the same level of skill, a stylish slave will always please a customer more than a dull one. It is necessary to take this into account when selling slaves to elite customers.'
+ $text[5] = 'If your training leaves scars on her body, her charm will inevitably fall. Be careful and temper your force. It is also necessary to track the weight and physical condition of a girl. She should be neither too thin nor too thick. Stamina and health are very important.'
+ $text[6] = 'A client is likely to refuse to buy an ugly slave, and will not reconsider. It is necessary to take into account the vagaries of a customer’s desire.'
+ $text[7] = 'It should also be remembered that the above apply only to the general case. Each customer may have their own requirements, and these will strongly change the rating of our goods in their eyes.'
+ $text[8] = 'If a client acquires a gladiatrix from you, her strength and exoticness will be important, but her housekeeping and cooking skills won’t matter. In the future, you will have to select untrained slaves and train them based on a specific customer’s wishes.'
+ $text[9] = 'Since the Slavers Guild is the customer for this examination, we will only take into account her overall rating. Her individual skills won’t matter as long as her overall rating is high enough.'
 END
 
 IF lecture = 2:
  txt_count = 26
- $text[1] = 'Rebellious slave - a complete punishment for the master. One of the most important tasks of any trainer is unquestioned obedience. This is the only way that you can do further training effectively and get a decent rating.'
- $text[2] = 'The slave''s willingness to obey depends on a variety of factors. It is important to know all of them and understand how positive factors can be produced and maintained. Listen carefully.'
- $text[3] = 'The first thing that comes to mind: fear. You can do anything you want with a slave. In most cases it will not be difficult to intimidate her using pain, abuse and violence. We were able to calculate that the average motivation of fear is almost twice as strong as any other.'
- $text[4] = 'It should however be remembered that fear has its pitfalls. Firstly, you have to be careful with punishments, so as not to cause irreparable physical harm to the girl. But even more important is not to damage her mind.'
- $text[5] = 'Whenever you punish a slave, she will not only start to fear you, but her dissatisfaction will also grow. This is a direct way to drive slave into a deep depression. Without positive motivation, training a slave will be very difficult because her fear and self-pity will stop the girl from focusing on her training.'
- $text[6] = 'In addition to lowering her mood, fear has an additional dark side. We call it angst or despair. Angst - a destructive terror emanating from a misunderstanding and rejection of fear. If a slave gets punished without feeling guilt - her angst inevitably grows.'
- $text[7] = 'Sensitive girls may fall into angst simply because of her bad mood. When a slave is extremely gentle, fear and angst will lead her to depression faster. Whenever you consider punishing your slave, do not only consider the degree of her guilt, but also her sensitivity.'
- $text[8] = 'Angst destroys personality. Under its influence a slave begin to lose her temper and self-confidence, gradually breaking her will. In the early stages it can help, but in the end it will only lower her rating. Be careful.'
- $text[9] = 'To get rid of angst, try to ensure that your slave is elated. Satisfied girls will gradually forget their angst. In addition, it will be much easier to learn new material and she will concentrate more during training.'
+ $text[1] = 'A rebellious slave - is a complete punishment of its own for a master. One of the most important tasks of any trainer is to obtain unquestioned obedience. This is the only way that you can do further training effectively, and achieve a decent rating.'
+ $text[2] = 'The slave’s willingness to obey depends on a variety of factors. It is important to know all of them, and understand how positive factors can be produced and maintained. Listen carefully.'
+ $text[3] = 'The first thing that comes to mind: fear. You can then do anything you want with a slave. In most cases it will not be difficult to intimidate her using pain, abuse, and violence. We have been able to determine that the average motivation of fear is almost twice as strong as any other.'
+ $text[4] = 'It should be remembered, however, that fear has its pitfalls. Firstly, you have to be careful with punishments, so as to not cause irreparable physical harm to the girl. But even more important, is that you do not damage her mind.'
+ $text[5] = 'Whenever you punish a slave, she will not only start to fear you, but her dissatisfaction with you will also grow. This is the quickest way to drive a slave directly into a deep depression. Without any positive motivation, training a slave will be very difficult because her fear and self-pity will stop her from focusing on her training.'
+ $text[6] = 'In addition to lowering her mood, fear has an additional dark side. We call it angst or despair. Angst - is a destructive terror emanating from a misunderstanding and rejection of fear. If a slave gets punished without feeling guilt - her angst inevitably grows.'
+ $text[7] = 'Sensitive girls may fall into an angsty outlook simply because of her bad mood. When a slave is extremely gentle, fear and angst will lead her to depression faster. Whenever you consider punishing your slave, consider not only the degree of her guilt, but also her sensitivity.'
+ $text[8] = 'Angst destroys personality. Under its influence, a slave begins to lose her fire and her self-confidence, gradually breaking her will. In the early stages it can help, but in the end it will only lower her rating. Be careful.'
+ $text[9] = 'To get rid of angst, try to ensure that your slave is elated. Satisfied girls will gradually forget their angst. In addition, it will be much easier to learn new material, and she will concentrate more during training.'
  !cоntented - о is a russian letter, to prevent bad thing happening
- $text[10] = 'At the same time, a slave that is cоntented with life will quickly forget about her fear meaning that you will have to develop other sources of respect so that she obeys you. Namely: habit, taming, awareness and devotion.'
- $text[11] = 'Let''s start with habit. It is no secret that people can obey orders just because they used to do it. Every time a slave obeys your instructions and rules, her habit of slavery slightly increases. Gradually, the slave will just forget that she once was free.'
- $text[12] = 'While boosting the generation of habits is difficult, try to be strict towards your slave, it will speed up the process. A proud personality will develop habits slowly, but habits gradually makes them forget about their pride. On a par with the humiliation, of course.'
- $text[13] = 'A good foundation for obedience is a reasonable understanding of slave''s position. Try to explain to the slave that loyalty will be rewarded, and the resistance will lead to the inevitable punishment. Mind promotes reasonable obedience, but a strong will can interfere with accepting her fate.'
+ $text[10] = 'At the same time, a slave that is cоntented with life will quickly forget about her fear, meaning that you will have to develop other sources of respect to ensure that she obeys you. Namely: habit, taming, awareness, and devotion.'
+ $text[11] = 'Let’s start with habit. It is no secret that people can obey orders just because they have become used to doing it. Every time a slave obeys your instructions and rules, her habit of slavery slightly increases. In time, a slave will simply forget that she was once free.'
+ $text[12] = 'While boosting the generation of habit is difficult, try to be strict towards your slave, it will speed up the process. A proud personality will develop habit slowly, but habit will gradually make them forget about their pride. On par with their humiliation, of course.'
+ $text[13] = 'A good foundation for obedience is a reasonable understanding of a slave’s position. Try to explain to the slave that loyalty will be rewarded, and resistance will lead to inevitable punishment. Mindfulness promotes reasonable obedience, but a strong will can interfere with accepting her fate.'
  $text[14] = 'Reasonable obedience can be achieved not only by direct subordination, but also through reasonable rewards. By rewarding a slave, you do not just improve her mood, you also make her realize that obedient behavior leads to good treatment.'
- $text[15] = 'Be extremely careful though. Rewarding a slave beyond her merits means you do not only develop her obedience, but also make her spoiled. A spoiled slave is less controllable and will always require some kind of positive incentive. Otherwise, she will start to get upset and fall into despair.'
- $text[16] = 'In addition to reasonable obedience, there''s also an instinctive obedience, when your slave subconsciously feel your superiority and strives to please you. Less temperamental people are more prone to this type of obedience.'
- $text[17] = 'To develop a slave''s instinct you can use punishments. When non-compliance causes pain, obedience will become a reflex. Another way to develop instinctive obedience is using sexual desire. People are subconsciously drawn to the source of pleasure.'
- $text[18] = 'The final goal of raising her obedience is make her accept slave morality. When slave accepts her position with all of her heart and sincerely wants to serve her master, she has reached a moral growth. This source of loyalty is doubly valuable because it is the most reliable.'
- $text[19] = 'Slave morality begins to appear when on the one hand the slave satisfied with her position and is in a good mood, and on the other she has developed a habit as well as instinct and reasonable obedience. Fear is not critical, but it is difficult to build morale with it.'
- $text[20] = 'Acknowledged whip masters are able to sharply raise their slaves morale through catharsis: a special state of enlightenment, the moment of truth, comes in the second of highest pain or pleasure. But this technique is available only for the best.'
- $text[21] = 'Summing up, we can isolate some simple rules of training: punish your slave for misdeeds, but only comparable to the guilt. Reward your slave for good behavior, but only on merit. Give her time to gradually get used to your rules. Control her orgasms and keep watch over her mood.'
- $text[22] = 'I will now say a few words about the superiority and physical resistance. It will be much easier to subdue the girl who initially feels that you are stronger and, on the other hand, if she feels that she is stronger than you, she will not want to obey.'
- $text[23] = 'Whether or not she will feel your superiority is influenced by several factors. First - of course - your physical strength. Second - your spiritual strength and charisma. Third - the experience of command, the ability to dominate. Finally - your appearance. Good looks make it easier to submit to you.'
- $text[24] = 'But the slave''s personal qualities are also important. A strong character, high emotionality and, of course, the slave''s pride will prevent her to feel your superiority. Also, watch out if she does feel smarter than you, thinking that she can outwit you. She will be less inclined to obey.'
+ $text[15] = 'Be extremely careful though. Rewarding a slave beyond her merits means you not only develop her obedience, but also make her spoiled. A spoiled slave is less controllable, and will always require some kind of positive incentive. Otherwise, she will start to get upset and fall into despair.'
+ $text[16] = 'In addition to reasonable obedience, there’s also instinctive obedience, where your slave subconsciously feels your superiority and strives to please you. Less temperamental people are more prone to this type of obedience.'
+ $text[17] = 'To develop a slave’s instinctive obedience you can use punishment. When non-compliance causes pain, obedience will become a reflex. Another way to develop it is by using sexual desire. People are subconsciously drawn to the source of their pleasure.'
+ $text[18] = 'The final goal of raising her obedience is make her accept slave values, or slave morality. When a slave accepts her position with all her heart and sincerely wants to serve her master, she has reached moral growth. This source of loyalty is doubly valuable because it is the most reliable.'
+ $text[19] = 'Slave morality begins to develop when, on the one hand, a slave is satisfied with her position and is in a good mood, and on the other when she has developed habit along with instinct and reasonable obedience. Having a bit of fear is not critical, but it is difficult to build morale with it.'
+ $text[20] = 'Acknowledged whip masters are able to sharply raise their slaves’ morale through catharsis: a special state of enlightenment, a moment of truth, coming in the second of highest pain or pleasure. But this technique is available only to the best.'
+ $text[21] = 'Summing up, we can isolate some simple rules of training: punish your slave for her misdeeds, but only comparable to her guilt. Reward your slave for good behavior, but only on merit. Give her time to gradually get used to your rules. Control her orgasms and keep watch over her mood.'
+ $text[22] = 'I will now say a few words on superiority and physical resistance. It will be much easier to subdue a girl who initially feels that you are stronger, but, on the other hand, if she feels that she is stronger than you, she will not want to obey.'
+ $text[23] = 'Whether or not she feels your superiority is influenced by several factors. First - of course - is your physical strength. Second - your spiritual strength and charisma. Third - your experience of command, your ability to dominate. Finally - your appearance. Good looks make it easier to submit to you.'
+ $text[24] = 'But a slave’s personal qualities are also important. A strong character, high emotionality and, of course, a slave’s pride will prevent her from feeling your superiority. Also, watch out if she feels smarter than you, and thinks that she can outwit you. She will be less inclined to obey.'
  $text[25] = 'If your superiority is low, she might put up a fight. In response to your attempts to punish or rape her, your slave will defend herself by force. If she can beat you, the consequences can be dire. But your victory will confirm your superiority.'
- $text[26] = 'Superiority itself, even if very high, does not guarantee your orders are getting executed, but accelerates the development of obedience and reduces the likelihood of physical confrontation. Keep yourself in good physical shape, develop a commanding voice and keep a good physical appearance.'
+ $text[26] = 'Superiority itself, even if very high, does not guarantee your orders will be executed, but it will accelerate the development of obedience, and reduce the likelihood of physical confrontation. Keep yourself in good physical shape, develop a commanding voice, and keep a good physical appearance.'
 END
 
 IF lecture = 3:
  txt_count = 24 
- $text[1] = 'Let''s talk more about the punishments and rewards. In the second lecture we talked about angst and spoiling, but I will repeat myself. Punishing a slave too much - we feed angst. Rewarding her with something she does not deserve - we pamper and spoil the slave, although improve her mood.'
- $text[2] = 'It is important to understand the key point: the merits and sins of the slave differ from case to case. You should understand what made her act in a certain way. Consider two examples to make it more obvious:'
- $text[3] = 'Suppose that you take an innocent girl that is not accustomed to mistreatment and tell her to mate with tribal bull for your entertainment. In her eyes, refusing to do that is not a serious offense, as your demand is far above what she is willing to do.'
+ $text[1] = 'Let’s talk more about punishments and rewards. In the second lecture we talked about angst and spoiling, but I will repeat myself. Punish a slave too much - and we feed angst. Rewarding her with something that she does not deserve - and we pamper and spoil the slave, although it does improve her mood.'
+ $text[2] = 'It is important to understand several key point: the merits and sins of a slave differ from case to case. You should understand what made her act in a certain way. Consider two examples to make it more obvious:'
+ $text[3] = 'Suppose that you take an innocent girl that is not accustomed to mistreatment, and tell her to mate with a tribal bull for your entertainment. In her eyes, refusing to do that is not a serious offense, as your demand is far above what she is willing to do.'
  $text[4] = 'If you brutally punish the girl for disobeying such an order, it will inevitably lead to angst, as she does not understand why the rejection of such a vile act can be regarded as something impermissible. But over time, things will change.'
- $text[5] = 'If your slave is already trained and rather obedient, she will actually realize her sin. Rejection of the same action with a bull from the already prepared girl should cause a much more severe reaction from you.'
- $text[6] = 'Same story with the rewards. Do not only evaluate the result, but keep the slave''s personality in mind. Suppose your nearly untrained slave has agreed to a lesson on deep throating. Even if the result is not perfect, she had to agree to it and overcome her resistance. She should be rewarded properly.'
- $text[7] = 'On the contrary, even if a slave is doing something very well because she already knows how to do it, but is completely effortless - she does not deserve a reward. You may even consider punishing her.'
- $text[8] = 'Always evaluate the slave''s merits and sins on a five-point system. And also evaluate the power of rewards and punishments. Always keep in mind: She gets what she deserves.'
- $text[9] = 'But remember that what I said is for general guidance only. There are cases when it makes sense to punish or reward the slave more than she deserves, even at the risk of angst or spoil. Decisions are always made by you, use your experience and intuition.'
- $text[10] = 'Move on to the more specific types and forms of rewards and punishments. Any impact derives its strength from the slave''s specific desires and fears.'
- $text[11] = 'Punishments are based on pain, feelings of helplessness, disgust, shame, psychological vulnerability, phobias of blood, darkness, spiders, water, fire and other things.'
- $text[12] = 'Rewards may be based on the need for approval, desire for comfort, a passion for luxury, sexual pleasure or even food if she a sweet tooth.'
- $text[13] = 'Each slave has her own strengths and weaknesses, her passions and phobias. Learn what she wants and what she is afraid of, and then use it for your own purposes - it is the key gain control over a slave rapidly.'
- $text[14] = 'Imagine that you have to bring up the fearless, battle-hardened warrior. Surely you will not be able to break her will by flogging or with the sight of blood. But you can try to put pressure on her psychologically or tie her up so that she feels helpless in front of you.'
- $text[15] = 'Do not forget that a person gets used to everything. Habit is developed as to the types of exposure, and to specific types of punishments and rewards. Exceptions are only slave''s innate phobia and passion. As for the rest, be creative and try not to repeat them too often.'
- $text[16] = 'Verbal rewards and punishments have one very significant advantage: they do not take a lot of time and effort, neither yours nor your slaves. However, this is the all the upsides this method has. Praising and swearing quickly lose strength, as well as threats and promises if you don''t take action.'
- $text[17] = 'You can punish a slave on the spot without any available tools. It''s quick and practical, but remember that tools increase the efficiency of punishments. In addition, beatings can leave bruises on the girl. Gradually, the wounds will heal, but even the traces will reduce her rating and charm.'
- $text[18] = 'To inflict pain, try to use at least the minimum amount of tools. For spanking, in ascending order: slippers, belt, cane, lash and whip. Be careful when using either lash or whip, as the scars may remain forever. A lot depends on your skill.'
- $text[19] = 'A great advantage of binding your slave is that it means less effort. You punish your slave with arbitrarily long torment. Nevertheless, bondage on average is slightly less effective than physical punishment of the same level.'
- $text[20] = 'If your slave is aroused - reward her by caressing her. She will not lose energy herself, moreover, a good massage can even add energy to her. But keep in mind that her arousal will only go down if she cums. Otherwise you will just raise her arousal even more.'
+ $text[5] = 'If your slave is already trained and rather obedient, she will actually realize her sin. Rejection of that same action with a bull from an already-prepared girl should cause a much more severe reaction from you.'
+ $text[6] = 'Same story with rewards. Do not only evaluate the result, but keep the slave’s personality in mind. Suppose your nearly untrained slave has agreed to a lesson on deep-throating. Even if the result is not perfect, she had to agree to it and overcome her resistance. She should be rewarded properly.'
+ $text[7] = 'On the contrary, if a slave is doing something very well because she already knows how to do it, but does it completely without effort - she does not deserve a reward. You may even consider punishing her.'
+ $text[8] = 'Always evaluate the slave’s merits and sins on a five-point system. And also evaluate the power of your rewards and punishments. Always keep in mind: she gets what she deserves.'
+ $text[9] = 'But remember that what I’ve said is for general guidance only. There are cases where it makes sense to punish or reward a slave more than she deserves, even at the risk of angst or spoiling. Decisions are always made by you, using your experience and intuition.'
+ $text[10] = 'Now we will be moving on to more specific types and forms of rewards and punishments. Any impact derives its strength from a slave’s specific desires or fears.'
+ $text[11] = 'Punishments are based on pain, feelings of helplessness, disgust, shame, psychological vulnerability, and phobias of blood, darkness, spiders, water, fire, or other things.'
+ $text[12] = 'Rewards may be based on the need for approval, a desire for comfort, a passion for luxury, sexual pleasure, or even food, if she has a sweet-tooth.'
+ $text[13] = 'Each slave has her own strengths and weaknesses, her own passions and phobias. Learn what she wants and what she is afraid of, and then use it for your own purposes - this is the key to gaining control over a slave rapidly.'
+ $text[14] = 'Imagine that you have to bring up a fearless, battle-hardened warrior. Surely you will not be able to break her will by flogging her, or by the sight of blood. But you can try to put pressure on her psychologically, or tie her up so that she feels helpless before you.'
+ $text[15] = 'Do not forget that a person can get used to everything. Habit is developed to certain types of exposure, and to specific types of punishment or reward. Exceptions only for a slave’s innate phobia or passion. As for the rest, be creative, and try not to repeat them too often.'
+ $text[16] = 'Verbal rewards and punishments have one very significant advantage: they do not take a lot of time or effort, neither yours nor your slave’s. However, that is all the upside this method has. Praising and swearing quickly lose their strength, as do threats or promises, if you don’t take action.'
+ $text[17] = 'You can punish a slave on the spot without any available tools. It’s quick and practical, but remember that tools increase the efficacy of punishments. In addition, beatings can leave bruises on a girl. Gradually, the wounds will heal, but even traces of them will reduce her rating and charm.'
+ $text[18] = 'To inflict pain, try to use the minimum amount of tools at first. For spanking, these are, in ascending order: slippers, belt, cane, lash, or whip. Be careful when using either the lash or the whip, as the scars may remain forever. A lot depends on your skill.'
+ $text[19] = 'A great advantage to binding your slave is that it means much less effort. You may punish your slave with an arbitrarily long torment. Nevertheless, bondage, on average, is slightly less effective than a physical punishment of the same level.'
+ $text[20] = 'If your slave is aroused - reward her by caressing her. She will not lose any energy herself - moreover, a good massage can even add energy to her. But keep in mind that her arousal goes down if she cums. Otherwise, you will just raise her arousal even more.'
  $text[21] = 'To save your own energy, you can reward your slave with free time. If you just give her a rest, you may be able to use her remaining energy tomorrow. But your slave will be even more joyful if you give her the opportunity to have fun and play games.'
  $text[22] = 'If you have some extra sparks and you are not afraid that your slave may gain weight, you can reward her with sweets. Rare dishes can be very expensive, but even they can become boring if eaten many times in a row. When you reward slave with sweets, try to add variety.'
- $text[23] = 'Some punishments may require special equipment or rooms. For the examination, we do not provide torture tools and units, so you will have to manage with the minimum.'
- $text[24] = 'For some rewards it may be necessary to take the slave to the city. During examination training, you must not leave the walls of the guild, so that these rewards will also not be available. Nevertheless, we are confident that you have enough opportunities for training.'
+ $text[23] = 'Some punishments may require special equipment or rooms. For this examination, we will not provide torture tools and units, so you will have to manage with the minimum.'
+ $text[24] = 'For some rewards it may be necessary to take the slave into the city. During the examination you must not leave the walls of the guild, so these rewards will not be available. Nevertheless, we are confident that you have enough opportunities for excellence.'
 END
 
 IF lecture = 4:
  txt_count = 10
- $text[1] = 'During training, you will have to watch out for a number of domestic issues. For this very reason, the majority of slavers acquire a personal assistant, oftentimes one of their slaves. Assistants can help with the housework, entertain you, keep track for the slave and animals and even teach your slave.'
- $text[2] = 'The Guild does not provide assistants for the exam, so you will have to manage on your own. Of course, you can use the slave for housekeeping, if she is sufficiently obedient and has the necessary skills.'
- $text[3] = 'The first thing to remember is your personal and slave''s hygiene. Dirt contributes to disease and reduces mood. In addition, a dirty slave receives greater damage from fights and tortures, as injuries might get infected.'
- $text[4] = 'Dirt accumulates over time and from many activities, especially those related to working, cleaning, cooking or dirty sex. To maintain hygiene, you should occasionally wash yourself. If you do not have a private bathroom, you will have to go to the onsen.'
- $text[5] = 'The Guild has the bathroom as a standard room, so you do not need to go into the city. You can bathe alone or together with the slave. In the second case, only she will spend her energy, but will wash you both. In addition, this should elevate your mood.'
- $text[6] = 'Your home also gets dirty. Gradually it accumulates dust and dirt, stale clothes, dirty dishes and so on. Do not forget to carry out regular cleaning so as not to reduce the mood of all the inhabitants of the house. And remember, the bigger the mess at hand - the more difficult it will be to clean up.'
- $text[7] = 'Homemade food can greatly improve your own mood and your slave''s mood as well. However, its preparation requires time and effort. If you do not want to cook, you can get canned food and semi-finished goods.'
- $text[8] = 'Watch the weight of your slave. You should ensure that she is neither too fat nor too starved. Pick up portions of food so that the weight of your slave remains stable.'
- $text[9] = 'An important thing is the personal characteristics of the metabolism. A slave with a good metabolism is capable to absorb about twice as many calories as regular without harm and will restore health through diet. A girl with a weak metabolism will quickly gain excess weight and it will be difficult for her to lose weight.'
- $text[10] = 'If you are not a born cook or butler, doing housework is a heavy burden on your mood. However, until you have an assistant, you should do it yourself as giving this task to slave may not be appropriate, especially if she does not have enough energy.'
+ $text[1] = 'During training you will have to watch out for a number of domestic issues. For this very reason, the majority of slavers acquire a personal assistant, oftentimes one of their slaves. Assistants can help with the housework, entertain you, keep track of your slave or animals, and even teach your slave.'
+ $text[2] = 'The Guild does not provide assistants for this exam, so you will have to manage on your own. Of course, you can use the slave for housekeeping too, if she is sufficiently obedient and has the necessary skills.'
+ $text[3] = 'It is important to be aware of both your personal hygiene, and your slave’s. Dirt contributes to disease and reduces mood. In addition, a dirty slave will receive greater damage from fights and tortures, as injuries may get infected.'
+ $text[4] = 'Dirt accumulates over time and from many activities, especially those related to working, cleaning, cooking, or dirty sex. To maintain hygiene, you should occasionally wash yourself. If you do not have a private bathroom, you will have to go to the salon in the city for yourself, or the onsen for your slave.'
+ $text[5] = 'The Guild has bathrooms as standard, so you do not need to go into the city. You can bathe alone, or together with the slave. In the second case, only she will spend her energy, but will wash you both. In addition, this should elevate your mood.'
+ $text[6] = 'Your home also gets dirty. Gradually dust and dirt will accumulate, clothes get stale, dishes dirty, and so on. Do not forget to carry out regular cleaning so as to not reduce the mood of all the inhabitants of the house. And remember, the bigger the mess at hand - the more difficult it will be to clean up.'
+ $text[7] = 'Homemade food can greatly improve your mood, and your slave’s mood as well. However, its preparation requires time and effort. If you do not want to cook, you can get canned or semi-finished goods.'
+ $text[8] = 'Watch the weight of your slave. You should ensure that she is neither too fat nor too starved. Pick portions of food carefully so that the weight of your slave remains stable.'
+ $text[9] = 'Another important consideration is your slave’s personal metabolic character. A slave with a good metabolism is capable of absorbing nearly twice as many calories as normal without harm, and will restore health through diet. A girl with a weak metabolism will quickly gain excess weight, and it will be difficult for her to lose weight.'
+ $text[10] = 'If you are not a born cook or butler, doing housework is a heavy burden on your mood. However, until you have an assistant, you should do it yourself, as giving this task to a slave may not be appropriate, especially if she does not have enough energy.'
 END
 
 IF lecture = 5:
  txt_count = 6
- $text[1] = '<font color="#191970">- And what kind of exam, Mistress?</font>'
- $text[2] = '<font color="#8B0A50">- Exercise of a slave training for sale. We will give you the basic premise, a slave to choose, a set of clothes, a full refrigerator and funding in the amount of three hundred sparks. You''ll have to pay the rent and feed your slave.</font>'
- $text[3] = '<font color="#8B0A50">- These sparks will last about a month. More or less depending on your frugality. Anyway, during this time you will have to raise the rating of your slave at least to <<$rating[2]>> rank.</font>'
- $text[4] = '<font color="#8B0A50">- If by the time when you run out of sparks the girl has a bad rating - you failed your exam. If you your slave dies - you failed the exam too. Do you get it?</font>'
+ $text[1] = '<font color="#191970">- And what kind of exam is it, Mistress?</font>'
+ $text[2] = '<font color="#8B0A50">- An exercise of training a slave for auction. We will give you a basic room on the premises, a slave to choose, a set of clothes, a full refrigerator, and funding in the amount of three hundred sparks. You’ll have to pay the rent and feed your slave.</font>'
+ $text[3] = '<font color="#8B0A50">- These sparks will last about a month, more or less, depending on your frugality. Anyway, during this time you will have to raise the rating of your slave to at least <<$rating[2]>> rank.</font>'
+ $text[4] = '<font color="#8B0A50">- If by the time you run out of sparks, the girl has a bad rating - you have failed your exam. If you or your slave dies - you have failed the exam as well. Do you get it?</font>'
  $text[5] = '<font color="#191970">- Completely. That does not sound too difficult.</font>'
  if txt = 5: npc_attitude = 31
- $text[6] = '<font color="#8B0A50">- Excellent. Self-confidence - already half of the work. The most important quality for a person of our profession. All that is left to do is show that you are able to do it yourself. You can start right now or continue training until you feel ready.</font>'
+ $text[6] = '<font color="#8B0A50">- Excellent. Having self-confidence - is already half the work. A most important quality for a person of our profession. All that is left to do now is show that you are able to do it yourself. You can start right now, or continue listening to lectures until you feel ready.</font>'
 END
 
 IF lecture = 11:
   txt_count = 4
-  $text[1] = 'Mistress Angelika is intently looking at my slave and the shine of a single eye makes it obvious that she used auspex.'
-  $text[2] = 'After scanning the aura of your slave, she examines her body and asks probably a hundred questions, a fair amount of which are addressed to you. You try to answer honestly.'
+  $text[1] = 'Mistress Angelika looks intently at the slave, and the shine in her eye makes it obvious that she used Auspex.'
+  $text[2] = 'After scanning the aura of the slave, she examines her body and asks probably a hundred questions, a fair amount of which are addressed to you. You try to answer honestly.'
  IF rating => 2:
   $text[3] = 'Mistress Angelika nods approvingly:
     <font color="#8B0A50">- Yes, I think I will accept your work. Your skills are sufficient to be able to feed yourself with our craft, and most importantly - you will not dishonor the good name of our Guild.</font>'
-  $text[4] = '<font color="#8B0A50">- I will give my recommendations to the master''s council and tomorrow you''ll become one of us. There will be a small official ceremony and banquet, which we will pay by selling your slave. You can relax now.</font>'
+  $text[4] = '<font color="#8B0A50">- I will give my recommendation to the Masters Council and tomorrow, you’ll become one of us. There will be a small official ceremony and banquet, which we will pay for by selling your slave. You can relax now.</font>'
   game_over = 1 
   else
   $text[3] = 'Mistress Angelika disappointedly tilts her head to the side:
-    <font color="#8B0A50">- No, you are not yet ready. To become a full member of the Guild you will have to achieve a much better result. It is not so difficult after all.</font>'
-  $text[4] = 'Mistress Angelika tells me to go back to training and work hard until I have money for the slave training. Maybe I can still make it.' 
+    <font color="#8B0A50">- No, you are not yet ready. To become a full member of the Guild you will have to achieve much better results. It is not that difficult, after all.</font>'
+  $text[4] = 'Mistress Angelika tells me to go back to training and work hard until I have the knack for slave training. Maybe I can still make it.' 
  END
 END
 
 IF lecture = 12:
   txt_count = 3
-  $text[1] = 'Your slave has never regained consciousness, no matter what you tried to do. You had to go back to the Guild.' 
-  $text[2] = 'Mistress Angelika sternly looked at you and disappointedly tilted her head to the side:
-    <font color="#8B0A50">- So you managed to kill your slave, <<$master_name>>? Was it so difficult to maintain the health of a single slave? To become a full member of the Guild is necessary to achieve a much better result. It is not so difficult after all.</font>'
-  $text[3] = '    <font color="#8B0A50">- And what about the girl? We will have to give her to the butcher. As for you, I can not recommend you to the master''s council. You can file an appeal if you wish.</font>'
+  $text[1] = 'Your slave does not regain consciousness, no matter what you try. You go back to the Guild.' 
+  $text[2] = 'Mistress Angelika looks at you sternly, and disappointedly tilts her head to the side:
+    <font color="#8B0A50">- So you managed to kill your slave, <<$master_name>>? Was it so difficult to maintain the health of a single slave? To become a full member of the Guild it’s necessary to achieve much better results. It is not that difficult, after all.</font>'
+  $text[3] = '    <font color="#8B0A50">- And what of the girl? We will have to give her to the butcher. As for you, I cannot recommend you to the Masters Council. You may file an appeal, if you wish.</font>'
   game_over = 1
  END
 END
 
 IF lecture = 13:
   txt_count = 5
-  $text[1] = 'The money you got for slave training ran out, so that you have brought her to the Guild to complete the exam. Honestly, you feel slightly uncomfortable: Since you used up all of your allowance, the result should be excellent.' 
-  $text[2] = 'Mistress Angelika is intently looking at my slave and the shine of a single eye makes it obvious that she used auspex.'
-  $text[3] = 'After scanning the aura of your slave, she examines her body and asks probably a hundred questions, a fair amount of which are addressed to you. You try to answer honestly.'
+  $text[1] = 'The money you got for slave training has run out, so you have brought her to the Guild to complete the exam. Honestly, you feel slightly uncomfortable: since you used up all of your allowance, the result should be excellent.' 
+  $text[2] = 'Mistress Angelika looks intently at the slave, and the shine in her eye makes it obvious that she used Auspex.'
+  $text[3] = 'After scanning the aura of the slave, she examines her body and asks probably a hundred questions, a fair amount of which are addressed to you. You try to answer honestly.'
  IF rating => 2:
   $text[4] = 'Mistress Angelika nods approvingly:
     <font color="#8B0A50">- Yes, I think I will accept your work. Your skills are sufficient to be able to feed yourself with our craft, and most importantly - you will not dishonor the good name of our Guild.</font>'
-  $text[5] = '    <font color="#8B0A50">- I will give my recommendations to the master''s council and tomorrow you''ll become one of us. There will be a small official ceremony and banquet, which we will pay by selling your slave. You can relax now.</font>'
+  $text[5] = '    <font color="#8B0A50">- I will give my recommendation to the Masters Council and tomorrow, you’ll become one of us. There will be a small official ceremony and banquet, which we will pay for by selling your slave. You can relax now.</font>'
   game_over = 1
   else
   $text[4] = 'Mistress Angelika disappointedly tilts her head to the side:
-    <font color="#8B0A50">- No, you are not yet ready. To become a full member of the Guild you will have to achieve a much better result. It is not so difficult after all.</font>'
-  $text[5] = '    <font color="#8B0A50">- Judging by the fact that you no longer have any sparks, the training is finished unsuccessfully. Hopefully we can at least cover our expenses. As for you, I can not recommend you to the masters council. You can file an appeal if you wish.</font>'
+    <font color="#8B0A50">- No, you are not yet ready. To become a full member of the Guild you will have to achieve much better results. It is not that difficult, after all.</font>'
+  $text[5] = '    <font color="#8B0A50">- Judging by the fact that you no longer have any sparks, the examination has finished unsuccessfully. Hopefully we can at least cover our expenses. As for you, I cannot recommend you to the Masters Council. You may file an appeal, if you wish.</font>'
   game_over = 1
  END
 END
