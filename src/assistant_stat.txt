@@ -3,7 +3,7 @@
 
 IF $assistant_info_text = '':
 	$assistant_info_text = '   [<<$assistant_name>>]
-  - Newcomer slaves can often try to escape or make any stupid moves. I will watch over them with my comprehension and devotion. But if you order me to supervise over them, then I''ll pay particular attention to this, having to use all my will and fighting skills in order to keep your goods.'
+  - Novice slaves often try to escape, or make any number of stupid mistakes. I will watch over them with discernment and devotion. But if you order me to supervise them, then I’ll pay particular attention to this duty, and use all of my will and fighting skills in order to keep your goods.'
 	IF slave_state > CONST_INT['no_slave']:
 		gs '$slave_price'
 		$spec_list = 'laborer'
@@ -16,10 +16,10 @@ IF $assistant_info_text = '':
 		if slave_specialisation['artist'] = 1: $spec_list += ', artist'
 		if slave_specialisation['refferent'] = 1: $spec_list += ', assistant'
 		$assistant_info_text = '  [<<$assistant_name>>]
-<div style="font-size: 90%;">  - I checked the specialization of your slave, master. At this moment she meets the requirements for the following roles: <<$spec_list>>. To match a particular profession, slave should have any suitable skill at least at the <<$rating[3]>> level and also not less than her own rank.</div>'
+<div style="font-size: 90%;">  - I have kept up with the specialties of your slave, master. At the moment, she meets the requirements for the following roles: <<$spec_list>>. To match a particular profession, the slave shall need to develop the appropriate skill to at least the <<$rating[3]>> level, but no less than her own rank.</div>'
 		IF slave['brand'] = 0:
 			$assistant_info_text = '  [<<$assistant_name>>]
-  - You should put on a brand to the slave before she is ready for sale, master. I also noticed that women already having a brand are more inclined to obey, than those which have not yet been branded.'
+  - You should put your brand on your slave before you ready her for sale, Master. I have noticed that women already bearing a brand are more inclined to obey than women who are not.'
 		END
 	END
 END
@@ -65,14 +65,14 @@ gs 'stats_layout'
 <u>SUMMARY</u>
 <<$beauty[assistant["beauty"]]>> 
 <<$stamina[assistant["stamina"]]>> 
-<<$exotic[assistant["exotic"]]>> 
-<<$fat[assistant["fat"]]>> 
 <<$sensitivity[assistant["sensitivity"]]>> 
-<<$style[assistant["style"]]>>
-<<$intellect[assistant["intellect"]]>> 
 <<$temper[assistant["temper"]]>> 
+<<$intellect[assistant["intellect"]]>> 
 <<$ego[assistant["ego"]]>> 
 <<$pride[assistant["pride"]]>> 
+<<$exotic[assistant["exotic"]]>> 
+<<$fat[assistant["fat"]]>> 
+<<$style[assistant["style"]]>>
 
 <u>TRAITS</u>
 <<$assistant_features_list>>
@@ -110,7 +110,7 @@ Milkmaid -
 &nbsp&nbsp&nbsp<a style = "color: #FFD700;" href = "EXEC: dynamic $assistant_purge_rules & gt curloc"><u>Reset rules</u></a>
 </div>'  
 
- if sparks > 50: *p '<div id="left_padding">GROCERIES: <BR><BR><BR><BR><BR><BR><BR><BR>DERIVATIVES:<BR><BR><BR><BR><BR>MEAT:<BR><BR><BR><BR><BR></div>'  
+ if sparks > 50: *p '<div id="left_padding">GROCERIES TO BUY: <BR><BR><BR><BR><BR><BR><BR><BR>DERIVATIVES:<BR><BR><BR><BR><BR>MEAT:<BR><BR><BR><BR><BR></div>'  
  IF assistant_cleans_rule = 1:
   slave_cleans_rule = 0
   *p '<div id="chekbox_1r"><a href = "EXEC: assistant_cleans_rule = 0 & $assistant_info_text = $assistant_cleans_rule_abort & gt curloc"><img src="content\pic\buttons\sel_button.png"></a></div>'  
@@ -154,7 +154,7 @@ Milkmaid -
 
  if kitchen => 0 and sparks > 50: *p '<div id="left_rules">
  - Vegetables
- - Flour and grains
+ - Flour and grain
  - Herbs and spices
  - Cheese and butter
  - Alcohol
