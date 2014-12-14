@@ -41,14 +41,14 @@ Cream х<<frige["cream"]>>
 Chopped meat х<<frige["mince"]>>
 Tenderloin х<<frige["meat"]>>
 Virgin meat х<<frige["virgin_meat"]>><br>'
-if spawn_semen > 0: $left_text_list += 'Spawn''s semen x<<spawn_semen>>'
+if spawn_semen > 0: $left_text_list += 'Spawn’s semen x<<spawn_semen>>'
 
 IF lab > 0: 
  $middle_text_list += '<u>LABORATORY</u> [<<lab_items>>/<<estate_size[$estate]>>]:
-Fiend''s mucus х<<lab_store["slime"]>>
+Fiend’s mucus х<<lab_store["slime"]>>
 Elysian datura х<<lab_store["kanabis"]>>
 Kamrian resin х<<lab_store["koffe"]>>
-Faeries'' pollen х<<lab_store["meth"]>>
+Faeries’ pollen х<<lab_store["meth"]>>
 Essence of oblivion х<<lab_store["opium"]>>
 
 Bacchic x<<вакхический_нектар>>
@@ -61,10 +61,10 @@ Water of Lethe x<<вода_леты>>
 '
  else
  $middle_text_list += '<u>SUBSTANCE:</u>
-Fiend''s mucus х<<lab_store["slime"]>>
+Fiend’s mucus х<<lab_store["slime"]>>
 Elysian datura х<<lab_store["kanabis"]>>
 Kamrian resin х<<lab_store["koffe"]>>
-Faeries'' pollen х<<lab_store["meth"]>>
+Faeries’ pollen х<<lab_store["meth"]>>
 Essence of oblivion х<<lab_store["opium"]>>
 
 Bacchic x<<вакхический_нектар>>
