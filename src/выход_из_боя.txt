@@ -108,10 +108,10 @@ IF $итог_боя = 'бегство' and $враг[1] = 'воспитуема�
  gt "interaction_city"
 END
 IF $итог_боя = 'вырубился' and $враг[1] = 'воспитуемая':
-	dynamic $death, 'Unable to cope with the punches of your slave, you fall to your knees. Seeing this, the slave, smiling, approaches you<br>and hits you in the face with her knee, sending you a knockout blow. Unfortunately, you never wake up after that...'
+	dynamic $death, 'Unable to cope with the punches of your slave, you fall to your knees. Seeing this, the smiling slave approaches you<br>and hits you in the face with her knee, delivering you a knockout blow. Unfortunately, you never wake up after that...'
 END
 IF $итог_боя = 'убит' and $враг[1] = 'воспитуемая':
-	dynamic $death, 'Seriously wounded, you fall to the floor, bleeding.<br>The last thing you see - is your ex slave as she runs out into the street...'
+	dynamic $death, 'Seriously wounded, you fall to the floor, bleeding.<br>The last thing you see - is your ex-slave as she runs out into the street...'
 END
 
 !general results
