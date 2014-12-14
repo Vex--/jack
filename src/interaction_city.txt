@@ -61,7 +61,7 @@ IF interaction_city = 1113:
  $place = 'shop_wpn'
  $return_lock  = 'shop_wpn' 
  txt_count = 1
- $text[1] = "  Sorry, <<$master_name>>, but I'm not interested now. Have recently bought one. Come back in <<no_slave_count['менхантер']>>, and then we will talk about your product. In the meantime, it is better to take a look at mine!"
+ $text[1] = "  Sorry, <<$master_name>>, but I’m not interested now. Have recently bought one. Come back in <<no_slave_count['менхантер']>>, and then we will talk about your product. In the meantime, it is better to take a look at mine!"
 END
 
 
@@ -108,7 +108,7 @@ IF interaction_city = 11363:
  $return_lock  = 'shop_general' 
  txt_count = 1
  $text[1] = "  [SERVILIA QUINT] 
-   - Maybe I'll be interested later <<$master_name>>. Currently, new workers are not required."
+   - Maybe I’ll be interested later, <<$master_name>>. Currently, new workers are not required."
 END
 
 IF interaction_city = 11311:
@@ -672,7 +672,7 @@ IF interaction_city = 11545:
  slave['death_treat'] = 0 
  dynamic $meat_evaluation
  $text[1] = '   [Butcher]
-   - This’ll need messing around for a long time... for the work I will take five sparks. The skin, offal, and bones will be mine too. The rest will be yours.'
+   - This’ll need messing with for a long time... for the work I will take five sparks. The skin, offal, and bones will be mine too. The rest will be yours.'
  $yes = {
     interaction_city = 115451
     gt 'interaction_city'
@@ -774,7 +774,7 @@ IF interaction_city = 11633:
  $return_lock  = 'shop_general' 
  txt_count = 1
  $text[1] = "  [ESTELINDEL] 
-   - Oh, dear  <<$master_name>>, I'm sorry to disappoint you, but I do not need new workers now. Maybe in a month?"
+   - Oh dear,  <<$master_name>>, I’m sorry to disappoint you, but I do not need new workers now. Maybe in a month?"
 END
 
 IF interaction_city = 11611:
