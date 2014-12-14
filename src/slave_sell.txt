@@ -16,28 +16,28 @@ END
 
 IF sl_txt = 1:
  client_statisfaction = 1
- $text[1] = '   You honestly tell the abilities and qualities of your slave, as they perfectly meet the stated requirements. The average price of slaves with <<$rating[rating]>> rating on the market is about <<common_price[rating]>> sparks, but you can try to bail more money.'
+ $text[1] = '   You tell the buyer about the abilities and qualities of your slave honestly, as they perfectly meet the stated requirements. The average price of a slave with a <<$rating[rating]>> rating is about <<common_price[rating]>> sparks on the market, but you can try to bail more money.'
  $text_display += "<br><br><br><br><br><div id=""under""> Bargain<br><div id = ""clear""><a href = 'EXEC: sl_txt = 11 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
- $text_display += "<br><div id=""under""> Hold firm price<br><div id = ""clear""><a href = 'EXEC: sl_txt = 12 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
- $text_display += "<br><div id=""under""> Make a discount<br><div id = ""clear""><a href = 'EXEC: sl_txt = 13 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text_display += "<br><div id=""under""> Hold the price firm<br><div id = ""clear""><a href = 'EXEC: sl_txt = 12 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text_display += "<br><div id=""under""> Give a discount<br><div id = ""clear""><a href = 'EXEC: sl_txt = 13 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
  $text_display += {<br><div id="under"> Cancel the deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF sl_txt = 2:
  client_statisfaction = 1 + rating - demand_rating[$npc_id]
- $text[1] = '   Base rating of your slave even higher than a customer expectations. Unfortunately this does not mean that the price will be more - payment is offered based on the rating <<$rating[demand_rating[$npc_id]]>>, price on the market for this rating is about <<common_price[demand_rating[$npc_id]]>> sparks. Maybe you can get a better price.'
+ $text[1] = '   The base rating of your slave is even higher than the customer’s expectations. Unfortunately this does not mean that the price will be greater - the offered payment is based on the rating <<$rating[demand_rating[$npc_id]]>>, and the price on the market for this rating is about <<common_price[demand_rating[$npc_id]]>> sparks. Maybe you can arrange a better price, here or elsewhere.'
  $text_display += "<br><br><br><br><br><div id=""under""> Bargain<br><div id = ""clear""><a href = 'EXEC: sl_txt = 11 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
- $text_display += "<br><div id=""under""> Hold firm price<br><div id = ""clear""><a href = 'EXEC: sl_txt = 12 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
- $text_display += "<br><div id=""under""> Make a discount<br><div id = ""clear""><a href = 'EXEC: sl_txt = 13 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text_display += "<br><div id=""under""> Hold the price firm<br><div id = ""clear""><a href = 'EXEC: sl_txt = 12 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text_display += "<br><div id=""under""> Give a discount<br><div id = ""clear""><a href = 'EXEC: sl_txt = 13 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
  $text_display += {<br><div id="under"> Cancel the deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF sl_txt = 3:
  client_statisfaction = -2
- $text[1] = '   You slightly embellished slave''s skills, so she will fit the client''s requirements. Client ready to buy a slave with rating <<$rating[demand_rating[$npc_id]]>>, price on the market for this rating is about <<common_price[demand_rating[$npc_id]]>> sparks. But you can still grow insolent and bargain.' 
+ $text[1] = '   You slightly embellish the slave’s skills so she will fit the client’s requirements. The client is ready to buy a slave with a rating of <<$rating[demand_rating[$npc_id]]>>, and the price for this rating is about <<common_price[demand_rating[$npc_id]]>> sparks on the market. But you can still grow insolent and bargain.' 
  $text_display += "<br><br><br><br><br><div id=""under""> Bargain<br><div id = ""clear""><a href = 'EXEC: sl_txt = 11 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
- $text_display += "<br><div id=""under""> Hold firm price<br><div id = ""clear""><a href = 'EXEC: sl_txt = 12 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
- $text_display += "<br><div id=""under""> Make a discount<br><div id = ""clear""><a href = 'EXEC: sl_txt = 13 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text_display += "<br><div id=""under""> Hold the price firm<br><div id = ""clear""><a href = 'EXEC: sl_txt = 12 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text_display += "<br><div id=""under""> Give a discount<br><div id = ""clear""><a href = 'EXEC: sl_txt = 13 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
  $text_display += {<br><div id="under"> Cancel the deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
@@ -64,24 +64,24 @@ IF sl_txt = 13:
 END
 
 IF sl_txt = 100:
- $text[1] = '  The client examines the slave and refuses without even listening of price bids. You must be attentive to the individual wishes and preferences of each customer.'
+ $text[1] = '  The client examines the slave and refuses without even listening to any price bids. You must be attentive to the individual wishes and preferences of each customer.'
  $text_display += {<br><br><br><br><br><br><div id="under">- No deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF sl_txt = 101:
- $text[1] = '  The client examines the slave and refuses without even listening of price bids. In order to motivate such a customer, you have to raise a rating of slave no lower than <<$rating[demand_rating[$npc_id]]>>.'
+ $text[1] = '  The client examines the slave and refuses without even listening to any price bids. In order to motivate such a customer, you have to raise the rating of the slave no lower than <<$rating[demand_rating[$npc_id]]>>.'
  $text_display += {<br><br><br><br><br><br><div id="under">- No deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
 IF sl_txt = 102:
- $text[1] = '  Client interrogates you about the abilities of your slave to understand whether she is good enough. But only you know that she is not, but you can embellish a little...'
- $text_display += "<br><br><br><br><br><div id=""under""> Lie about slave abilities<br><div id = ""clear""><a href = 'EXEC: sl_txt = 3 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
+ $text[1] = '  The client interrogates you about the abilities of your slave, to understand whether she is good enough. You know that she is not, but you can embellish a little...'
+ $text_display += "<br><br><br><br><br><div id=""under""> Lie about the slave’s abilities<br><div id = ""clear""><a href = 'EXEC: sl_txt = 3 & gt $curloc'><img src = ""content\pic\clear.gif""></a></div></div>"
  $text_display += {<br><div id="under"> Cancel the deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
  if wizard_mode = 1: msg 'Disability: <<$flaw_msg>>'
 END
 
 IF sl_txt = 103:
- $text[1] = '  The client examines the slave and refuses without even listening of price bids. It''s not about the quality of training, client just don''t liked something in her. Well, the customer has the right to be choosy.'
+ $text[1] = '  The client examines the slave and refuses without even listening to any price bids. It’s not about the quality of training, the client just doesn’t like something in her. Well, the customer has the right to be choosy.'
  $text_display += {<br><br><br><br><br><br><div id="under">- No deal<br><div id = "clear"><a href = 'EXEC: gt "<<$return_lock>>"'><img src = "content\pic\clear.gif"></a></div></div>}
 END
 
