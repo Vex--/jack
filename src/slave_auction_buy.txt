@@ -24,14 +24,14 @@ END
 IF auction_phase = 0:
 
  if stock_sold = 1: $text = '  [FARID]
-  -  Our first lot for today! <<$stock_name>> - <<$stock_epithet>> <<$stock_occupation_auk>> from <<$stock_world_auk>>, <<$stock_family_auk>>. Starting price <<stock_base_price>> sparks. So, who is placing first bid?
+  -  Our first lot for the day! <<$stock_name>> - <<$stock_epithet>> <<$stock_occupation_auk>> from <<$stock_world_auk>>, <<$stock_family_auk>>. Starting price <<stock_base_price>> sparks. So, who is placing the first bid?
 '
 
  if stock_sold > 1: $text = '  [FARID]
-  -  Next lot! <<$stock_name>> - <<$stock_epithet>> <<$stock_occupation_auk>> from <<$stock_world_auk>>, <<$stock_family_auk>>. Starting price <<stock_base_price>> sparks. So, who is placing first bid?
+  -  Next lot! <<$stock_name>> - <<$stock_epithet>> <<$stock_occupation_auk>> from <<$stock_world_auk>>, <<$stock_family_auk>>. Starting price <<stock_base_price>> sparks. So, who is placing the first bid?
 '
  if stock_sold => stock_limit: $text = '  [FARID]
-  -  And last lot for today! <<$stock_name>> - <<$stock_epithet>> <<$stock_occupation_auk>> from <<$stock_world_auk>>, <<$stock_family_auk>>. Starting price <<stock_base_price>> sparks. So, who is placing first bid?
+  -  And last lot for the day! <<$stock_name>> - <<$stock_epithet>> <<$stock_occupation_auk>> from <<$stock_world_auk>>, <<$stock_family_auk>>. Starting price <<stock_base_price>> sparks. So, who is placing first bid?
 '
 END
 
@@ -55,16 +55,16 @@ END
 
 IF auction_phase = 5:
   $text = '  [FARID]
-  -  And that concludes our auction today! All lots are sold. Please come back tomorrow - Fogs will give us many more wondrous beauties!'
+  -  And that concludes our auction today! All lots are sold. Please come back tomorrow - the Fog will give us many more wondrous beauties!'
 END
 
 IF auction_phase = 6:
-  $text = '  You take the newly acquired slave with you and leave the market.'
+  $text = '  You take your newly acquired slave with you and leave the market.'
 END
 
 IF auction_phase = 7:
   $text = '  [FARID]
-  -  Auction was ended, my dear! Come back tomorrow!'
+  -  The auction has ended, my dear! Come back tomorrow!'
 END
 
 *p '<div id = "bg"><img src="content\pic\bg\<<$bg[$place]>>.jpg"></div>'
@@ -90,11 +90,11 @@ IF stock_sold > 0 and auction_phase < 5:
 <u>SUMMARY</u>
 <<$beauty[stock["beauty"]]>> 
 <<$stamina[stock["stamina"]]>> 
+<<$sensitivity[stock["sensitivity"]]>> 
+<<$temper[stock["temper"]]>> 
 <<$exotic[stock["exotic"]]>> 
 <<$fat[stock["fat"]]>> 
-<<$sensitivity[stock["sensitivity"]]>> 
 <<$style[stock["style"]]>> 
-<<$temper[stock["temper"]]>> 
 
 <u>TRAITS</u>
 <<$stock_features_list>>
