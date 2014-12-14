@@ -103,7 +103,7 @@ gs '#txt'
 gs '#txt_2'
 gs '$newloc'
 if prisoner_state = 1: $prisoner_info_text = '<<$ppsy_status[$prisoner_psy_status]>>'
-if prisoner_state = 2: $prisoner_info_text = '   <<$prisoner_name>> is exhausted and moans quietly. She is clearly in a very bad condition. You have to give her a rest or even medical assistance.'
+if prisoner_state = 2: $prisoner_info_text = '   <<$prisoner_name>> is exhausted and moans quietly. She is clearly in very bad condition. You have to give her a rest, or even medical assistance.'
 GT 'prison_cell'
 --- slave_to_cage ---------------------------------
 
