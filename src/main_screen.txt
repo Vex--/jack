@@ -24,13 +24,13 @@ END
 !schedule
 if ride_count > 1: $rideday = "The race will begin in <<ride_count>> days."
 if ride_count = 1: $rideday = "The race will begin tomorrow."
-if ride_count = 0: $rideday =  "Races are held today!"
-if auction_count > 2: $auctionday = 'after <<auction_count>> days.'
-if auction_count = 2: $auctionday = 'day after tomorrow.'
+if ride_count = 0: $rideday =  "The races will be held today!"
+if auction_count > 2: $auctionday = 'in <<auction_count>> days.'
+if auction_count = 2: $auctionday = 'the day after tomorrow.'
 if auction_count = 1: $auctionday = 'tomorrow.'
 if auction_count = 0: $auctionday =  "today!"
-if gladi_count > 2: $gladiday = 'after <<gladi_count>> days.'
-if gladi_count = 2: $gladiday = 'day after tomorrow.'
+if gladi_count > 2: $gladiday = 'in <<gladi_count>> days.'
+if gladi_count = 2: $gladiday = 'the day after tomorrow.'
 if gladi_count = 1: $gladiday = 'tomorrow.'
 if gladi_count = 0: $gladiday =  "today!"
 
@@ -279,7 +279,7 @@ IF decadecount => 10:
  decade += 1
  decadesave = 1
  IF final_payment > sparks and exam_in_progress ! 1:
-   dynamic $death, 'You are not able to pay the bills and have been expulsion from Slavers Guild for their inability to solve their financial problems.'
+   dynamic $death, 'You are not able to pay the bills, and have been expelled from the Slavers Guild for your inability to solve your financial problems.'
   else
    sparks -= final_payment
  END
@@ -289,7 +289,7 @@ END
 IF search['active'] = 2:
  search['active'] = 3
  msg 'Gaudete, <<$master_name>>!
-It seems I managed to find just such a slave, as you ordered me. I already bought it and put in personal stasis chamber. Prepare a place for educability and come to me in the guild.
+It seems I managed to find just the sort of slave you ordered me to. I already bought it and put it in your personal stasis chamber. Prepare a place for educability and come see me in the guild.
  
                  Sincerely, Skups.'
 END
