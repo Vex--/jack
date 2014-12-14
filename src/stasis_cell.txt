@@ -5,7 +5,7 @@ gs '_layout'
 if iced_state = 0: 
  $text = '<<$cell_empty>>'
  else
- $text = '   <<$iced_name>> resting in a stasis state. She can stay like that unlimited time. Or as long as you spend a sparks to maintain operation of the apparatus.'
+ $text = '   <<$iced_name>> is resting in a state of suspended animation. She can stay like that an unlimited amount of time. Or as long as you are willing to spend the sparks to maintain operation of this apparatus, at least.'
 END
 
 IF nsfw = 1:
@@ -33,14 +33,14 @@ IF iced_state > 0:
 <u>SUMMARY</u>
 <<$beauty[iced["beauty"]]>> 
 <<$stamina[iced["stamina"]]>>  
-<<$exotic[iced["exotic"]]>> 
-<<$fat[iced["fat"]]>> 
 <<$sensitivity[iced["sensitivity"]]>>  
-<<$style[iced["style"]]>> 
-<<$intellect[iced["intellect"]]>> 
 <<$temper[iced["temper"]]>> 
+<<$intellect[iced["intellect"]]>> 
 <<$ego[iced["ego"]]>> 
 <<$pride[iced["pride"]]>> 
+<<$exotic[iced["exotic"]]>> 
+<<$fat[iced["fat"]]>> 
+<<$style[iced["style"]]>> 
 '
 
  else
