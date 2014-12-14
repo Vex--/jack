@@ -5,8 +5,8 @@ gs '_layout'
 IF $prisoner_info_text = '':
  if prisoner_state = 0: $prisoner_info_text = '<<$cage_empty>>'
  if prisoner_state = 1: $prisoner_info_text = '<<$ppsy_status[$prisoner_psy_status]>>'
- if prisoner_state = 2: $prisoner_info_text = '   <<$prisoner_name>> is exhausted and moans quietly. She is clearly in a very bad condition. You have to give her a rest or even medical assistance.'
- if prisoner_state = 3: $prisoner_info_text = '   <<$prisoner_name>> is dead. Her lifeless corpse is lying on the floor.'
+ if prisoner_state = 2: $prisoner_info_text = '   <<$prisoner_name>> is exhausted and moans quietly. She is clearly in very bad condition. You have to give her a rest, or even medical assistance.'
+ if prisoner_state = 3: $prisoner_info_text = '   <<$prisoner_name>> is dead. Her lifeless corpse lies on the floor.'
 END
 
 *p '<div id = "bg"><img src="content\pic\bg\<<$bg[$place]>>.jpg"></div>'
@@ -93,7 +93,7 @@ if prisoner_state ! 0: *p '<div id = "prison_stat_bar"><<$info_bar>></div>'
 
 IF pstarvation_varning = 1:
  pstarvation_varning = 0
- msg '    You notice signs of starvation on prisoner. It seems that the food you are giving her is not enough. Maybe you even have to pull her out of the dungeon and fed her to satiety.'
+ msg '    You notice signs of starvation on your prisoner. It seems that the food you are giving her is not enough. You may even need to pull her out of the dungeon and feed her to satiety.'
 END
 
 *p '<div id = "close_far"><a href = "EXEC: $prisoner_info_text = '''' & menu_form = 0 & gt ''menu_form''"><img src = "content\pic\buttons\close_button.png"></a></div>'
