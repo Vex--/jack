@@ -14,7 +14,7 @@ IF $interaction_type = 'byer_invitation':
  dynamic '$text[1] = $<<$npc_id>>_pref[1]'
  IF npc_progress[$npc_id] = 2: 
   $text[1] = '   [<<$npc_name[$npc_id]>>]
-   - I still do not need new slaves. But I said a word to friends, I am sure you will find buyers for such goods without difficulty.'
+   - I still do not need any new slaves, but I said a few good words about you to my friends. I am sure you will find buyers for such goods without difficulty.'
   else
   IF slave_state = CONST_INT['slave_exist'] and slave['brand'] > 0:
    txt = 1
@@ -109,8 +109,8 @@ IF $interaction_type = 'learn_spm':
  $npc_id = 'брина_рыжая' 
  txt_count = 2 
  $text[1] = '   [RED HAIR BRYN]
-   - C''mon! Stronger!! Faster!!! You fight worse than twelve year old girl, slaver. H-ha, take it! Do you feel it? That''s how it should be. This will feel your enemy! Arise, deadhead! Again. Stronger!! Faster!!!'
- $text[2] = '   Bryn drives you through the training arena all day, and as a result you feel squeezed like a lemon. From strike demonstrations you get bruises all over your body. But she also takes a sparks for that! Well, at least now you know the new powerful technique. Now home. Time to relax...' 
+   - C’mon! Stronger!! Faster!!! You fight worse than a twelve-year-old girl, slaver. H-ha, take it! Do you feel it? That’s how it should be. This will feel like your enemy! Arise, deadhead! Again. Stronger!! Faster!!!'
+ $text[2] = '   Bryn drives you through the training arena all day, and as a result you feel squeezed like a lemon. From the strike demonstrations you get bruises all over your body. But she also takes sparks for that! Well, at least now you know a new powerful technique. Now home. Time to relax...' 
  if $master_spm[1] = '': $master_spm[1] = $spm_to_learn & jump 'spm_loop'
  if $master_spm[2] = '': $master_spm[2] = $spm_to_learn & jump 'spm_loop'
  if $master_spm[3] = '': $master_spm[3] = $spm_to_learn & jump 'spm_loop'
@@ -161,7 +161,7 @@ IF $interaction_type = 'rental_demo':
  $special_action[3] = {
  $place = 'demo'
  $place_name['demo'] = 'Rooms inspection'
- $place_info['demo'] = '   It is necessary to carefully examine all the rooms, so I do not slipped with some garbage.' 
+ $place_info['demo'] = '   It is necessary to carefully examine all the rooms, so I do not get slipped some garbage.' 
  $bg['demo'] = $interior_study['<<$demo_var>>']
 } 
  $special_action[5] = {npc = 0}
@@ -264,7 +264,7 @@ IF $interaction_type = 'moneylender':
  npc = 1
  txt_count = 1
  $text[1] = '  [MONEYLENDER]
-   - Here''s your sparks, slaver. If you bring back the debt on time, maybe I will increase the amount of your loan. Maybe. But if you can not manage this - I will shorten your life. And this will be for sure. I will waiting for you during <<debt_count>> days. Do not be late.'
+   - Here’s your sparks, slaver. If you pay your debt back on time, maybe I will increase the amount of your loan. Maybe. But if you cannot manage this - I will shorten your life. Of this you can be sure. I will be waiting for you during <<debt_count>> days. Don’t be late.'
  sparks += loan 
 END
 
@@ -281,7 +281,7 @@ IF $interaction_type = 'buy_item':
   slave_inventory[$item_id] += 1} 
   gt 'item_buy' 
   else
-  $text[1] = '   Price is <<item_price[$item_id]>> sparks, slightly more than you can afford at the moment, but this is easily remedied. You just have to sell a couple of slaves...'
+  $text[1] = '   The price is <<item_price[$item_id]>> sparks, slightly more than you can afford at the moment, but this is easily remedied. You just have to sell a couple of slaves...'
  END
 END
 
@@ -298,7 +298,7 @@ IF $interaction_type = 'buy_item_home':
   inventory[$item_id] += 1} 
   gt 'item_buy' 
   else
-  $text[1] = '   Price is <<item_price[$item_id]>> sparks, slightly more than you can afford at the moment, but this is easily remedied. You just have to sell a couple of slaves...'
+  $text[1] = '   The price is <<item_price[$item_id]>> sparks, slightly more than you can afford at the moment, but this is easily remedied. You just have to sell a couple of slaves...'
  END
 END
 
@@ -339,7 +339,7 @@ IF $interaction_type = 'hit_on_patron':
   sparks -= 2
   else
   txt_count = 1
-  $text[1] = '   You are viewing the pub in search of other bored and lonely women, but no suitable candidate for courtship is visible. Probably should try your luck tomorrow.'
+  $text[1] = '   You scan the pub in search of any bored and lonely women, but no suitable candidates for courtship are visible. You should probably try your luck tomorrow.'
  END  
 END
 
