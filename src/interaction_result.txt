@@ -23,7 +23,7 @@ END
 IF $interaction_type = 'get_grug':
  IF res < 0: 
   txt_count = 1
-  $text[1] = '  <<$slave_name>> refuses to take from you suspicious stuff. Looks like someone needs to be taught a lesson of obedience!'
+  $text[1] = '  <<$slave_name>> refuses to take that suspicious stuff from you. Looks like someone needs to be taught a lesson in obedience!'
   if already_done_today[interaction] = 0 and slave["sin"] < 1: slave["sin"] = 1
   else
   if sound_on = 1: play 'content\snd\bulk.mp3', sound_volume
@@ -98,14 +98,14 @@ IF $interaction_type = 'master_teaches_slave':
  teacher_potential = couch_skill - slave_skill
  IF teacher_potential < 1:
   $interaction_type = 'talk'
-  $text[1] = '<<$slave_name>> trained too well, as the best of your own knowledge of the subject. Maybe you should start to develop your own skills...'
+  $text[1] = '<<$slave_name>> is trained too well, to the best of your own knowledge of the subject. Maybe you should start to develop your own skills...'
   txt = 1
   menu_form = 0
   GT 'interaction_screen'
   else 
   IF diligence < 0: 
    $interaction_type = 'talk'
-   $text[1] = '  <<$slave_name>> refuses to learn. With this attitude, lesson will be useless.'
+   $text[1] = '  <<$slave_name>> refuses to learn. With this attitude, lessons will be useless.'
    dynamic $sin_gained_now 
    else
    txt_count = 2
@@ -154,7 +154,7 @@ IF $interaction_type = 'assistant_teaches_slave':
  $interaction_type = 'talk_assistant' 
  diligence = complex_diligence 
  txt_count = 2
- $text[1] = '  You order your assistant to hold session with slave. <<$assistant_name>> with a bow takes the order and leaves. After a while, she comes back with a detailed report on the work done.'
+ $text[1] = '  You order your assistant to hold a training session with your slave. <<$assistant_name>>, with a bow, obeys your order and leaves. After a while, she returns with a detailed report on the work they have done.'
  teacher_potential = couch_skill - slave_skill
  IF assistant_supermacy < 0: 
   diligence += assistant_supermacy
@@ -164,7 +164,7 @@ IF $interaction_type = 'assistant_teaches_slave':
  END 
  IF diligence < 0: 
   $text[2] = '[<<$assistant_name>>]
-   <font color="#8B0A50">- <<$slave_name>> refuses to work with me, my Master. As much as I tried, she just does not listen. I let you down and I ready to suffer any punishment, but <<$slave_name>> should be punished too!</font>'
+   <font color="#8B0A50">- <<$slave_name>> refused to work with me, Master. As much as I try, she just does not listen. I let you down, and I am ready to suffer any punishment you desire, but <<$slave_name>> should be punished too!</font>'
   dynamic $sin_gained_now 
   else
   $text[2] = '  <<$assistant_lesson_diligence[diligence]>>'
@@ -249,7 +249,7 @@ IF $interaction_type = 'self_sex_lesson':
   $interaction_type = 'talk' 
   killvar 'play_sound'  
   txt_count = 2
-  $text[2] = '  <<$slave_name>> refuses to carry out your instructions! With this attitude, lesson will be useless.'
+  $text[2] = '  <<$slave_name>> refuses to carry out your instructions! With this attitude, lessons will be useless.'
   dynamic $sin_potential
   dynamic $sin_gained_now 
   else
@@ -269,9 +269,9 @@ IF $interaction_type = 'self_sex_lesson':
   IF succes > 0:
    dynamic '<<$subskill>> += 1'
    dynamic '<<$subskill_xp>> = 0'
-   $text[3] = 'By the end of lesson you managed to make significant progress. Now you can move on to more complex techniques.'
+   $text[3] = 'By the end of lesson, she managed to make significant progress. Now you can move on to more complex techniques.'
    else
-   $text[3] = 'Slave was not able to fully fulfill what you were trying to teach her. It will be necessary to repeat this lesson again, but still you barely moved and the next time this should be easier.'   
+   $text[3] = 'The slave was not able to fulfill all of what you were trying to teach her. It will be necessary to repeat this lesson again, but still, you were able to make some progress. Next time should be even easier.'   
    dynamic '<<$subskill_xp>> += 1'
   END
   master_hygiene_rate += add_master_hygiene
@@ -294,7 +294,7 @@ END
 !interaction type - studying complete
 IF $interaction_type = 'completed':
  $interaction_type = 'talk'
- $text[1] = 'Slave fully mastered this skill, and you''re unlikely to be able to teach her something new. Perhaps, you should pay attention to the less developed aspects or just use her skills in practice.'
+ $text[1] = 'Your slave has fully mastered this skill, and you’re unlikely to teach her anything new with your lessons. Perhaps you should pay attention to the less developed aspects, or just use her skills in practice.'
 END
 
 !interaction type - lesson in class
@@ -304,10 +304,10 @@ IF  $interaction_type = 'school_class':
  if diligence > 5: diligence = 5
  if diligence < 0: diligence = 0
  IF assistant_supervise_rule = 0:
-  $text[1] = '   You escorting your slave personally to the Academy of St. Peter and pay for the selected lesson. Good to employ someone else, and laze yourself a few hours.'
+  $text[1] = '   You personally escort your slave to the Academy of St. Peter and pay for the selected lesson. It feels good to employ someone else, and laze a few hours yourself.'
   dynamic $master_energy_drop
   else
-  $text[1] = '   Your assistant escorting slave to the Academy of St. Peter and watches there to ensure that she got on the necessary lessons and returned safely back.'  
+  $text[1] = '   Your assistant escorts your slave to the Academy of St. Peter, and watches there to ensure that she carries on with her lessons and returns safely.'  
   dynamic $assistant_energy_drop
  END
  $text[2] = '  <<$school_end[diligence]>>' 
@@ -435,7 +435,7 @@ IF $interaction_type = 'prise_erotic':
  txt_count = 2
  $text[2] = $prise_erotic_reaction[$slave_psy_status]
  IF final_stimulation <= 0:
-  $text[2] = '  <<$slave_name>> does not respond to your caresses. You can see that her excitement does not grow, and therefore the reward will have no effect. It is necessary to come up with something that will make your slave excited...'
+  $text[2] = '  <<$slave_name>> does not respond to your caresses. You can see that her excitement does not grow, and therefore the reward will have no effect. It is necessary to come up with something that will actually excite your slave...'
   else
   if slave['pos_gentle'] < prise_level: slave['pos_gentle'] = prise_level 
  END
@@ -508,7 +508,7 @@ IF $interaction_type = 'rest':
  END
  IF slave["passion_comfort"] = -1 and $slave_psy_status ! 'broken': 
   slave_rate["mood"] -= prise_potence/2
-  $text[1] += 'She was not too happy with this rest, because she do not like to sit idle.'
+  $text[1] += 'She was none too happy with this rest because she does not like to sit idly.'
  END 
  if $special_text ! '': $text[2] = $special_text
  slave_rate["mood"] += free_time
@@ -527,7 +527,7 @@ IF $interaction_type = 'torture':
   master_power = master_str + master_fighter
   IF master_power <= slave_power:
    txt = 1
-   $text[1] = 'Slave gives you a desperate resistance. Fight begins and you have to beat her badly before resistance is finally broken.' 
+   $text[1] = 'The slave resists you desperately. The fight begins, and you have to beat her badly before her resistance is finally broken.' 
    dynamic $slave_fights_back
    dynamic $slave_damaged 
    $interaction_type = 'talk'
@@ -634,7 +634,7 @@ IF $interaction_type = 'abuse':
  txt_count = 2
  IF futile_threat = 1: 
   txt_count = 3
-  $text[3] = 'You have already said it to the slave, but so far you not done what you promised. If you want so that your words meant something - you should reinforce them with deeds!'
+  $text[3] = 'You have already said these words to your slave, but so far you have not done what you promised. If you want your words to mean something - you should reinforce them with deeds!'
   else
   fear_force = master_cha + master_domination + torture_intensity
   if slave["neg_abuse"] < torture_intensity: slave["neg_abuse"] = torture_intensity
@@ -652,7 +652,7 @@ IF $interaction_type = 'present_torture':
  slave["sin"] = 0
  IF futile_threat = 1: 
   txt_count = 3
-  $text[3] = 'You have already talked with slave about this aggregate. Perhaps it is time to move to a more visual demonstration...'
+  $text[3] = 'You have already talked with your slave about these possibilities. Perhaps it is time to move on to a more visual demonstration...'
   else
   fear_force = master_cha + master_domination + torture_intensity   
   if slave["neg_abuse"] < torture_intensity: slave["neg_abuse"] = torture_intensity  
@@ -717,7 +717,7 @@ IF $interaction_type = 'branding':
   master_power = master_str + master_fighter
   IF master_power <= slave_power:
    txt = 1
-   $text[1] = 'Slave gives you a desperate resistance. Fight begins and you have to beat her badly before resistance is finally broken.' 
+   $text[1] = 'The slave resists you desperately. The fight begins, and you have to beat her badly before her resistance is finally broken.' 
    dynamic $slave_fights_back
    dynamic $slave_damaged 
    $interaction_type = 'talk'
@@ -755,7 +755,7 @@ IF $interaction_type = 'execution':
   master_power = master_str + master_fighter
   IF master_power <= slave_power:
    txt = 1
-   $text[1] = 'Slave gives you a desperate resistance. Fight begins and you have to beat her badly before resistance is finally broken.' 
+   $text[1] = 'The slave resists you desperately. The fight begins, and you have to beat her badly before her resistance is finally broken.' 
    dynamic $slave_fights_back
    dynamic $slave_damaged 
    $interaction_type = 'talk'
