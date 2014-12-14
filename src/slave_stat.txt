@@ -2,8 +2,8 @@
 !SLAVE STAT SCREEN
 IF $info_text = '':
  $info_text = $psy_status[$slave_psy_status]
- if slave_state = CONST_INT['slave_faint']: $info_text = '   <<$slave_name>> is exhausted and moans quietly. She is clearly in a very bad condition. You have to give her a rest or even medical assistance.'
- if slave_state = CONST_INT['slave_dead']: $info_text = '   <<$slave_name>> is dead. Her lifeless corpse is lying on the floor.'
+ if slave_state = CONST_INT['slave_faint']: $info_text = '   <<$slave_name>> is exhausted and moans quietly. She is clearly in very bad condition. You have to give her a rest, or even medical assistance.'
+ if slave_state = CONST_INT['slave_dead']: $info_text = '   <<$slave_name>> is dead. Her lifeless corpse lies on the floor.'
 END
 
 !reset equipment selection when switching tabs
@@ -108,7 +108,7 @@ IF slave_stat_screen = 0:
 <BR>
  - Dehydrated food
  - Fresh food
- - Fiend`s cum
+ - Fiend’s cum
  - Your leftovers
 
  - Weight loss
@@ -128,7 +128,7 @@ IF slave_stat_screen = 0:
 <BR>
  - Dehydrated food
  - Fresh food
- - Fiend''s cum
+ - Fiend’s cum
  - Your leftovers
 
  - Weight loss
@@ -365,7 +365,7 @@ If slave_stat_screen = 2:
         *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 24 & dynamic $slave_cloth_list"><u>Clothes:</u> <<$item_name[$slave["cloth"]]>></a></div>'
         *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 25 & dynamic $slave_head_list"><u>Headgear:</u> <<$item_name[$slave["headband"]]>></a></div>'
         *p '<br>'
-        *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 26 & dynamic $slave_ears_list"><u>Earring:</u> <<$item_name[$slave["earrings"]]>></a></div>'
+        *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 26 & dynamic $slave_ears_list"><u>Earrings:</u> <<$item_name[$slave["earrings"]]>></a></div>'
         *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 27 & dynamic $slave_neck_list"><u>Neck:</u> <<$item_name[$slave["collar"]]>></a></div>'
         *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 28 & dynamic $slave_hands_list"><u>Hands:</u> <<$item_name[$slave["gloves"]]>></a></div>'
         *p '<div class="inventory_item"><a style = "color: black;" href = "EXEC: slot = 29 & dynamic $slave_niples_list"><u>Nipples:</u> <<$item_name[$slave["nipplerings"]]>></a></div>'
