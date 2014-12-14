@@ -5,7 +5,7 @@ gs 'sex_addup'
 
 IF $interaction_type = 'deny':
  txt_count = 1
- $text[1] = '  Bitch resists! She refuses to comply your instructions.'
+ $text[1] = '  The bitch resists! She refuses to comply with your instructions.'
 END
 
 IF $interaction_type = 'foreplay':
@@ -66,13 +66,13 @@ sex_done_thisperson[sex_interaction] += 1
 
 IF sex["pc_interest"] <= 0 and $interaction_type ! 'ejaculate':
  txt_count += 1
- $text[txt_count] = '  At some point you realize that you insanely sick of it. Why stand on ceremony with her and try to deliver some fun? You should have just cum in a hurry, but now you don''t have mood for even this.'  
+ $text[txt_count] = '  At some point you realize that you are insanely sick of it. Why stand on ceremony with her and keep trying to deliver some fun? You should have just cum in a hurry, but now you don’t even have the right mood for this.'  
  $return_lock = 'sex_end' 
 END
 
 IF sex["pc_energy"] <= 0:
  txt_count += 1
- $text[txt_count] = '  You are so tired and out of breath that you have no more strength and mood continue.'  
+ $text[txt_count] = '  You are so tired and out of breath that you have not the strength nor the mood to continue.'  
  $return_lock = 'sex_end' 
 END
 
