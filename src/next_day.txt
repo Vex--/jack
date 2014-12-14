@@ -13,7 +13,7 @@ base_score += master_mood
 
 debt_count -= 1
 if debt_count < 0 and debt > 0:
-	dynamic $death, 'As in any other city, in the Eternal Rome recklessly to forget about the money that you borrowed from the bandits. Your life is over disgracefully...'
+	dynamic $death, 'In Eternal Rome, as in any other city, recklessly forgetting about the money that you borrowed from bandits means your life ends disgracefully...'
 end
 
 if contract['active'] = 2: contract['active'] = 0
