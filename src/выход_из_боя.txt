@@ -108,10 +108,10 @@ IF $итог_боя = 'бегство' and $враг[1] = 'воспитуема�
  gt "interaction_city"
 END
 IF $итог_боя = 'вырубился' and $враг[1] = 'воспитуемая':
-	dynamic $death, 'Unable to cope with the punches of your slave, you fall on your knees. Seeing this, slave with a smile approaching you<br>and hits you in the face with her leg, sending you to a knockout. Unfortunately, you never woke up after that...'
+	dynamic $death, 'Unable to cope with the punches of your slave, you fall to your knees. Seeing this, the slave, smiling, approaches you<br>and hits you in the face with her knee, sending you a knockout blow. Unfortunately, you never wake up after that...'
 END
 IF $итог_боя = 'убит' and $враг[1] = 'воспитуемая':
-	dynamic $death, 'Seriously wounded, you fall to the floor, bleeding.<br>Seriously wounded, you fall to the floor, bleeding.<br>Last thing you saw - that your ex slave runs out into the street...'
+	dynamic $death, 'Seriously wounded, you fall to the floor, bleeding.<br>The last thing you see - is your ex slave as she runs out into the street...'
 END
 
 !general results
@@ -119,7 +119,7 @@ IF $итог_боя = 'бегство':
 	dynamic $death, 'You have escaped from the battle.'
 END
 IF $итог_боя = 'вырубился':
-	dynamic $death, 'You lost consciousness and you have finished.'
+	dynamic $death, 'You lost consciousness, and your life is now finished.'
 END
 IF $итог_боя = 'убит':
 	dynamic $death, 'You were killed.'
@@ -183,7 +183,7 @@ END
 IF get_girl = 1:
  get_girl = 0
  IF slave_state = CONST_INT['no_slave']:
-  msg '   You bind a trophy girl you''ve got and make her your slave.'
+  msg '   You bind the trophy girl you’ve captured and make her your slave.'
   gs 'stock_to_slave'
   else
   $return_lock = 'interaction_city'
