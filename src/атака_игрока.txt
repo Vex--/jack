@@ -32,19 +32,19 @@ IF args = 11:
  $атака[0] = 'сильная'
  $рассчетный_тип_вреда = 'дробящий'
  вред_на_рассчет = base_str
- $действия_игрока += "You kick <<$склонение_врага[текущий]>> <font color='red'>with all of your strength</font> in the stomach"
+ $действия_игрока += "You kick <<$склонение_врага[текущий]>> <font color='red'>with all of your strength</font> at the enemy’s stomach."
 END
 IF args = 12:
  $атака[0] = 'быстрая'
  $рассчетный_тип_вреда = 'дробящий'
  вред_на_рассчет = base_str
- $действия_игрока += "<font color='green'>Swift</font> push makes <<$склонение_врага[текущий]>> to falter"
+ $действия_игрока += "Your <font color='green'>Swift</font> push makes <<$склонение_врага[текущий]>> falter."
 END
 IF args = 13:
  $атака[0] = 'точная'
  $рассчетный_тип_вреда = 'дробящий'
  вред_на_рассчет = base_str
- $действия_игрока += "You make a sweep <font color='purple'>just in time</font>"
+ $действия_игрока += "You sweep with your legs at the enemy <font color='purple'>just in time</font>."
 END
 
 IF args > 20 and args < 30:
