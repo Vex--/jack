@@ -65,11 +65,11 @@ $info_bar = '
 <u>SUMMARY</u>
 <<$beauty[stock["beauty"]]>> 
 <<$stamina[stock["stamina"]]>> 
+<<$sensitivity[stock["sensitivity"]]>> 
+<<$temper[stock["temper"]]>> 
 <<$exotic[stock["exotic"]]>> 
 <<$fat[stock["fat"]]>> 
-<<$sensitivity[stock["sensitivity"]]>> 
 <<$style[stock["style"]]>> 
-<<$temper[stock["temper"]]>> 
 
 <u>TRAITS</u>
 <<$stock_features_list>>' 
